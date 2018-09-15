@@ -1,0 +1,57 @@
+.one-thirty-five-seaport-component {
+    margin: $large-gutter-width auto;
+    max-width: $max-block-width;
+
+    @media (min-width: $screen-lg-min) {
+        display: flex;
+    }
+
+    &-column {
+        position: relative;
+
+        @media (min-width: $screen-lg-min) {
+            width: 50%;
+            flex-shrink: 0;
+        }
+
+        &.hero {
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            @media (max-width: $screen-md-max) {
+                @include aspect-ratio(257, 145);
+                background-image: url("/img/one-thirty-five-seaport/hero-wide.jpg");
+            }
+
+            @media (min-width: $screen-lg-min) {
+                background-image: url("/img/one-thirty-five-seaport/hero.jpg");
+            }
+        }
+
+        &.contact {
+            padding: 10px ($grid-gutter-width / 2) 30px ($grid-gutter-width / 2);
+
+            .contact-wrapper {
+                margin: auto;
+                width: 100%;
+                max-width: 475px;
+            }
+
+            h1, h2 {
+                text-transform: uppercase;
+            }
+
+            h1 {
+                @include font-bold;
+                font-size: 26px;
+            }
+
+            h2 {
+                @include font-regular;
+                margin: 0px;
+                font-size: 12px;
+            }
+        }
+    }
+}

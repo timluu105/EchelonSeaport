@@ -1,0 +1,261 @@
+.neighborhood-component {
+    #the-seaport .inset-image-component-inner {
+        @include aspect-ratio(4, 3);
+    }
+
+    &-dining {
+        @extend .inset-padding;
+        $width-break: $screen-md-min;
+        $width-break-max: ($width-break - 1px);
+        $block-spacing: 20px;
+        overflow: hidden;
+
+        @media (max-width: $width-break-max) {
+            padding: 0px $grid-gutter-width;
+        }
+
+        .hide-mobile {
+            @media (max-width: $width-break-max) {
+                display: none;
+            }
+        }
+
+        &-wrapper {
+            margin: 0px auto;
+            max-width: $max-block-width;
+        }
+
+        &-inner {
+            @media (max-width: $width-break-max) {
+                margin: 0px auto;
+                max-width: 625px;
+            }
+
+            @media (min-width: $width-break) {
+                @include aspect-ratio(22, 13);
+                position: relative;
+                margin: (0px - ($block-spacing / 2));
+            }
+        }
+
+        &-text, &-middle-space, &-image {
+            @media (min-width: $width-break) {
+                position: absolute;
+            }
+        }
+
+        &-middle-space, &-image {
+            @media (max-width: $width-break-max) {
+                position: relative;
+            }
+
+            &:after {
+                content: "";
+                position: absolute;
+
+                @media (max-width: $width-break-max) {
+                    top: 0px;
+                    left: 0px;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                @media (min-width: $width-break) {
+                    top: ($block-spacing / 2);
+                    left: ($block-spacing / 2);
+                    width: calc(100% - #{$block-spacing});
+                    height: calc(100% - #{$block-spacing});
+                }
+            }
+        }
+
+        &-text {
+            $h-padding: 25px;
+
+            @media (min-width: $width-break) {
+                top: 0%;
+                left: 0%;
+                width: 25%;
+                height: 55%;
+            }
+
+            &-inner {
+                @media (min-width: $width-break) {
+                    position: absolute;
+                    top: ($block-spacing / 2);
+                    left: ($block-spacing / 2);
+                    width: calc(100% - #{$block-spacing});
+                    height: calc(100% - #{$block-spacing});
+                }
+            }
+
+            &-title, &-copy {
+                @media (min-width: $width-break) {
+                    position: absolute;
+                }
+            }
+
+            &-title {
+                letter-spacing: 1px;
+                text-transform: uppercase;
+
+                @media (max-width: $width-break-max) {
+                    padding: ($h-padding - 5px) $h-padding;
+                }
+
+                @media (min-width: $width-break) {
+                    bottom: ($h-padding - 5px);
+                    left: $h-padding;
+                }
+
+                h2 {
+                    @include font-regular;
+                    margin: 0px;
+                    font-size: 12px;
+                }
+
+                h1 {
+                    @include font-bold;
+                    margin-top: 5px;
+                    margin-bottom: 0px;
+                    font-size: 22px;
+                }
+            }
+
+            &-copy {
+                @include font-light;
+                margin: 0px;
+                font-size: 12px;
+
+                @media (max-width: $screen-sm-max) {
+                    font-size: 15px;
+                }
+
+                @media (min-width: 1380px) {
+                    font-size: 15px;
+                }
+
+                @media (max-width: $width-break-max) {
+                    padding: 0px $h-padding ($h-padding - 5px) $h-padding;
+                }
+
+                @media (min-width: $width-break) {
+                    top: calc(50% - 21px);
+                    left: $h-padding;
+                    transform: translateY(-50%);
+                    width: calc(100% - #{$h-padding * 2});
+                }
+
+                @media (min-width: $screen-md) and (max-width: 1100px) {
+                    top: 0px;
+                    right: 0px;
+                    transform: none;
+                    width: calc(100% - #{$h-padding});
+                }
+            }
+        }
+
+        &-middle-space {
+            @media (min-width: $width-break) {
+                top: 45%;
+                left: 50%;
+                width: 16%;
+                height: 10%;
+            }
+        }
+
+        &-image {
+            @media (max-width: $width-break-max) {
+                @include aspect-ratio(2, 3);
+
+                &:not(:first-child) {
+                    margin-top: $block-spacing;
+                }
+
+                &:not(:last-child) {
+                    margin-bottom: $block-spacing;
+                }
+            }
+
+            &:after {
+                background-position: center center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            &.at-the-bar {
+                @media (min-width: $width-break) {
+                    top: 0%;
+                    left: 25%;
+                    width: 25%;
+                    height: 55%;
+                }
+
+                &:after {
+                    background-image: url("/img/neighborhood/at-the-bar.jpg");
+                }
+            }
+
+            &.delicious-dinner {
+                @media (min-width: $width-break) {
+                    top: 0%;
+                    left: 50%;
+                    width: 50%;
+                    height: 45%;
+                }
+
+                &:after {
+                    background-image: url("/img/neighborhood/delicious-dinner.jpg");
+                }
+            }
+
+            &.tasty-dessert {
+                @media (min-width: $width-break) {
+                    bottom: 0%;
+                    left: 0%;
+                    width: 25%;
+                    height: 45%;
+                }
+
+                &:after {
+                    background-image: url("/img/neighborhood/tasty-dessert.jpg");
+                }
+            }
+
+            &.at-the-entrance {
+                @media (min-width: $width-break) {
+                    bottom: 0%;
+                    left: 25%;
+                    width: 41%;
+                    height: 45%;
+                }
+
+                &:after {
+                    background-image: url("/img/neighborhood/at-the-entrance.jpg");
+                }
+            }
+
+            &.fine-dining {
+                @media (min-width: $width-break) {
+                    right: 0%;
+                    bottom: 0%;
+                    width: 34%;
+                    height: 55%;
+                }
+
+                &:after {
+                    background-image: url("/img/neighborhood/fine-dining.jpg");
+                }
+            }
+        }
+    }
+
+    &-slider-wrapper {
+        @include aspect-ratio(16, 7);
+        margin: $grid-gutter-width 0px;
+
+        @media (max-width: $screen-sm-max) {
+            margin-bottom: ($grid-gutter-width + 25px);
+        }
+    }
+}

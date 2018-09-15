@@ -1,0 +1,11 @@
+.full-bleed-image-component {
+    @extend .full-bleed-aspect;
+    margin: auto;
+    max-width: $max-block-width;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &:first-child {
+        margin-top: $large-gutter-width;
+    }
+}

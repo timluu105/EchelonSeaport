@@ -1,0 +1,56 @@
+// includes and overrides
+@import "bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "fontawesome/scss/font-awesome.scss";
+@import "awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.scss";
+$fa-font-path: "/fonts";
+
+// global
+@import "_variables.scss";
+@import "_fonts.scss";
+
+* {
+    outline: none !important;
+}
+
+html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: lighten($black, 20%);
+    -webkit-overflow-scrolling: touch;
+}
+
+#auth {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    .panel-heading, .btn, label { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .btn-forgot { float: right; }
+    a { color: $dark; }
+
+    .checkbox {
+        margin-left: 5px;
+        display: inline-block;
+
+        input {
+            margin-top: 3px;
+            margin-left: 0px;
+        }
+    }
+
+    .panel {
+        @media (min-width: $screen-lg-min) { margin: 0px 50px; }
+    }
+
+    input:focus {
+        border-color: transparentize($dark, 0.4);
+        box-shadow: transparentize($black, 0.925) 0px 1px 1px 0px inset, transparentize($dark, 0.4) 0px 0px 8px 0px;
+    }
+
+    .btn-primary {
+        border-color: $black;
+        background-color: $dark;
+        transition: background-color 150ms;
+        &:hover { background-color: $black; }
+    }
+}

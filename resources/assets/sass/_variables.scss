@@ -1,0 +1,70 @@
+// VARIABLES
+
+// base colors
+$purewhite: #fff;
+$offwhite: #faf9f4;
+$white: #f6f6f6;
+$black: #000;
+$dark: #333;
+$lightgray: #ccc;
+$gray: #e6e6e6;
+$darkgray: #dadada;
+$grey: #222;
+$aquamarine: #87ffeb;
+$biloba: #bd8aed;
+$honey: #d7ff87;
+$salmon: #ff879b;
+$brown: #180d0a;
+$lightbrown: #c6b9a3;
+$darker: #180d0a;
+$cream: #e8e2d9;
+$lightcrean: #ede6de;
+$gold: #c2b29d;
+$redorange: #ff2e29;
+$loblolly: #c4c9cd;
+$malta: #bcb19d;
+$vista: #faf6f2;
+$dawnpink: #f2eae5;
+$echelon-tan: #faf9f4;
+$oyster: #998c7c;
+
+// dashboard colors
+$dashboard-base: $biloba;
+$dashboard-accent: $aquamarine;
+$dashboard-alt: $honey;
+$dashboard-warn: $salmon;
+
+// public colors
+$c-fg: $brown;
+$c-bg: $purewhite;
+$c-bg-dull: $oyster;
+$c-bg-light: $dawnpink;
+$c-bg-lighter: $vista;
+$c-bg-mid: $malta;
+$c-bg-dark: $loblolly;
+$c-bg-black: $black;
+$c-bg-lightcream: lighten($malta, 22);
+$c-text: $black;
+$c-text-gold: $gold;
+$c-text-highlight: $brown;
+$c-text-light: $purewhite;
+$c-text-grey: $grey;
+$c-error: $redorange;
+
+// public values
+$nav-link-count: 9;
+
+// public breakpoints
+$call-to-action-visible-min: $screen-md-min;
+$call-to-action-hidden-max: ($call-to-action-visible-min - 1px);
+
+// public sizes
+$nav-height: 50px;
+$nav-link-height-mobile: 50px;
+$divider-block-height: 10px;
+$small-gutter-width: 30px;
+$large-gutter-width: 72px;
+$max-body-text: 600px;
+$max-block-width: 1350px;
+$text-space: 28px;
+$contact-registation-width: 535px;

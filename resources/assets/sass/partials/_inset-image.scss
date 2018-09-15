@@ -1,0 +1,11 @@
+.inset-image-component {
+    @extend .inset-padding;
+    margin: $large-gutter-width auto 0px auto;
+    max-width: $max-block-width;
+
+    &-inner {
+        @extend .inset-aspect;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

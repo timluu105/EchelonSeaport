@@ -1,0 +1,16 @@
+.inset-padding {
+    @media (min-width: $screen-md-min) {
+        padding-right: $large-gutter-width;
+        padding-left: $large-gutter-width;
+    }
+
+    @media (min-width: $screen-lg-min) {
+        padding-right: 125px;
+        padding-left: 125px;
+    }
+
+    @media (min-width: $screen-xl-min) {
+        padding-right: 175px;
+        padding-left: 175px;
+    }
+}

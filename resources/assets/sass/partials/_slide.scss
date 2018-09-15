@@ -1,0 +1,19 @@
+.slide-component {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+
+    &.ar-4-3 .slide { @include aspect-ratio(4, 3); }
+    &.ar-16-9 .slide { @include aspect-ratio(16, 9); }
+    &.ar-2-1 .slide { @include aspect-ratio(2, 1); }
+
+    .slide {
+        width: 100%;
+        height: auto;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

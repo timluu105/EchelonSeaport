@@ -1,0 +1,139 @@
+.singular-destination-component {
+    @extend .inset-padding;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: $max-block-width;
+    padding-top: 92px;
+    padding-bottom: 92px;
+    background-color: $c-bg-light;
+
+    @media (max-width: $screen-sm-max) {
+        padding-right: $grid-gutter-width;
+        padding-left: $grid-gutter-width;
+    }
+
+    @media (min-width: $call-to-action-visible-min) {
+        padding-right: ($large-gutter-width * 2);
+        padding-left: ($large-gutter-width * 2);
+    }
+
+    &:first-child {
+        margin-top: $large-gutter-width;
+    }
+
+    &-title-row, &-image-row {
+        @media (max-width: $screen-sm-max) {
+            margin-right: auto;
+            margin-left: auto;
+            max-width: 450px;
+        }
+    }
+
+    &-title-row {
+        text-align: center;
+
+        &:after {
+            content: "";
+            margin: 0px auto 15px auto;
+            display: block;
+            width: 50px;
+            height: $divider-block-height;
+            background-color: $c-text;
+        }
+
+        &-title {
+            @extend .title-copy-2;
+            margin: 0px;
+        }
+
+        &-body {
+            @extend .body-copy;
+            margin: 0px auto;
+            max-width: $max-body-text;
+            padding: $text-space 0px;
+        }
+    }
+
+    &-image-row {
+        margin-top: 75px;
+
+        @media (min-width: $screen-md-min) {
+            display: flex;
+        }
+
+        .column {
+            @media (min-width: $screen-md-min) {
+                flex-grow: 1;
+            }
+
+            .image {
+                margin-bottom: $grid-gutter-width;
+                background-position: center bottom;
+                background-size: contain;
+                background-repeat: no-repeat;
+
+                @media (max-width: $screen-sm-max) {
+                    margin: 0% -8.5%;
+                }
+
+                @media (min-width: $screen-md-min) {
+                    height: 27vw;
+                }
+
+                @media (min-width: $max-block-width) {
+                    height: ($max-block-width * 0.27);
+                }
+            }
+
+            &.left {
+                @media (max-width: $screen-sm-max) {
+                    margin-bottom: $large-gutter-width;
+                }
+
+                @media (min-width: $screen-md-min) {
+                    margin-left: -3.4%;
+                    width: 55%;
+                    padding-right: 50px;
+                }
+
+                .image {
+                    background-image: url("/img/singular-destination/two-singular-addresses-left.png");
+
+                    @media (max-width: $screen-sm-max) {
+                        @include aspect-ratio(450, 343);
+                    }
+                }
+            }
+
+            &.right {
+                @media (min-width: $screen-md-min) {
+                    margin-right: -3.4%;
+                    width: 45%;
+                }
+
+                .image {
+                    background-image: url("/img/singular-destination/two-singular-addresses-right.png");
+
+                    @media (max-width: $screen-sm-max) {
+                        @include aspect-ratio(41, 37);
+                    }
+                }
+            }
+
+            .text {
+                margin-right: auto;
+                margin-left: auto;
+                max-width: 395px;
+                text-align: center;
+
+                h2 {
+                    @extend .title-copy-1;
+                }
+
+                p {
+                    @extend .body-copy;
+                }
+            }
+        }
+    }
+}

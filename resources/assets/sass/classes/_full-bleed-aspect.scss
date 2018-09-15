@@ -1,0 +1,13 @@
+.full-bleed-aspect {
+    @media (max-width: $screen-sm-max) {
+        @include aspect-ratio(16, 9);
+    }
+
+    @media (min-width: $screen-md-min) and (max-width: $screen-lg-max) {
+        @include aspect-ratio(16, 7);
+    }
+
+    @media (min-width: $screen-xl-min) {
+        @include aspect-ratio(32, 13);
+    }
+}

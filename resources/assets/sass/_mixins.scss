@@ -1,0 +1,18 @@
+@mixin aspect-ratio($width, $height) {
+    position: relative;
+
+    &:before {
+        content: "";
+        display: block;
+        width: 100%;
+        padding-top: ($height / $width) * 100%;
+    }
+}
+
+@mixin clear-float($direction: both) {
+    &:after {
+        content: "";
+        clear: $direction;
+        display: block;
+    }
+}

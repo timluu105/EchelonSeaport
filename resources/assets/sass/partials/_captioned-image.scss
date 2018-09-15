@@ -1,0 +1,59 @@
+.captioned-image-component {
+    margin: $large-gutter-width auto;
+    max-width: $max-block-width;
+    text-align: center;
+
+    &-image {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    &-caption {
+        margin-top: $small-gutter-width;
+
+        @media (max-width: $screen-sm-max) {
+            padding-right: $grid-gutter-width;
+            padding-left: $grid-gutter-width;
+        }
+
+        &-title {
+            @include font-bold;
+            margin: 0px;
+            font-size: 22px;
+            text-transform: uppercase;
+        }
+
+        &-body {
+            @extend .body-copy;
+            margin: 10px auto 0px auto;
+            max-width: $max-body-text;
+
+            p {
+                margin-top: 0px;
+
+                &:last-child {
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+
+    &:not(.margin-inset) .captioned-image-component-image {
+        @extend .full-bleed-aspect;
+    }
+
+    &.margin-inset {
+        @extend .inset-padding;
+
+        .captioned-image-component-image {
+            @extend .inset-aspect;
+        }
+    }
+
+    &.margin-full-bleed .captioned-image-component-caption {
+        @media (min-width: $screen-md-min) {
+            padding-right: $large-gutter-width;
+            padding-left: $large-gutter-width;
+        }
+    }
+}

@@ -1,0 +1,77 @@
+.title-image-column-component {
+    position: relative;
+    background-color: $c-bg-light;
+
+    &-top-row {
+        padding-top: $grid-gutter-width;
+
+        @media (min-width: $screen-md-min) {
+            display: flex;
+        }
+
+        &-title-column {
+            @media (min-width: $screen-md-min) {
+                padding: 110px $large-gutter-width 0px $large-gutter-width;
+                flex-shrink: 0;
+            }
+
+            &-wrapper {
+                @media (max-width: $screen-sm-max) {
+                    padding: 0px $grid-gutter-width $grid-gutter-width $grid-gutter-width;
+                }
+
+                @media (min-width: $screen-md-min) {
+                    min-width: 200px;
+                }
+
+                &:before {
+                    content: "";
+                    display: block;
+                    width: 50px;
+                    height: $divider-block-height;
+                    background-color: $c-text;
+                }
+            }
+
+            &-subtitle {
+                @extend .title-copy-1;
+                margin-top: $text-space;
+                margin-bottom: 0px;
+            }
+
+            &-title {
+                @extend .title-copy-2;
+            }
+        }
+
+        &-image-column {
+            @include aspect-ratio(157, 85);
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            @media (min-width: $screen-md-min) {
+                flex-grow: 1;
+            }
+        }
+    }
+
+    &-bottom-row {
+        @extend .inset-padding;
+        padding-top: $small-gutter-width;
+        padding-bottom: $large-gutter-width;
+
+        &-body {
+            @extend .body-copy;
+            margin-left: auto;
+            display: block;
+            max-width: $max-body-text;
+            text-align: justify;
+
+            @media (max-width: $screen-sm-max) {
+                padding-right: $grid-gutter-width;
+                padding-left: $grid-gutter-width;
+            }
+        }
+    }
+}

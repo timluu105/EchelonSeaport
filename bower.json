@@ -1,0 +1,36 @@
+{
+  "name": "echelon",
+  "version": "0.1.0",
+  "homepage": "https://github.com/WilliamsNY/echelon",
+  "authors": [
+    "Benjamin Lundquist <benlundquist@gmail.com>",
+    "Luke Evers <luke@lukevers.com>",
+    "Aaron MacSween <ansuz@transitiontech.ca>",
+    "Kevin MacMartin <prurigro@gmail.com>",
+    "Simcoe Alkadhi <simcoea@gmail.com>",
+    "Nataliya Sayenko <nsayenko@williamsnewyork.com>"
+  ],
+  "description": "Front End Lane Fortifications",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~3.3.1",
+    "fontawesome": "~4.7.0",
+    "jquery.tablesorter": "~2.30.5",
+    "jquery.transit": "~0.9.12",
+    "bootstrap-sass": "^3.3.7",
+    "Sortable": "^1.6.0",
+    "simplemde": "^1.11.2",
+    "jquery-ui": "jqueryui#1.12.0",
+    "awesome-bootstrap-checkbox": "^0.3.7",
+    "formstone": "^1.4.7",
+    "jquery-detect-swipe": "^2.1.4"
+  }
+}

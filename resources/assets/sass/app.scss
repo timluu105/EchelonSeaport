@@ -1,0 +1,64 @@
+// includes and overrides
+@import "_overrides.scss";
+@import "bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "fontawesome/scss/font-awesome.scss";
+@import "formstone/dist/css/dropdown";
+$fa-font-path: "/fonts";
+
+// global
+@import "_col-xl.scss";
+@import "_variables.scss";
+@import "_fonts.scss";
+@import "_mixins.scss";
+@import "_defaults.scss";
+
+// keyframes/animations
+@import "keyframes/**/*.scss";
+
+// classes
+@import "classes/**/*.scss";
+
+// partials
+@import "partials/**/*.scss";
+
+// sections
+@import "sections/**/*.scss";
+
+// pages
+@import "pages/**/*.scss";
+
+[data-whatinput="initial"], [data-whatinput="keyboard"] {
+    *:focus {
+        outline: 1px dotted $c-fg;
+    }
+}
+
+[data-whatinput="mouse"], [data-whatinput="touch"] {
+    *:focus {
+        outline: none !important;
+    }
+}
+
+html, body {
+    position: relative;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: scrollbar;
+}
+
+#app {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: $echelon-tan;
+
+    #main-content {
+        position: relative;
+        display: flex;
+        flex-grow: 1;
+
+        > div {
+            width: 100%;
+        }
+    }
+}

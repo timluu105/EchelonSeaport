@@ -1,0 +1,54 @@
+.page-thanks #main-content {
+    display: flex;
+}
+
+.thanks-component {
+    display: flex;
+    width: 100%;
+    padding: $grid-gutter-width ($grid-gutter-width / 2);
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+
+    .thanks-text {
+        width: calc(100% - #{$grid-gutter-width});
+        max-width: 700px;
+        text-align: center;
+
+        &-logo {
+            margin: 0px auto 50px auto;
+            display: block;
+            width: 225px;
+            max-width: 100%;
+
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+
+        h1 {
+            @include font-bold;
+            margin-top: 80px;
+            margin-bottom: $grid-gutter-width;
+            font-size: 28px;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            @include font-regular;
+            margin-bottom: 0px;
+            font-size: 20px;
+            text-transform: uppercase;
+
+            &:after {
+                content: "";
+                margin: $grid-gutter-width auto 0px auto;
+                display: block;
+                width: 50px;
+                height: $divider-block-height;
+                background-color: $c-text;
+            }
+        }
+    }
+}

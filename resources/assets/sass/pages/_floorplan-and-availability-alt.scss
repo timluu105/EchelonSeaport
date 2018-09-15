@@ -1,0 +1,29 @@
+.floorplan-and-availability-alt-component {
+    display: flex;
+    width: 100%;
+    padding: $grid-gutter-width ($grid-gutter-width / 2);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &-contact-container {
+        max-width: $contact-registation-width;
+    }
+
+    h1 {
+        @include font-bold;
+        margin-top: 20px;
+        margin-bottom: ($grid-gutter-width / 2);
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        @include font-regular;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,157 @@
+.intro-component {
+    z-index: 99;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: $black;
+    cursor: pointer;
+
+    &:not(.show-intro) {
+        background-color: transparent;
+        opacity: 0;
+        transition: opacity 1250ms;
+        pointer-events: none;
+    }
+
+    &-cityscape-image {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-position: 15% 65%;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        @media (max-width: $screen-xs-max) {
+            background-position: 33% bottom;
+        }
+
+        &.color {
+            background-image: url("/img/cityscape-color.jpg?version=2");
+        }
+
+        &.mixed {
+            background-image: url("/img/cityscape-mixed.jpg?version=2");
+        }
+
+        &.grayscale {
+            background-image: url("/img/cityscape-grayscale.jpg?version=2");
+        }
+    }
+
+    &-cover {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding: 100px ($grid-gutter-width / 2);
+        justify-content: center;
+        align-items: center;
+
+        &-background {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            background-color: $black;
+        }
+
+        &-logo {
+            position: relative;
+            width: 300px;
+            max-width: 100%;
+
+            @media (min-width: $screen-xl-min) {
+                width: 400px;
+            }
+
+            img {
+                @include img-responsive;
+                width: 100%;
+            }
+
+            &-text {
+                opacity: 0;
+            }
+        }
+
+        &-copy {
+            @include font-regular;
+            position: absolute;
+            bottom: 20%;
+            left: ($grid-gutter-width / 2);
+            transform: translateY(50%);
+            width: calc(100% - #{$grid-gutter-width});
+            color: $purewhite;
+            font-size: 16px;
+            text-align: center;
+            opacity: 0;
+
+            @media (min-width: $screen-xl-min) {
+                font-size: 18px;
+            }
+
+            > div {
+                @media (max-width: $screen-xs-max) {
+                    display: inline-block;
+                }
+
+                @media (min-width: $screen-sm-min) {
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+
+    &.animate {
+        .intro-component-cover-logo-text {
+            animation-delay: 500ms;
+            animation-duration: 1000ms;
+            animation-fill-mode: forwards;
+            animation-name: fade-in;
+        }
+
+        .intro-component-cover-copy {
+            animation-delay: 1000ms;
+            animation-duration: 4000ms;
+            animation-fill-mode: forwards;
+            animation-name: fade-in-out;
+        }
+
+        .intro-component-cover-background {
+            animation-delay: 2500ms;
+            animation-duration: 3000ms;
+            animation-fill-mode: forwards;
+            animation-name: fade-out;
+        }
+
+        .intro-component-cover-logo {
+            animation-delay: 3500ms;
+            animation-duration: 1500ms;
+            animation-fill-mode: forwards;
+            animation-name: fade-out;
+        }
+
+        .intro-component-cityscape-image {
+            &.grayscale, &.mixed {
+                animation-duration: 1000ms;
+                animation-fill-mode: forwards;
+                animation-name: fade-out;
+            }
+
+            &.grayscale {
+                animation-delay: 4500ms;
+            }
+
+            &.mixed {
+                animation-delay: 5500ms;
+            }
+        }
+    }
+}

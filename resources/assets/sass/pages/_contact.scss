@@ -1,0 +1,25 @@
+.contact-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-wrapper {
+        width: 100%;
+        max-width: $contact-registation-width;
+        padding: $grid-gutter-width ($grid-gutter-width / 2);
+    }
+
+    h2 {
+        @include font-bold;
+        position: relative;
+        transform: scale(1.03);
+        transform-origin: left bottom;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    h5 {
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+}

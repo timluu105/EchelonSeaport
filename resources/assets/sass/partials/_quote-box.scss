@@ -1,0 +1,61 @@
+.quote-box-component {
+    position: relative;
+    margin: $large-gutter-width 0px;
+    padding: 150px $grid-gutter-width;
+    background-color: $c-bg-lightcream;
+
+    @media (min-width: $call-to-action-visible-min) {
+        padding-right: $large-gutter-width;
+        padding-left: $large-gutter-width;
+    }
+
+    hr {
+        margin: 30px auto 0px auto;
+        max-width: 30px;
+        border-top: 3px solid $black;
+    }
+
+    &-quote {
+        margin: auto;
+        max-width: 1080px;
+
+        p {
+            @include font-bold;
+            margin-top: 0px;
+            color: $c-text-grey;
+            font-size: 22px;
+            line-height: 2;
+            text-align: center;
+            text-transform: uppercase;
+
+            @media (max-width: $screen-md-max) {
+                font-size: 22px;
+            }
+
+            @media (max-width: $screen-sm-max) {
+                font-size: 18px;
+            }
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+
+            .line-break {
+                @media (min-width: $screen-lg-min) {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    &-logo {
+        margin: 50px auto 0px auto;
+        width: 250px;
+        max-width: 100%;
+
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,96 @@
+.gallery-component {
+    &-slider-wrapper {
+        margin: $grid-gutter-width 0px;
+
+        @media (max-width: $screen-sm-max) {
+            display: none;
+        }
+
+        @media (min-width: $screen-md-min) {
+            @include aspect-ratio(8, 3);
+        }
+    }
+
+    &-image-wrapper {
+        @media (min-width: $call-to-action-visible-min) {
+            padding-right: $large-gutter-width;
+            padding-left: $large-gutter-width;
+        }
+
+        .container {
+            @media (min-width: $call-to-action-visible-min) {
+                max-width: 100%;
+            }
+        }
+    }
+
+    &-title {
+        @include font-bold;
+        margin: $grid-gutter-width 0px;
+        font-size: 30px;
+        letter-spacing: 1px;
+        text-align: center;
+        text-transform: uppercase;
+
+        &:after {
+            content: "";
+            margin: 12px auto;
+            display: block;
+            width: 50px;
+            height: $divider-block-height;
+            background-color: $c-text;
+        }
+    }
+
+    &-image-grid {
+        $image-spacing: 20px;
+        margin: 0px (0px - $image-spacing);
+        display: flex;
+        flex-wrap: wrap;
+
+        &-item {
+            margin-bottom: $grid-gutter-width;
+            width: 100%;
+            padding: 0px $image-spacing;
+            cursor: pointer;
+
+            @media (min-width: $screen-sm-min) {
+                width: 50%;
+            }
+
+            @media (min-width: $screen-lg-min) {
+                width: (100% / 3);
+            }
+
+            &-image {
+                @include aspect-ratio(16, 9);
+                background-position: center center;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+                &.vbottom {
+                    background-position: center bottom;
+                }
+
+                &.vtop {
+                    background-position: center top;
+                }
+
+                &.hleft {
+                    background-position: left center;
+                }
+
+                &.hright {
+                    background-position: right center;
+                }
+            }
+
+            &-title {
+                @include font-regular;
+                margin-top: 10px;
+                font-size: 14px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

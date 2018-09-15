@@ -1,0 +1,80 @@
+.slide-gallery-component {
+    position: relative;
+    width: 100%;
+
+    &-wrapper {
+        position: relative;
+        width: 100%;
+    }
+
+    .gallery-button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+
+        &.prev-button {
+            left: 0px;
+            width: 40px;
+            height: 60px;
+            background-image: url("/img/arrow.png");
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        &.next-button {
+            right: 0px;
+            transform: translateY(-50%) rotate(180deg);
+            width: 40px;
+            height: 60px;
+            background-image: url("/img/arrow.png");
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .gallery-bullet-wrapper {
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 20px auto;
+        width: 100%;
+        padding: 20px;
+
+        .gallery-bullet {
+            display: inline-block;
+            cursor: pointer;
+
+            &-dots {
+                margin: 5px 20px;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background-color: $lightgray;
+
+                &.active {
+                    background-color: $dark;
+                }
+
+                span {
+                    display: none;
+                }
+            }
+
+            &-titles {
+                padding: 0px 5px;
+
+                span {
+                    display: inline-block;
+
+                    &:first-child {
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
