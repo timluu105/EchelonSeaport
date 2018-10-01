@@ -33,9 +33,9 @@
         <div class="footer-component-legal">
             <div class="footer-component-legal-inner">
                 <img src="/img/eho.svg" alt="Equal Housing Opportunity" />
-                <p>EchelonSeaport is an Equal Housing Opportunity project. We are in compliance with Title VIII of the Civil Rights Act of 1968. We have not and will not discriminate against you because of your race, color, religion, sex, or national origin.</p>
-                <p>This material shall not constitute a valid offer in any state where prior registration is required. Materials, features and amenities described and depicted herein are based upon current development plans, which are subject to change without notice. Actual development may not be as currently proposed. No guarantee is made that the features, amenities and facilities depicted by artists’ renderings or otherwise described herein will be built or, if built, will be of the same type, size or nature as depicted or described.</p>
-                <p>The residential units described herein and marketed under the licensed “REGENT” and/or “REGENT COLLECTION” trademark are not owned, developed, or sold by Regent Asia Pacific Management Limited (“Regent”) or any of its affiliates, and neither Regent nor any of its affiliates makes any representation, warranty, or guarantee with respect to such residential units.</p>
+                <p>{{$t("legal.equal-opportunity")}}</p>
+                <p>{{$t("legal.this-material")}}</p>
+                <p>{{$t("legal.units-described")}</p>
             </div>
         </div>
     </footer>

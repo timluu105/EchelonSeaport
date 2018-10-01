@@ -373,6 +373,11 @@ const translations = {
             "pets": "Echelon Pets",
             "dogrun": "Outdoor Dog Run &amp; Pet Spa",
             "playtime": "Playtime"
+        },
+        "legal": {
+            "equal-opportunity": "EchelonSeaport is an Equal Housing Opportunity project. We are in compliance with Title VIII of the Civil Rights Act of 1968. We have not and will not discriminate against you because of your race, color, religion, sex, or national origin.",
+            "this-material": "This material shall not constitute a valid offer in any state where prior registration is required. Materials, features and amenities described and depicted herein are based upon current development plans, which are subject to change without notice. Actual development may not be as currently proposed. No guarantee is made that the features, amenities and facilities depicted by artists’ renderings or otherwise described herein will be built or, if built, will be of the same type, size or nature as depicted or described.",
+            "units-described": "The residential units described herein and marketed under the licensed “REGENT” and/or “REGENT COLLECTION” trademark are not owned, developed, or sold by Regent Asia Pacific Management Limited (“Regent”) or any of its affiliates, and neither Regent nor any of its affiliates makes any representation, warranty, or guarantee with respect to such residential units.",
         }
     },
     "cn": {
@@ -383,7 +388,7 @@ const translations = {
             "architecture": "Architecture & Design",
             "floor-plans": "楼层计划",
             "news": "News",
-            "gallery": "Gallery",
+            "gallery": "集景", // from other source
             "team": "Team",
             "contact": "Contact"
         },
@@ -534,6 +539,11 @@ const translations = {
             "pets": "宠物社区",
             "dogrun": "户外宠物活动区&宠物美容",
             "playtime": "亲子乐园"
+        },
+        "legal": {
+            "equal-opportunity": "ECHELONSEAPORT是一个拥有平等机会的住房项目。我们遵守1968年民权法案第八条。我们绝不会因为您的种族、肤色、宗教信仰、性别或国际问题而产生歧视。",
+            "this-material": "在需要事先注册的任何州或国家，本材料不构成有效法律效力。本网站描述的材料、特征和设施均基于当前的开发计划，如有更改，恕不另行通知。实际开发结果可能不符合当前的方案。不能保证设计师效果图描绘的或本网站他处描述的特征、设施和设备将会被建造，或者如果被建造，不保证将一定能与所描绘或描述的类型、尺寸或性质保持一致。",
+            "units-described": "本网站描述的并在“丽晶”和/或“丽晶系列”商标许可下销售的住宅单位未由丽晶亚太地区管理有限公司（“丽晶”）或其任何附属公司所拥有、开发或销售，且丽晶及其任何附属公司对此类住宅单位将不作出任何陈述、保证或担保。",
         }
     }
 };
