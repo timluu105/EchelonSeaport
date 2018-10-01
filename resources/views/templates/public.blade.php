@@ -6,6 +6,9 @@
 @endsection
 
 @section('page-top')
+    <script>
+        window.translanguage = "{{ App::getLocale() }}";
+    </script>
     <script src="/js/app-libs.js?version={{ version() }}"></script>
     <!--[if lte IE 8]>
     <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
@@ -24,7 +27,7 @@
 
             <footer-component></footer-component>
             <call-to-action></call-to-action>
-            <intro-component></intro-component>
+            <intro-component :lang="{'header1': 'some text'}"></intro-component>
         </div>
     </div>
 @endsection

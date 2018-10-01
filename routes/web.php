@@ -104,6 +104,12 @@ Route::get('/download/img/{dir}/{file}', function($dir, $file) {
     }
 });
 
+Route::get('/lang/{language}', function($language) {
+    session()->put("locale", $language);
+
+    return redirect()->back();
+});
+
 Route::get('/download/uploads/{dir}/{file}', function($dir, $file) {
     $file_dl = base_path() . '/public/uploads/' . $dir . '/' . $file;
 

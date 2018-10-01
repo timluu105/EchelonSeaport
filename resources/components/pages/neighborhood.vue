@@ -15,7 +15,7 @@
                             </div>
 
                             <p class="neighborhood-component-dining-text-copy">
-                                Award-winning restaurateurs have made the Seaport Boston’s hottest dining destination. With restaurants from world-renowned James Beard award-winners Barbara Lynch, Ming Tsai, Joanne Chang, amongst others the Seaport offers a delicious diversity of food.
+                                {{$t("neighborhood.dining-text-copy")}}
                             </p>
                         </div>
                     </div>
@@ -88,7 +88,7 @@
                 locationSeaportContent: {
                     subtitle: "Seaport Neighborhood",
                     title: "Get Centered. <br />Get Connected.",
-                    body: "Anchoring the Innovation District is the Boston’s most anticipated residential destination. More than an address, EchelonSeaport offers an exciting new way to live with curated retail, dynamic courtyards, and enriching indoor and outdoor amenities. EchelonSeaport follows the rich tradition of Boston place making, leaving its mark on the continued momentum of the city."
+                    body: window.trans["neighborhood"]["location-seaport"]
                 },
 
                 neighborhoodSliderImages: [
@@ -115,7 +115,7 @@
 
                 soaringHeightsContent: {
                     title: "The New Center of Boston",
-                    body: "Charming, historic, cosmopolitan Boston has a brand-new face. The Seaport District has rapidly come into its own, becoming one the premiere neighborhoods in Boston.",
+                    body: window.trans["neighborhood"]["soaring-heights"],
                     image: "/img/neighborhood/soaring-heights.jpg",
                     halign: "center",
                     valign: "center",
@@ -124,7 +124,7 @@
 
                 grandlyScaledContent: {
                     title: "Seaport Styled",
-                    body: "Not just for dining, the Seaport District is shaping up to be Boston’s chicest neighborhood. With retailers ranging from innovative eyewear company, Warby Parker to classic brands like Filson, Lululemon and L.L. Bean there’s something for everyone. And that’s just the beginning…",
+                    body: window.trans["neighborhood"]["grandly-scaled"],
                     titleimage: "/img/neighborhood/seaport-styled-detail.jpg",
                     image: "/img/neighborhood/seaport-styled.jpg",
                     halign: "center",
@@ -135,7 +135,7 @@
 
                 seaportSweatContent: {
                     title: "Destination Wellness",
-                    body: "Whether you like to run, walk or bike there is no better place to break a sweat than Seaport’s picturesque waterfront. The neighborhood sets a high bar for wellness with outdoor workouts on Seaport Green featuring the best of local and national fitness companies from Everybody Fights to Soulcycle and Equinox. Stock up on new gear at Lululemon or L.L Bean or grab a healthy meal at Juice Press and byChloe. Wellness made easy.",
+                    body: window.trans["neighborhood"]["seaport-sweat"],
                     image: "/img/neighborhood/seaport-sweat.jpg",
                     halign: "center",
                     valign: "center",
@@ -145,7 +145,7 @@
                 neighborhoodGalleryContent: {
                     subtitle: "Neighborhood",
                     title: "Gallery",
-                    body: "Discover the Seaport. Vibrant and energetic, the Seaport neighborhood has arrived. On the cutting edge of Boston’s dining, shopping, and culture scene it's no wonder the Seaport is the city’s hottest “new” neighborhood."
+                    body: window.trans["neighborhood"]["gallery"]
                 }
             };
         },

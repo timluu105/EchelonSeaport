@@ -12,6 +12,7 @@ import VueRouter from "vue-router";
 import VueResource from "vue-resource";
 import Vuex from "vuex";
 import { sync } from "vuex-router-sync";
+import vuexI18n from 'vuex-i18n';
 
 // Load plugins
 Vue.use(VueRouter);
@@ -114,6 +115,10 @@ const store = new Vuex.Store({
     },
 
     getters: {
+        getLang: state => {
+            return state.lang;
+        },
+
         getFirstLoad: state => {
             return state.firstLoad;
         },
@@ -164,6 +169,10 @@ const store = new Vuex.Store({
     },
 
     mutations: {
+        setLang(state, value) {
+            state.lang = value;
+        },
+
         setFirstLoad(state, value) {
             state.firstLoad = value;
         },
@@ -201,6 +210,273 @@ const store = new Vuex.Store({
 
     }
 });
+
+Vue.use(vuexI18n.plugin, store);
+
+const translations = {
+    "en": {
+        "pages": {
+            "lifestyle": "Lifestyle",
+            "neighborhood": "Neighborhood",
+            "residences": "Residences",
+            "architecture": "Architecture & Design",
+            "floor-plans": "Floor Plans",
+            "news": "News",
+            "gallery": "Gallery",
+            "team": "Team",
+            "contact": "Contact"
+        },
+        "architecture": {
+            "stripe-content-body": "This is the premiere address at the Seaport, encompassing an entire city block. A defining contemporary landmark by internationally-lauded Kohn Pedersen Fox (KPF). A trio of residential towers anchored by a center destination courtyard with an architecturally-striking landmark bridge, pedestrian lanes and beautiful&nbsp;tree&nbsp;canopies.",
+            "caption-body": "Art meets commerce. Surrounded by striking architecture, the central courtyard will be one of the most talked-about public spaces in Boston, populated by destination retail and signature&nbsp;epicurean&nbsp;experiences.",
+            "jeff-beers-international": "Interior Design by Jeffrey Beers International",
+            "globally-recognized": "Globally recognized, Jeffrey Beers has created some of the most recognized hospitality environments for Four Seasons, Langham Hotels, and Ritz Carlton. For EchelonSeaport he created elegant and superbly crafted arrival and amenity spaces with a strong eye for detail&nbsp;and&nbsp;meaning.",
+            "design-sensibility": "Jeffrey Beers' design sensibility combines crisp lines, unexpected textures, and natural materials that combine style and functionality. The distinctive interiors for EchelonSeaport were crafted to feel like an extension of one's own living room; warm, inviting and comfortable. Creating a sense of community the amenity experiences encourage residents to gather&nbsp;and&nbsp;socialize.",
+            "boston-is-heading": "This is Where Boston is Heading",
+            "shaping-the-future": "Shaping the Future",
+            "architecture-by": "Architecture By Kohn Pedersen Fox",
+            "different-by-design": "Different by Design",
+            "a-cultivated-designed": "A Cultivated Design by Jeffrey Beers",
+        },
+        "intro": {
+            "header-1": "Urban resort living in",
+            "header-2": "Boston's most vibrant neighborhood.",
+        },
+        "home": {
+            "anchoring": "Anchoring Boston’s Innovation District is Boston’s most anticipated residential destination. <br />More than an address, EchelonSeaport offers an exciting new way to live.",
+            "contemporary-landmark": "EchelonSeaport is a defining contemporary landmark <br />by internationally-lauded Kohn Pedersen Fox featuring <br />sophisticated amenities crafted by globally recognized <br />interior designer Jeffrey Beers.",
+            "extraordinary": "Extraordinary in every aspect, EchelonSeaport <br />offers a wealth of amenities beyond anything ever before offered in Boston.",
+            "canvas": "A canvas for personal style. Residences feature <br />oversized window walls capturing city, sky and harbor views <br />and are bathed in natural light.",
+            "the-seaport": "The <br />Seaport",
+            "kpf-architecture": "KPF Architecture <br />Jeffrey Beers Design",
+            "urban-living": "Urban Resort <br />Living",
+            "modern-living": "Modern <br />Living"
+        },
+        "contact": {
+            "interested": "Interested in learning more?",
+            "receive-updates": "To receive exclusive updates, please provide your contact information below.",
+        },
+        "neighborhood": {
+            "dining-text-copy": "Award-winning restaurateurs have made the Seaport Boston’s hottest dining destination. With restaurants from world-renowned James Beard award-winners Barbara Lynch, Ming Tsai, Joanne Chang, amongst others the Seaport offers a delicious diversity of food.",
+            "dining-text-title": "Seaport",
+            "dining-text-title-2": "Dining",
+            "location-seaport": "Anchoring the Innovation District is the Boston’s most anticipated residential destination. More than an address, EchelonSeaport offers an exciting new way to live with curated retail, dynamic courtyards, and enriching indoor and outdoor amenities. EchelonSeaport follows the rich tradition of Boston place making, leaving its mark on the continued momentum of the city.",
+            "soaring-heights": "Charming, historic, cosmopolitan Boston has a brand-new face. The Seaport District has rapidly come into its own, becoming one the premiere neighborhoods in Boston.",
+            "grandly-scaled": "Not just for dining, the Seaport District is shaping up to be Boston’s chicest neighborhood. With retailers ranging from innovative eyewear company, Warby Parker to classic brands like Filson, Lululemon and L.L. Bean there’s something for everyone. And that’s just the beginning…",
+            "seaport-sweat": "Whether you like to run, walk or bike there is no better place to break a sweat than Seaport’s picturesque waterfront. The neighborhood sets a high bar for wellness with outdoor workouts on Seaport Green featuring the best of local and national fitness companies from Everybody Fights to Soulcycle and Equinox. Stock up on new gear at Lululemon or L.L Bean or grab a healthy meal at Juice Press and byChloe. Wellness made easy.",
+            "gallery": "Discover the Seaport. Vibrant and energetic, the Seaport neighborhood has arrived. On the cutting edge of Boston’s dining, shopping, and culture scene it's no wonder the Seaport is the city’s hottest “new” neighborhood.",
+        },
+        "team": {
+            "team-1": "Echelon Life represents the evolution of a new development philosophy that pairs extraordinary design with incomparable lifestyle amenities. Cottonwood Management, headquartered in Los Angeles, with over $2 Billion in assets under management, chose Boston as its East Coast headquarters and inaugural Echelon Life city, in recognition and reflection of the energy, academic spirit and innovative drive that permeate the city and make Boston’s urban life so appealing.",
+            "team-2": "Kohn Pedersen Fox brings unsurpassed architectural excellence to the Seaport. Based in New York City, London, Hong Kong & Shanghai, KPF is architect to some of the most influential projects in cities around the world. The firm is known for its elegant designs and expertly crafted buildings. KPF’s signature multi-use developments are gateways to centers of commerce and innovation and include Covent Garden in London, Hudson Yards New York, Tokyo’s Rappongi Hills, Shanghai World Financial Center, Hong Kong’s International Commerce Center, and now EchelonSeaport in Boston.",
+            "team-3": "Widely known for its hospitality expertise and acclaimed for its expertly tailored designs, Jeffery Beers International (JBI) of New York City has chosen EchelonSeaport as its inaugural residential project in Boston. EchelonSeaport amenities areas both inside and out speak as a beautifully cohesive whole under JBI’s masterful eye. JBI is currently designing residential amenities for Rafael Vinoly’s 277 Fifth Avenue project in New York. Iconic JBI hospitality projects include Fontainebleau in Miami and Dune by chef Jean George at the One & Only Club in the Bahamas.",
+            "team-4": "Regent Hotels & Resorts, known the world over for award-winning, white gloved five-star service, has teamed with Cottonwood to bring its expertise to Boston for EchelonSeaport, its first Regent Collection property in the United States. Regent will bring a sense of style and attention to service detail second to none to EchelonSeaport.",
+            "team-5": "CBT Architects know Boston intimately and has teamed with KPF to bring EchelonSeaport to life in Boston. The award-winning architect has designed many of the finest residential projects in the City, including the Mandarin Oriental Condominiums, Twenty-Two Liberty and Millennium Ritz Carlton Boston.",
+            "team-6": "Boston's leading builder in the Seaport District, John Moriarty & Associates is at the helm for EchelonSeaport. Renowned for their quality of delivered product, JMA has built over 20,000 luxury condominiums on the East Coast. Boston-based and privately owned, JMA thrives and succeeds building urban projects for trusted repeat clients and partners.",
+            "team-7": "Boston-based TCC has been the market leader in dedicated project condominium sales in and around the city, successfully closing over $6 billion in urban and suburban real estate sales over the past three decades. TCC's well-renowned sales team at EchelonSeaport has helped shape an unprecedented Sales & Experience Center for residents to explore all facets of Echelon Life.",
+        },
+        "residences": {
+            "text-1": "The two contextual towers are a refined addition to the Seaport skyline. Timelessly crafted in stone and glass, Kohn Pedersen Fox created a silhouette with setbacks enhancing select residences with oversized private terraces.",
+            "text-2": "Live large. A flagship address offering 255 condominium residences with Boston Harbor and Seaport park views, generous private stepped terraces, grand and elegant interiors, and extensive outdoor amenities including a spa pool, lounge and dining areas.",
+            "text-3": "Live modern. Contemporary and cool, 135 Seaport offers 192 condominium residences with Harbor and wrap-around city and sunset views to the west. The expansive fifth-floor terrace offers a grand outdoor pool, sun cabanas, outdoor dining and lounge areas.",
+            "text-4": "Addressed to impress, the flagship residence at EchelonSeaport offers a hospitality-driven lifestyle experience. From the singular arrival and amenity experiences to the smartly crafted condominiums, every touchpoint emanates the extraordinariness of&nbsp;this&nbsp;residence.",
+            "text-5": "The Jeffrey Beers designed, double-height, 24-hour attended lobby ushers in the elevated design experience. Exotic marbles, warm woods, and intriguing metals create a richly-textured lobby experience with multiple conversation areas. Embracing the art of hospitality, this is an urban resort warm, inviting, comfortable and stimulating. By creating a sense of community, the lobby experiences encourage residents to gather&nbsp;and&nbsp;socialize.",
+            "text-6": "Each residence is a canvas for personal style with oversized window walls capturing city, sky and harbor views. Homes are bathed in natural light with engineered white oak wood plank&nbsp;flooring&nbsp;throughout.",
+            "text-7": "Dynamic vistas are offered at all levels, intimate views of the landscaped courtyard, glittering panoramas of the ever-changing skyline, and a captivating new perspective of the&nbsp;Boston&nbsp;Harbor.",
+            "text-8": "Both foodies and take-out aficionados will appreciate the clean lines of the open kitchens outfitted with custom cabinetry imported from Italy, and a state-of-the-art suite of top-of-the-line&nbsp;integrated&nbsp;appliances.",
+            "text-9": "The tiered silhouette of EchelonSeaport creates an array of oversized private outdoor terraces rarely seen in Boston. Designed to be an extension of your living and dining rooms, best enjoyed on beautiful spring, summer and&nbsp;fall&nbsp;days.",
+            "two-addresses": "Two addresses.",
+            "singular-destination": "A Singular Destination.",
+        },
+        "lifestyle": {
+            "text-1": "An address unlike anywhere else. Indoors and out, EchelonSeaport offers a captivating lifestyle experience, with over 50,000 square feet of amenities designed by Jeffrey Beers International, the leading tastemaker in&nbsp;hospitality&nbsp;interiors.",
+            "text-2": "EchelonSeaport will offer the most talked about outdoor amenity spaces in Boston with manicured gardens, al fresco dining areas, and poolside sun terraces with cabanas. This is an outdoor living room for all residents&nbsp;to&nbsp;enjoy.",
+            "text-3": "Boldly inviting. EchelonSeaport offers three distinctive pool experiences designed to create a design-centric sanctuary at The Seaport. This is not just another residential address. This is an&nbsp;urban&nbsp;resort.",
+            "text-4": "Impeccably styled on a grand scale, a collection of social lounges overlook the outdoor gardens and amenities. Stylishly detailed, with soaring ceiling heights and rich architectural details. These spaces can be reserved for private entertaining&nbsp;and&nbsp;meetings.",
+            "text-5": "Inspired by Boston's rich intellectual heritage, the Library Lounge is appointed with curated artwork and photography. Comfortable seating areas create an ideal setting for a cocktail and a&nbsp;good&nbsp;book.",
+            "text-6": "Temperature-controlled wine storage, handsomely finished with custom wood and glass cabinetry offers an inviting space to sip, savor and learn about wine&nbsp;and&nbsp;viniculture.",
+            "text-7": "This is Boston's most coveted dinner invitation. Jeffrey Beers has designed for the industry's most recognized chefs, including Jean Georges Vongerichten and Todd English. At EchelonSeaport, he brings a special flair to the Private Dining Rooms with a state-of-the-art exhibition kitchen at&nbsp;the&nbsp;ready.",
+            "text-8": "Globally recognized for their unparalleled and intuitive hospitality standards, Regent Hotels &amp; Resorts has been selected to manage and oversee Residential Services. From the expertly trained concierge to the specially selected spa technicians, every EchelonSeaport service associate will deliver the&nbsp;Regent&nbsp;touch.",
+            "text-9": "In addition to the two outdoor pools and the indoor pool, EchelonSeaport offers an 8,500 square-feet Wellness Center that incorporates fitness as well as a tranquility spa with indoor and outdoor&nbsp;treatment&nbsp;areas.",
+            "text-10": "Re-charge yourself in the state-of-the-art fitness center, or find your balance in private yoga or stretching&nbsp;rooms&nbsp;nearby.",
+            "text-11": "Get pumped on the two-story indoor basketball court with a tech wall that can broadcast live games or group fitness classes. Enjoy a round at the finest courses with the cutting-edge golf simulator used by top PGA pros.&nbsp;Game&nbsp;on!",
+            "text-12": "Connected to the rooftop gardens, The Spa at EchelonSeaport includes private treatment rooms accented in teak, stone and natural materials. Treatments can be taken indoors, or residents can enjoy the lushly landscaped private&nbsp;outdoor&nbsp;sanctuaries.",
+            "text-13": "A first-of-its-kind residential amenity. The Echelon Innovation Center features programming developed by Boston's leading academics and incubators. Gather with fellow residents to gain inspiration and ideas from top business, tech and cultural leaders. Or find a creative place to work any time of&nbsp;the&nbsp;day.",
+            "text-14": "At its core, EchelonSeaport is about the luxury of saved time and convenience. Through the Echelon Life App, you now have access to a global luxury lifestyle management and concierge service that can accommodate your needs. Call the valet for your car, make a restaurant reservation, or book a private jet to Nantucket (or Paris). All in the palm of&nbsp;your&nbsp;hand.",
+            "text-15": "Relax and enjoy the view with your fellow residents in The Sky Lounge, an exclusive lifestyle clubhouse reserved for residents of 133 Seaport. Let the Regent-trained staff arrange for catering for your next meeting or&nbsp;get&nbsp;together.",
+            "text-16": "EchelonSeaport brings playtime for your pets to a whole new level. Your pup will quickly feel at home here, meeting other dogs at the outdoor pet run and play area or getting pampered at the pet spa. You can even coordinate with your dog walker or cat groomer through your Echelon&nbsp;Life&nbsp;app.",
+            "text-17": "Whether you have children or grandchildren, EchelonSeaport's family play center will make you wish you were a little kid again. The children in your life will love this room, made for discovery and fun. In true EchelonSeaport fashion, it includes dedicated outdoor play space&nbsp;as&nbsp;well.",
+            "elevate": "Elevate",
+            "expectations": "Your Expectations",
+            "captivating": "Naturally Captivating",
+            "grandpool": "The Grand Pool",
+            "echelonentertaining": "Echelon Entertaining",
+            "impressive": "Impressive at Every Angle",
+            "chapter": "The Next Chapter",
+            "toast": "Toast in Style",
+            "epicurean": "The Art of Epicurean",
+            "regentcollection": "A Regent Collection Property",
+            "fivestarservice": "Five-Star Residence Service",
+            "echelonwellness": "Echelon Wellness",
+            "reinvigorate": "A New Way to Reinvigorate",
+            "fitness": "High-Definition Fitness",
+            "gaming": "High Definition Gaming",
+            "zen": "Your Private Zen",
+            "culture": "Echelon Culture",
+            "innovation": "Innovative at its Core",
+            "echelonlife": "Echelon Life",
+            "aboveitall": "Above It All",
+            "pets": "Echelon Pets",
+            "dogrun": "Outdoor Dog Run &amp; Pet Spa",
+            "playtime": "Playtime"
+        }
+    },
+    "cn": {
+        "pages": {
+            "lifestyle": "品质生活",
+            "neighborhood": "Neighborhood",
+            "residences": "Residences",
+            "architecture": "Architecture & Design",
+            "floor-plans": "楼层计划",
+            "news": "News",
+            "gallery": "Gallery",
+            "team": "Team",
+            "contact": "Contact"
+        },
+        "architecture": {
+            "stripe-content-body": "EchelonSeaport 已经成为海港区甚至是波士顿整个城市街区的代表性建筑，是由国际顶级建筑师事务所Kohn Pedersen Fox（KPF）定义的当代地标。三座住宅楼环绕着中央庭院，美轮美奂的廊桥、多条人行道及郁郁葱葱的树冠纵横交织，坐落其中。",
+            "caption-body": "艺术契合商业。中央庭院四周围绕着众多引人注目的建筑，共同营造出波士顿地区最受期待的公共空间。高端零售及难以忘怀的美食体验，成就了这个集生活、购物及娱乐于一体的社区。",
+            "jeff-beers-international": "JEFFREY BEERS INTERNATIONAL的室内设计",
+            "globally-recognized": "广受全球赞誉的室内设计师Jeffrey Beers 曾为四季酒店、朗廷酒店和丽思卡尔顿酒店设计出一系列令人赞不绝口的作品。在他的实力操刀下，EchelonSeaport尽显优雅，奢华中不乏细节。精心打造的接待区及注重细腻与意义的舒适空间，无一不体现出EchelonSeaport的独具匠心。",
+            "design-sensibility": "清晰的线条、绚丽的纹理、风格与功能相结合的天然材料，这些成就了Jeffrey Beers的设计灵感。独特内饰风格的公共空间如同自家起居室的延伸，充满了温暖、舒适与温馨。它所渲染的社交氛围也愈发调动了住户们渴望交流与沟通的内心。",
+            "boston-is-heading": "前行——心之所向",
+            "shaping-the-future": "塑造未来",
+            "architecture-by": "建筑师KOHN PEDERSEN FOX",
+            "different-by-design": "因设计而不同",
+            "a-cultivated-designed": "来自JEFFREY BEERS的精心设计",
+        },
+        "intro": {
+            "header-1": "在波士顿活力十足的社区定居",
+            "header-2": "拥有度假般的体验。",
+        },
+        "home": {
+            "anchoring": "海港区作为波士顿的最具创新与活力的区域，早已成为当地最令人神往的居住宝地。坐落于此的EchelonSeaport定会为您带来最值得期待的生活方式。",
+            "contemporary-landmark": "由国际顶尖建筑设计事务所KPF实力操刀，另搭配由美国著名室内设计所Jefferey Beers精品打造共享空间设施，EchelonSeaport将注定成为波士顿当地的经典地标。",
+            "extraordinary": "集萃风华，醇熟悦享，高档生活配套设施一应俱全，悦享受城市高尚生活。",
+            "canvas": "绮丽的阳光悄悄透过落地窗，温柔地洒落在屋中的每个角落。眺望窗外，在慵懒中静观曼妙的波士顿海天一线。",
+            "the-seaport": "海港区",
+            "kpf-architecture": "KPF 建筑事务所 <br />JEFFREY BEERS设计",
+            "urban-living": "城市度假生活",
+            "modern-living": "摩登生活"
+        },
+        "contact": {
+            "interested": "Interested in learning more?",
+            "receive-updates": "To receive exclusive updates, please provide your contact information below.",
+        },
+        "neighborhood": {
+            "dining-text-copy": "屡获殊荣的餐饮品牌早已令波士顿海港区成为最受欢迎的餐饮聚集地。在这里，您能享受到美食届的奥斯卡奖¬——James Beard奖项获得者Barbara Lynch、Ming Tsai和Joanne Chang等人制作出来的美食佳肴，多滋多样，应有尽有。",
+            "dining-text-title": "Seaport",
+            "dining-text-title-2": "Dining",
+            "location-seaport": "EchelonSeaport坐落在波士顿最受期待的创新区，这不仅仅是一处居所，更是一种崭新的生活方式。无论是活力十足的中庭氛围，还是品牌化管理的商业中心，亦或是多样的室内外生活设施，都可以为您带来全新的体验。不但传承了波士顿丰富的文化格调，更在城市持续发展的过程中留下了自己的独特印记",
+            "soaring-heights": "迷人的波士顿一直是历史文化底蕴和国际时尚潮流的融合体，如今它再次以一副崭新的面貌面向全世界，海港区飞速发展，已经成为波士顿首屈一指的新中心。",
+            "grandly-scaled": "这里不仅是美食的天堂，还是波士顿最时尚的圣殿。商业中心范围广，品牌多样化，不仅仅有Filson，Lululemon，L.L. Bean此类经典品牌，也不乏Warby Parker这类创新品牌，只要您需要，总能在这里找到自己喜爱的商品。而这，仅仅是一个开始……",
+            "seaport-sweat": "喜欢户外跑步、骑车、散步？那还有什么地方比Seaport风景如画的海滨区更合适！您可以在Lululemon或L.L Bean置办一身崭新的运动装备，然后到全美知名的Everbody Fights、Soulcycle和Equinox健身会所挥洒汗水，再前往Juice Press、byChloe享用健康的一餐。健康变得轻松而简单……",
+            "gallery": "充满生机与活力的海港区正在缓缓向我们走来，它时刻行走在波士顿美食艺术、购物及文化领域的最前沿，毫无疑问地成为了这座城市备受期待的“新”街区。",
+        },
+        "team": {
+            "team-1": "Echelon的生活代表着一种全新的发展理念的演变，就是将非凡的设计艺术同无可比拟的生活设施相结合起来。Cottonwood Management总部设在美国洛杉矶，管理着超过20亿美元的资产。公司选择了波士顿作为其东海岸总部和首座发布Echelon Life品牌的城市，将活力、学术精神和创新动力更加完美地渗透到这座城市中，令其更具吸引力，更加彰显魅力风采。",
+            "team-2": "全球顶级建筑师事务所Kohn Pedersen Fox（KPF）为海港区带来了无与伦比的建筑美学。这家国际顶尖的建筑师事务所在美国纽约、英国伦敦、中国香港及上海都设有工作室，在世界各地留下众多具有影响力的作品，以其优雅的设计理念和独具匠心的建筑风格而闻名全球。KPF设计建造的标志性综合体项目是通往商业中心和创新中心的门户，包括伦敦的Covent Garden、纽约的Hudson Yards、东京的Rappongi Hills、上海的环球金融中心、香港的环球贸易广场，以及波士顿的EchelonSeaport等等。",
+            "team-3": "国际知名室内设计公司Jeffrey Beers International以其专业的私人定制设计而闻名于世。位于纽约的JBI选择了EchelonSeaport作为其在波士顿的首个住宅项目，JBI用大师级的审美将EchelonSeaport的内外生活设施空间塑造成一个美丽的整体。而目前JBI正在为Rafael Vinoly于纽约277 Fifth Avenue的项目进行室内装潢设计。JBI设计的标志性酒店项目包括迈阿密的Fontainebleau，和著名主厨Jean-George于巴哈马开设的Dune餐厅。",
+            "team-4": "以多次荣获奖项和高水准的五星级服务而闻名于世的丽晶携手Cottonwood，共同为波士顿EchelonSeaport带来了专业的酒店知识和丰富的行业经验。而作为其重返美国市场的第一步，丽晶无所保留地将其特有的经营风格和对服务细节的考量融入进来。",
+            "team-5": "总部位于波士顿的美国著名建筑公司CBT与国际知名建筑师事务所KPF倾力合作，将EchelonSeaport赋予生命。荣获众多殊荣的CBT在波士顿设计了一系列卓越的住宅作品，包括Mandarin Oriental、丽思卡尔顿酒店、Twenty-Two Liberty等。",
+            "team-6": "作为波士顿海港区的领先建筑商，John Moriarty & Associates（JMA）全权掌舵EchelonSeaport项目。JMA以其交付产品的精品质量而闻名，在美国东海岸建造了超过两万套豪华产权公寓。公司总部位于美国波士顿，JMA的蓬勃发展，不断为赋予其信任的新老客户和合作伙伴打造精品城市项目。",
+            "team-7": "总部设在美国波士顿的TCC一直是波士顿地区市场领先的公寓项目销售公司，在过去的三十年中，TCC完美达成了超过60亿美元的城市和郊区房地产销售业绩。TCC在EchelonSeaport的知名销售团队塑造了一个前所未有的销售体验中心，以帮助客户探索 Echelon Life的方方面面。",
+        },
+        "residences": {
+            "text-1": "两幢住宅楼的外墙被恒久耐看的石头及玻璃材质所包围，海港区的天际线将在不久后被重新定义。KPF将楼梯轮廓设计为节节高升的云梯状，为住户打造出私家超大空中露台。",
+            "text-2": "133 Seaport共含产权公寓255套，主打宽阔奢华生活空间。不仅令住户尽享波士顿海湾和海港公园景致，还配有豪华高贵的小区配套设施，例如SPA、酒廊和餐饮等等。",
+            "text-3": "135 Seaport共含产权公寓180套，主打时尚精致生活空间。城市风光，海湾胜景，日升日落，海天一线，极致美景尽入眼帘。位于3层的小区花园更设有高标准的室外泳池，水边凉亭，以及户外休闲空间。",
+            "text-4": "EchelonSeaport旨在令住户享受到五星级酒店般的生活体验。从您踏入EchelonSeaport的那一刻起，每一项贴心服务，每一套生活设施的使用，每一处感官，都会散发出它的独特魅力。",
+            "text-5": "EchelonSeaport配有24小时大堂前台，一层大堂内还设有多个社交区域。在Jefferey Beers的设计下，异国风情的大理石地面，暖色调的木质与迷人的金属光泽交相辉映，将大堂烘托出一种高贵奢华之感。",
+            "text-6": "品上一杯香浓的咖啡，坐在落地窗边远望城市和海湾胜景，逃离了喧嚣与繁杂，静享暖阳。温柔的阳光洒落在白色的橡木地板上，如同一幅镌刻永恒的画卷，墨染流年，岁月静好。",
+            "text-7": "独一无二的中庭花园，如同海市蜃楼般的城市天际全景，美轮美奂的波士顿海湾新视角，您坐在家中就能观赏到这些极致美景，EchelonSeaport似乎将美学赋予了最大内涵。",
+            "text-8": "意大利进口定制橱柜，顶级集成电器，一流的选材，时尚的艺术理念，真正缔造了EchelonSeaport开放式厨房的艺术价值。品味生活，尽享美食。",
+            "text-9": "EchelonSeaport 的阶梯式建筑轮廓构建出波士顿高端住宅中罕见的超大私家露台，即便在家中也能同时坐拥户外休闲与尽享美食的空间，感知四季变迁，笑看云卷云舒。",
+            "two-addresses": "不同的建筑",
+            "singular-destination": "相同的体验",
+        },
+        "lifestyle": {
+            "text-1": "EchelonSeaport拥有超过50,000平方英尺的生活配套设施，由世界知名的室内设计公司Jeffrey Beers International全新打造。室内外尽显与众不同，着眼于高端居住品质，优越生活不言自明。",
+            "text-2": "户外花园鲜花满簇，露天餐区阳光满怀，池畔阳光露台为夏季带来丝丝清凉，最受期待的共享户外休闲区带来无限的欢乐和幸福。",
+            "text-3": "三种独特的泳池体验，融入无与伦比的空间感和宁谧感，享受无可比拟的曼妙。EchelonSeaport致力于将海港区打造成一座以高档奢华为主旋律的圣殿，亦将生活与休闲合而为一。",
+            "text-4": "无可挑剔的豪华风格，充满时尚的设计理念，搭配挑高的天花板和丰富的建筑细节。客户将私享一系列可俯瞰户外美景的社交及休闲空间。",
+            "text-5": "图书馆休息区内陈列着众多精美的艺术品和摄影作品，完美传承了来自波士顿自身散发的文化艺术气息。一杯鸡尾酒，一本好书，在静谧中享受智慧的洗礼。",
+            "text-6": "尊享美酒品鉴室，品味杯中风情，崇尚时尚魅力。矗立的温控葡萄酒储藏室，融合精美定制的酒柜，共同营造出无法抵挡的品酒独立空间。",
+            "text-7": "EchelonSeaport主厨餐厅最具独特潮流之感，彰显时尚风范。艺术的传承离不开卓越的设计师，国际著名室内设计大师Jeffrey Beers曾经为业界知名厨师Jean Georges Vongerichten和Todd English设计私人餐厅，得到高度评价。更在此次设计中将艺术与美食相互交融，为您尊贵生活的每一刻留下眷恋。",
+            "text-8": "丽晶国际以其无与伦比的服务标准获得全球认可，因而被选中负责整个物业的服务品质。从经过专业培训的礼宾服务到精心挑选的水疗技师，每位EchelonSeaport的服务助理都将传承丽晶格调。",
+            "text-9": "除了三个室内外泳池，EchelonSeaport特为客户提供了一个8,500平方英尺的健身中心，专属配备了SPA及室内外理疗区，享受生活，从健康开始。",
+            "text-10": "动与静的结合，阴与阳的平衡。无论是在健身中心重新燃烧自我激情，亦或是在附近的私人瑜伽馆尽享根源之美，EchelonSeaport 都会满足您的需求。",
+            "text-11": "追逐，是一种执着；跳跃，是一种激情。在两层高的室内篮球场中肆意奔跑，独有的科技墙尽显场上青春魅力的别样风采。更可享有顶级PGA职业选手专用的尖端高尔夫模拟器，一球，尽在我手。游戏，开始了……",
+            "text-12": "EchelonSeaport专享温泉与独一无二的空中花园相互连接，更添带有柚木香、天然石料的私人理疗室，尽情汲取“天然氧吧”之精华。您可以选择在室内进行理疗，也可享受郁郁葱葱的私人户外殿堂，在青葱的原生态环境中感受和谐美妙的氛围。",
+            "text-13": "独一无二的居住配套。Echelon创新中心以由波士顿 顶尖学府和孵化机构开发的项目为特色。居住在这里，你既可以和周边的业主一起，与高端商业、技术、和文化领袖精英们分享卓越的思维，也可以在一天的任何时候进行富有创意的工作。",
+            "text-14": "EchelonSeaport 的核心就是在省时便捷中尽享奢华。因此，您可以通过一系列Echelon Life APP，即时享有国际一流的管理和礼宾服务。您可随时为爱车呼叫礼宾泊车、预定餐厅酒店，甚至是预定飞往楠塔基特（或巴黎）的私人飞机服务等等。一切，尽在您的掌握之中。",
+            "text-15": "在空中酒廊休息室眺望波士顿海湾胜景，于静谧空间感知四季变迁。这是为住户专属预留的独家生活俱乐部，经过丽晶专业培训的工作人员服务贴心到位，将为您妥善安排每次的会面与聚餐。",
+            "text-16": "EchelonSeaport为您提供全新的宠物欢乐时光。在户外宠物活动区及游乐园同其他爱宠们玩耍，在宠物美容中心做“SPA”，您还能够通过Echelon Life APP与您的训宠师随时进行沟通交流。定令您的爱宠宾至如归，尽享生活的轻松舒适。",
+            "text-17": "EchelonSeaport的亲子乐园会令您好似重返童年时光，我们相信不仅仅是您自己，您的子女也会无法抵挡这里探索和欢愉的魅力，定会乐不思蜀。",
+            "elevate": "超乎您的想象",
+            "expectations": "", // empty second half of elevate
+            "captivating": "阳光与自然",
+            "grandpool": "The Grand Pool",
+            "echelonentertaining": "设计风格",
+            "impressive": "每个角度都令人印象深刻",
+            "chapter": "文化与艺术的传承",
+            "toast": "良辰与美酒",
+            "epicurean": "艺术与美食",
+            "regentcollection": "丽晶服务品质",
+            "fivestarservice": "五星级居住体验",
+            "echelonwellness": "健康生活",
+            "reinvigorate": "为生活注入新活力",
+            "fitness": "运动的升华",
+            "gaming": "球场上的激",
+            "zen": "私人禅式空间",
+            "culture": "ECHELON文化",
+            "innovation": "核心打造 创新无限",
+            "echelonlife": "ECHELON生活",
+            "aboveitall": "高空俯瞰",
+            "pets": "宠物社区",
+            "dogrun": "户外宠物活动区&宠物美容",
+            "playtime": "亲子乐园"
+        }
+    }
+};
+
+var flattenedTranslations = {};
+for(var language in translations) {
+    var languageTranslations = translations[language];
+
+    flattenedTranslations[language] = {};
+
+    for(var page in languageTranslations) {
+        var pageTranslations = languageTranslations[page];
+        for(var transkey in pageTranslations) {
+            var val = pageTranslations[transkey];
+            flattenedTranslations[language][page + "." + transkey] = val;
+        }
+    }
+}
+
+console.log("Here");
+console.log(flattenedTranslations);
+
+
+Vue.i18n.add('en', flattenedTranslations["en"]);
+Vue.i18n.add('cn', flattenedTranslations["cn"]);
+
+var languageSelected = (window.translanguage in flattenedTranslations) ? window.translanguage : "en";
+
+console.log("Set language to: ", languageSelected);
+Vue.i18n.set(languageSelected);
+window.trans = translations[languageSelected];
 
 // Sync vue-router-sync with vuex store
 sync(store, router);
@@ -336,5 +612,8 @@ router.afterEach((to, from) => {
 
 const App = new Vue({
     router,
-    store
+    store,
+    props: {
+        lang: {"header1": "Eeeee"}
+    }
 }).$mount("#app");

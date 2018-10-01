@@ -23,8 +23,8 @@
                 </div>
 
                 <div class="intro-component-cover-copy">
-                    <div>Urban resort living in</div>
-                    <div>Boston's most vibrant neighborhood.</div>
+                    <div>{{ $t("intro.header-1") }}</div>
+                    <div>{{ $t("intro.header-2") }}</div>
                 </div>
             </div>
         </div>

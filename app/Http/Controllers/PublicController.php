@@ -37,7 +37,7 @@ class PublicController extends Controller {
 
             return response()->file($path, [
                 'Content-Type' => $mimetype,
-                'Cache-Control' => "max-age=$max_age, public"
+                //'Cache-Control' => "max-age=$max_age, public"
             ]);
         } else {
             abort(404);

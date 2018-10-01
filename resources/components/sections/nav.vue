@@ -118,15 +118,15 @@
                 },
 
                 navLinks: [
-                    { path: "/lifestyle", title: "Lifestyle", page: "lifestyle" },
-                    { path: "/residences", title: "Residences", page: "residences" },
-                    { path: "/neighborhood", title: "Neighborhood", page: "neighborhood" },
-                    { path: "/architecture-and-design", title: "Architecture & Design", page: "architecture" },
-                    { path: "/floorplan-and-availability", title: "Floor Plans" },
-                    { path: "/news", title: "News" },
-                    { path: "/gallery", title: "Gallery" },
-                    { path: "/team", title: "Team" },
-                    { path: "/contact", title: "Contact" }
+                    { path: "/lifestyle", title: window.trans["pages"]["lifestyle"], page: "lifestyle" },
+                    { path: "/residences", title: window.trans["pages"]["residences"], page: "residences" },
+                    { path: "/neighborhood", title: window.trans["pages"]["neighborhood"], page: "neighborhood" },
+                    { path: "/architecture-and-design", title: window.trans["pages"]["architecture"], page: "architecture" },
+                    { path: "/floorplan-and-availability", title: window.trans["pages"]["floor-plans"] },
+                    { path: "/news", title: window.trans["pages"]["news"] },
+                    { path: "/gallery", title: window.trans["pages"]["gallery"] },
+                    { path: "/team", title: window.trans["pages"]["team"] },
+                    { path: "/contact", title: window.trans["pages"]["contact"] }
                 ]
             };
         },

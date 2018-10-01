@@ -22,6 +22,12 @@
                     Legal
                 </span>
             </p>
+            <p>
+                <span>
+                    <a href="/lang/en">EN</a> |
+                    <a href="/lang/cn">CN</a>
+                </span>
+            </p>
         </div>
 
         <div class="footer-component-legal">

@@ -53,32 +53,32 @@
                     {
                         id: "the-seaport",
                         image: "/img/home/the-seaport.jpg",
-                        title: "The <br />Seaport",
-                        body: "Anchoring Boston’s Innovation District is Boston’s most anticipated residential destination. <br />More than an address, EchelonSeaport offers an exciting new way to live.",
+                        title: window.trans["home"]["the-seaport"],
+                        body: window.trans["home"]["anchoring"],
                         to: "/neighborhood"
                     },
 
                     {
                         id: "kpf-architecture",
                         image: "/img/home/kpf-architecture.jpg",
-                        title: "KPF Architecture <br />Jeffrey Beers Design",
-                        body: "EchelonSeaport is a defining contemporary landmark <br />by internationally-lauded Kohn Pedersen Fox featuring <br />sophisticated amenities crafted by globally recognized <br />interior designer Jeffrey Beers.",
+                        title: window.trans["home"]["kpf-architecture"],
+                        body: window.trans["home"]["contemporary-landmark"],
                         to: "/architecture-and-design"
                     },
 
                     {
                         id: "urban-resort",
                         image: "/img/home/urban-resort.jpg",
-                        title: "Urban Resort <br />Living",
-                        body: "Extraordinary in every aspect, EchelonSeaport <br />offers a wealth of amenities beyond anything ever before offered in Boston.",
+                        title: window.trans["home"]["urban-living"],
+                        body: window.trans["home"]["extraordinary"],
                         to: "/lifestyle"
                     },
 
                     {
                         id: "modern-living",
                         image: "/img/home/modern-living.jpg",
-                        title: "Modern <br />Living",
-                        body: "A canvas for personal style. Residences feature <br />oversized window walls capturing city, sky and harbor views <br />and are bathed in natural light.",
+                        title: window.trans["home"]["modern-living"],
+                        body: window.trans["home"]["canvas"],
                         to: "/residences"
                     }
                 ]

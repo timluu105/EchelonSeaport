@@ -1,8 +1,8 @@
 <template>
     <div class="contact-component">
         <div class="contact-component-wrapper">
-            <h2>Interested in learning more?</h2>
-            <h5>To receive exclusive updates, please provide your contact information below.</h5>
+            <h2>window.trans["contact"]["interested"]</h2>
+            <h5>window.trans["contact"]["receive-updates"]</h5>
             <contact-registration />
         </div>
     </div>
