@@ -26655,28 +26655,28 @@ var translations = {
             "units-described": "本网站描述的并在“丽晶”和/或“丽晶系列”商标许可下销售的住宅单位未由丽晶亚太地区管理有限公司（“丽晶”）或其任何附属公司所拥有、开发或销售，且丽晶及其任何附属公司对此类住宅单位将不作出任何陈述、保证或担保。"
         },
         "images": {
-            "image-1": "EchelonSeaport波士顿海港区EchelonSeaport",
-            "image-2": "133 Seaport1号楼建筑外观",
-            "image-3": "135 Seaport2号楼建筑外观",
-            "image-4": "Central Courtyard中央庭院",
-            "image-5": "Iconic Pedestrian Bridge标志性廊桥",
-            "image-6": "Courtyard Retail中央庭院商业",
-            "image-7": "133 Lobby1号楼大堂",
-            "image-8": "133 Sky Lounge1号楼空中酒廊",
-            "image-9": "Fireplace Lounge壁炉休息室",
-            "image-10": "Library Lounge图书馆及商务中心",
-            "image-11": "Tasting Room品酒室",
-            "image-12": "135 Seaport Lounge2号楼大堂",
-            "image-13": "Echelon Innovation Center创新中心",
-            "image-14": "The Relaxation Pool室内游泳池",
-            "image-15": "Hi-Def Basketball Court室内篮球馆",
-            "image-16": "The Spa at EchelonSeaport SPA室",
-            "image-17": "The Grand Pool室外大游泳池",
-            "image-18": "The Waterfall Terrace Pool瀑布游泳池",
-            "image-19": "Outdoor Fireplace Lounge室外壁炉休息空间",
-            "image-20": "133 Resident Living Room客厅",
-            "image-21": "133 Resident Kitchen厨房",
-            "image-22": "133 Resident Terrace阳台"
+            "image-1": "波士顿海港区EchelonSeaport",
+            "image-2": "号楼建筑外观",
+            "image-3": "号楼建筑外观",
+            "image-4": "中央庭院",
+            "image-5": "标志性廊桥",
+            "image-6": "中央庭院商业",
+            "image-7": "号楼大堂",
+            "image-8": "号楼空中酒廊",
+            "image-9": "壁炉休息室",
+            "image-10": "图书馆及商务中心",
+            "image-11": "品酒室",
+            "image-12": "号楼大堂",
+            "image-13": "创新中心",
+            "image-14": "室内游泳池",
+            "image-15": "室内篮球馆",
+            "image-16": "室",
+            "image-17": "室外大游泳池",
+            "image-18": "瀑布游泳池",
+            "image-19": "室外壁炉休息空间",
+            "image-20": "客厅",
+            "image-21": "厨房",
+            "image-22": "阳台"
         }
     }
 };
@@ -26971,7 +26971,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-86941506", __vue__options__)
   } else {
-    hotAPI.reload("data-v-86941506", __vue__options__)
+    hotAPI.rerender("data-v-86941506", __vue__options__)
   }
 })()}
 },{"vue":10,"vue-hot-reload-api":5}],21:[function(require,module,exports){
@@ -27012,7 +27012,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-3b18e866", __vue__options__)
   } else {
-    hotAPI.reload("data-v-3b18e866", __vue__options__)
+    hotAPI.rerender("data-v-3b18e866", __vue__options__)
   }
 })()}
 },{"mixins/base-page.js":17,"sections/contact-registration.vue":41,"vue":10,"vue-hot-reload-api":5}],22:[function(require,module,exports){
@@ -27045,7 +27045,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-c482ee4c", __vue__options__)
   } else {
-    hotAPI.reload("data-v-c482ee4c", __vue__options__)
+    hotAPI.rerender("data-v-c482ee4c", __vue__options__)
   }
 })()}
 },{"mixins/base-page.js":17,"vue":10,"vue-hot-reload-api":5}],23:[function(require,module,exports){
@@ -27086,7 +27086,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-3fbf97af", __vue__options__)
   } else {
-    hotAPI.reload("data-v-3fbf97af", __vue__options__)
+    hotAPI.rerender("data-v-3fbf97af", __vue__options__)
   }
 })()}
 },{"mixins/base-page.js":17,"sections/contact-registration.vue":41,"vue":10,"vue-hot-reload-api":5}],24:[function(require,module,exports){
@@ -27227,7 +27227,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-8ee55ad0", __vue__options__)
   } else {
-    hotAPI.reload("data-v-8ee55ad0", __vue__options__)
+    hotAPI.rerender("data-v-8ee55ad0", __vue__options__)
   }
 })()}
 },{"mixins/base-page.js":17,"partials/image-slider.vue":35,"partials/modal-gallery.vue":38,"vue":10,"vue-hot-reload-api":5}],25:[function(require,module,exports){
@@ -27352,7 +27352,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-29bf0d09", __vue__options__)
   } else {
-    hotAPI.reload("data-v-29bf0d09", __vue__options__)
+    hotAPI.rerender("data-v-29bf0d09", __vue__options__)
   }
 })()}
 },{"mixins/base-page.js":17,"vue":10,"vue-hot-reload-api":5}],26:[function(require,module,exports){
@@ -27376,7 +27376,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-4d032b0a", __vue__options__)
   } else {
-    hotAPI.reload("data-v-4d032b0a", __vue__options__)
+    hotAPI.rerender("data-v-4d032b0a", __vue__options__)
   }
 })()}
 },{"vue":10,"vue-hot-reload-api":5}],27:[function(require,module,exports){
@@ -27518,7 +27518,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-d0b7c490", __vue__options__)
   } else {
-    hotAPI.reload("data-v-d0b7c490", __vue__options__)
+    hotAPI.rerender("data-v-d0b7c490", __vue__options__)
   }
 })()}
 },{"mixins/base-page.js":17,"partials/captioned-image.vue":33,"partials/dual-image-column.vue":34,"partials/image-slider.vue":35,"partials/inset-image.vue":36,"partials/modal-gallery.vue":38,"partials/stripe.vue":39,"sections/neighborhood-map.vue":45,"vue":10,"vue-hot-reload-api":5}],28:[function(require,module,exports){
@@ -27574,7 +27574,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-cc44ee06", __vue__options__)
   } else {
-    hotAPI.reload("data-v-cc44ee06", __vue__options__)
+    hotAPI.rerender("data-v-cc44ee06", __vue__options__)
   }
 })()}
 },{"mixins/base-page.js":17,"vue":10,"vue-hot-reload-api":5}],29:[function(require,module,exports){
@@ -27680,7 +27680,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-7d1b7edf", __vue__options__)
   } else {
-    hotAPI.reload("data-v-7d1b7edf", __vue__options__)
+    hotAPI.rerender("data-v-7d1b7edf", __vue__options__)
   }
 })()}
 },{"mixins/base-page.js":17,"vue":10,"vue-hot-reload-api":5}],30:[function(require,module,exports){
@@ -27721,7 +27721,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-4fa431d7", __vue__options__)
   } else {
-    hotAPI.reload("data-v-4fa431d7", __vue__options__)
+    hotAPI.rerender("data-v-4fa431d7", __vue__options__)
   }
 })()}
 },{"mixins/base-page.js":17,"sections/contact-registration.vue":41,"vue":10,"vue-hot-reload-api":5}],31:[function(require,module,exports){
@@ -27779,7 +27779,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-397528f2", __vue__options__)
   } else {
-    hotAPI.reload("data-v-397528f2", __vue__options__)
+    hotAPI.rerender("data-v-397528f2", __vue__options__)
   }
 })()}
 },{"vue":10,"vue-hot-reload-api":5}],32:[function(require,module,exports){
@@ -27812,7 +27812,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-fdcce51a", __vue__options__)
   } else {
-    hotAPI.reload("data-v-fdcce51a", __vue__options__)
+    hotAPI.rerender("data-v-fdcce51a", __vue__options__)
   }
 })()}
 },{"mixins/base-page.js":17,"vue":10,"vue-hot-reload-api":5}],33:[function(require,module,exports){
@@ -27851,7 +27851,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-32ae9015", __vue__options__)
   } else {
-    hotAPI.reload("data-v-32ae9015", __vue__options__)
+    hotAPI.rerender("data-v-32ae9015", __vue__options__)
   }
 })()}
 },{"mixins/prevent-dangling-words.js":18,"vue":10,"vue-hot-reload-api":5}],34:[function(require,module,exports){
@@ -27890,7 +27890,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-08d52dbb", __vue__options__)
   } else {
-    hotAPI.reload("data-v-08d52dbb", __vue__options__)
+    hotAPI.rerender("data-v-08d52dbb", __vue__options__)
   }
 })()}
 },{"mixins/prevent-dangling-words.js":18,"vue":10,"vue-hot-reload-api":5}],35:[function(require,module,exports){
@@ -28116,7 +28116,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-182e9afe", __vue__options__)
   } else {
-    hotAPI.reload("data-v-182e9afe", __vue__options__)
+    hotAPI.rerender("data-v-182e9afe", __vue__options__)
   }
 })()}
 },{"vue":10,"vue-hot-reload-api":5}],36:[function(require,module,exports){
@@ -28146,7 +28146,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-f4f499a6", __vue__options__)
   } else {
-    hotAPI.reload("data-v-f4f499a6", __vue__options__)
+    hotAPI.rerender("data-v-f4f499a6", __vue__options__)
   }
 })()}
 },{"vue":10,"vue-hot-reload-api":5}],37:[function(require,module,exports){
@@ -28243,7 +28243,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-6a38e839", __vue__options__)
   } else {
-    hotAPI.reload("data-v-6a38e839", __vue__options__)
+    hotAPI.rerender("data-v-6a38e839", __vue__options__)
   }
 })()}
 },{"vue":10,"vue-hot-reload-api":5}],38:[function(require,module,exports){
@@ -28333,7 +28333,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-5ce428b4", __vue__options__)
   } else {
-    hotAPI.reload("data-v-5ce428b4", __vue__options__)
+    hotAPI.rerender("data-v-5ce428b4", __vue__options__)
   }
 })()}
 },{"vue":10,"vue-hot-reload-api":5}],39:[function(require,module,exports){
@@ -28372,7 +28372,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-4bda30bb", __vue__options__)
   } else {
-    hotAPI.reload("data-v-4bda30bb", __vue__options__)
+    hotAPI.rerender("data-v-4bda30bb", __vue__options__)
   }
 })()}
 },{"mixins/prevent-dangling-words.js":18,"vue":10,"vue-hot-reload-api":5}],40:[function(require,module,exports){
@@ -28543,7 +28543,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-fd3fce2a", __vue__options__)
   } else {
-    hotAPI.reload("data-v-fd3fce2a", __vue__options__)
+    hotAPI.rerender("data-v-fd3fce2a", __vue__options__)
   }
 })()}
 },{"vue":10,"vue-hot-reload-api":5}],41:[function(require,module,exports){
@@ -28598,7 +28598,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-d4ac09d0", __vue__options__)
   } else {
-    hotAPI.reload("data-v-d4ac09d0", __vue__options__)
+    hotAPI.rerender("data-v-d4ac09d0", __vue__options__)
   }
 })()}
 },{"vue":10,"vue-hot-reload-api":5}],42:[function(require,module,exports){
@@ -28658,7 +28658,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-19142326", __vue__options__)
   } else {
-    hotAPI.reload("data-v-19142326", __vue__options__)
+    hotAPI.rerender("data-v-19142326", __vue__options__)
   }
 })()}
 },{"vue":10,"vue-hot-reload-api":5}],43:[function(require,module,exports){
@@ -28740,7 +28740,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-3900d80a", __vue__options__)
   } else {
-    hotAPI.reload("data-v-3900d80a", __vue__options__)
+    hotAPI.rerender("data-v-3900d80a", __vue__options__)
   }
 })()}
 },{"vue":10,"vue-hot-reload-api":5}],44:[function(require,module,exports){
@@ -28808,8 +28808,8 @@ exports.default = {
 if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
-__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('nav',{staticClass:"navbar-component",class:'theme-' + _vm.$store.getters.getNavTheme},[_c('div',{staticClass:"navbar-component-spacer"}),_vm._v(" "),_c('div',{staticClass:"navbar-component-nav",class:{ 'nav-hidden': _vm.$store.getters.getNavHidden }},[_c('div',{staticClass:"navbar-mobile-header"},[_c('a',{staticClass:"navbar-mobile-header-phone-link",attrs:{"id":"main-number-nav","href":_vm.$store.getters.getMainNumberLink}},[_c('i',{staticClass:"fa fa-phone"}),_vm._v(" "+_vm._s(_vm.$store.getters.getMainNumber)+"\n            ")]),_vm._v(" "),_c('button',{staticClass:"navbar-mobile-header-toggle",class:{ open: _vm.openNav },on:{"click":function($event){_vm.openNav = !_vm.openNav}}},[_c('span',{staticClass:"icon-bar"}),_vm._v(" "),_c('span',{staticClass:"icon-bar"}),_vm._v(" "),_c('span',{staticClass:"icon-bar"}),_vm._v(" "),_c('span',{staticClass:"sr-only"},[_vm._v("Toggle navigation")])]),_vm._v(" "),_c('router-link',{staticClass:"navbar-mobile-header-logo",attrs:{"to":"/","exact":""}},[_c('div',{staticClass:"navbar-mobile-header-logo-image dark"}),_vm._v(" "),_c('div',{staticClass:"navbar-mobile-header-logo-image light"})]),_vm._v(" "),_c('div',{staticClass:"navbar-mobile-header-cta-toggle",class:{ 'cta-open': this.$store.getters.getCtaOpen },on:{"click":_vm.toggleCTA}},[_c('div',{staticClass:"navbar-mobile-header-cta-toggle-inner"})])],1),_vm._v(" "),_c('div',{staticClass:"navlinks",class:{ open: _vm.openNav }},[_c('div',{staticClass:"navlinks-wrapper"},[_c('router-link',{staticClass:"desktop-logo",attrs:{"to":"/","exact":""}},[_c('img',{staticClass:"desktop-logo-image dark",attrs:{"src":"/img/logo-icon-nav.svg","alt":"Echelon Seaport"}}),_vm._v(" "),_c('img',{staticClass:"desktop-logo-image light",attrs:{"src":"/img/logo-icon-nav-white.svg","alt":"Echelon Seaport"}})]),_vm._v(" "),_vm._l((_vm.navLinks),function(link){return _c('router-link',{staticClass:"navlink",attrs:{"to":link.path,"exact":""}},[_c('div',{staticClass:"spacer"},[_vm._v(_vm._s(link.title))]),_vm._v(" "),_c('div',{staticClass:"link"},[_vm._v("\n                        "+_vm._s(link.title)+"\n\n                        "),(link.hasOwnProperty('page') && _vm.subnavLinks.hasOwnProperty(link.page))?_c('div',{staticClass:"subnav"},[_vm._l((_vm.subnavLinks[link.page]),function(subnavLink){return [(link.path === _vm.$route.path)?_c('a',{staticClass:"subnav-link",attrs:{"href":'#' + subnavLink.id},on:{"click":function($event){$event.preventDefault();_vm.scrollToAnchor('#' + subnavLink.id)}}},[_vm._v("\n\n                                    "+_vm._s(subnavLink.title)+"\n                                ")]):_c('router-link',{staticClass:"subnav-link",attrs:{"to":link.path + '#' + subnavLink.id}},[_vm._v("\n\n                                    "+_vm._s(subnavLink.title)+"\n                                ")])]})],2):_vm._e()])])}),_vm._v(" "),_c('a',{staticClass:"navlink hide-mobile",attrs:{"href":_vm.$store.getters.getMainNumberLink}},[_c('div',{staticClass:"link"},[_c('i',{staticClass:"fa fa-phone"}),_vm._v(" "+_vm._s(_vm.$store.getters.getMainNumber))]),_vm._v(" "),_c('div',{staticClass:"spacer"},[_c('i',{staticClass:"fa fa-phone"}),_vm._v(" "+_vm._s(_vm.$store.getters.getMainNumber))])])],2)])])])}
-__vue__options__.staticRenderFns = []
+__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('nav',{staticClass:"navbar-component",class:'theme-' + _vm.$store.getters.getNavTheme},[_c('div',{staticClass:"navbar-component-spacer"}),_vm._v(" "),_c('div',{staticClass:"navbar-component-nav",class:{ 'nav-hidden': _vm.$store.getters.getNavHidden }},[_c('div',{staticClass:"navbar-mobile-header"},[_c('a',{staticClass:"navbar-mobile-header-phone-link",attrs:{"id":"main-number-nav","href":_vm.$store.getters.getMainNumberLink}},[_c('i',{staticClass:"fa fa-phone"}),_vm._v(" "+_vm._s(_vm.$store.getters.getMainNumber)+"\n            ")]),_vm._v(" "),_c('button',{staticClass:"navbar-mobile-header-toggle",class:{ open: _vm.openNav },on:{"click":function($event){_vm.openNav = !_vm.openNav}}},[_c('span',{staticClass:"icon-bar"}),_vm._v(" "),_c('span',{staticClass:"icon-bar"}),_vm._v(" "),_c('span',{staticClass:"icon-bar"}),_vm._v(" "),_c('span',{staticClass:"sr-only"},[_vm._v("Toggle navigation")])]),_vm._v(" "),_c('router-link',{staticClass:"navbar-mobile-header-logo",attrs:{"to":"/","exact":""}},[_c('div',{staticClass:"navbar-mobile-header-logo-image dark"}),_vm._v(" "),_c('div',{staticClass:"navbar-mobile-header-logo-image light"})]),_vm._v(" "),_c('div',{staticClass:"navbar-mobile-header-cta-toggle",class:{ 'cta-open': this.$store.getters.getCtaOpen },on:{"click":_vm.toggleCTA}},[_c('div',{staticClass:"navbar-mobile-header-cta-toggle-inner"})])],1),_vm._v(" "),_c('div',{staticClass:"navlinks",class:{ open: _vm.openNav }},[_c('div',{staticClass:"navlinks-wrapper"},[_c('router-link',{staticClass:"desktop-logo",attrs:{"to":"/","exact":""}},[_c('img',{staticClass:"desktop-logo-image dark",attrs:{"src":"/img/logo-icon-nav.svg","alt":"Echelon Seaport"}}),_vm._v(" "),_c('img',{staticClass:"desktop-logo-image light",attrs:{"src":"/img/logo-icon-nav-white.svg","alt":"Echelon Seaport"}})]),_vm._v(" "),_vm._l((_vm.navLinks),function(link){return _c('router-link',{staticClass:"navlink",attrs:{"to":link.path,"exact":""}},[_c('div',{staticClass:"spacer"},[_vm._v(_vm._s(link.title))]),_vm._v(" "),_c('div',{staticClass:"link"},[_vm._v("\n                        "+_vm._s(link.title)+"\n\n                        "),(link.hasOwnProperty('page') && _vm.subnavLinks.hasOwnProperty(link.page))?_c('div',{staticClass:"subnav"},[_vm._l((_vm.subnavLinks[link.page]),function(subnavLink){return [(link.path === _vm.$route.path)?_c('a',{staticClass:"subnav-link",attrs:{"href":'#' + subnavLink.id},on:{"click":function($event){$event.preventDefault();_vm.scrollToAnchor('#' + subnavLink.id)}}},[_vm._v("\n\n                                    "+_vm._s(subnavLink.title)+"\n                                ")]):_c('router-link',{staticClass:"subnav-link",attrs:{"to":link.path + '#' + subnavLink.id}},[_vm._v("\n\n                                    "+_vm._s(subnavLink.title)+"\n                                ")])]})],2):_vm._e()])])}),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('a',{staticClass:"navlink hide-mobile",attrs:{"href":_vm.$store.getters.getMainNumberLink}},[_c('div',{staticClass:"link"},[_c('i',{staticClass:"fa fa-phone"}),_vm._v(" "+_vm._s(_vm.$store.getters.getMainNumber))]),_vm._v(" "),_c('div',{staticClass:"spacer"},[_c('i',{staticClass:"fa fa-phone"}),_vm._v(" "+_vm._s(_vm.$store.getters.getMainNumber))])])],2)])])])}
+__vue__options__.staticRenderFns = [function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"navlink"},[_c('div',{staticClass:"spacer"},[_c('i',{staticClass:"fa fa-globe"})]),_vm._v(" "),_c('div',{staticClass:"link"},[_c('i',{staticClass:"fa fa-globe"}),_vm._v(" "),_c('div',{staticClass:"subnav"},[_c('a',{staticClass:"subnav-link",attrs:{"href":"/lang/en"}},[_vm._v("EN")]),_vm._v(" "),_c('a',{staticClass:"subnav-link",attrs:{"href":"/lang/cn"}},[_vm._v("CN")])])])])}]
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
@@ -28817,7 +28817,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-360670c1", __vue__options__)
   } else {
-    hotAPI.reload("data-v-360670c1", __vue__options__)
+    hotAPI.rerender("data-v-360670c1", __vue__options__)
   }
 })()}
 },{"mixins/scroll-to-anchor.js":19,"vue":10,"vue-hot-reload-api":5}],45:[function(require,module,exports){
@@ -28901,7 +28901,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-7179dd22", __vue__options__)
   } else {
-    hotAPI.reload("data-v-7179dd22", __vue__options__)
+    hotAPI.rerender("data-v-7179dd22", __vue__options__)
   }
 })()}
 },{"vue":10,"vue-hot-reload-api":5}]},{},[15]);

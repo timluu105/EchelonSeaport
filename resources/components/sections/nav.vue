@@ -86,6 +86,17 @@
                         </div>
                     </router-link>
 
+                    <div class="navlink">
+                        <div class="spacer"><i class="fa fa-globe"></i></div>
+                        <div class="link">
+                            <i class="fa fa-globe"></i>
+                            <div class="subnav">
+                                <a href="/lang/en" class="subnav-link">EN | English</a>
+                                <a href="/lang/cn" class="subnav-link">CN | Chinese</a>
+                            </div>
+                        </div>
+                    </div>
+
                     <a class="navlink hide-mobile" :href="$store.getters.getMainNumberLink">
                         <div class="link"><i class="fa fa-phone"></i>&nbsp;{{ $store.getters.getMainNumber }}</div>
                         <div class="spacer"><i class="fa fa-phone"></i>&nbsp;{{ $store.getters.getMainNumber }}</div>
