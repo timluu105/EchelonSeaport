@@ -26312,11 +26312,11 @@ var translations = {
             "contact": "Contact"
         },
         "architecture": {
-            "stripe-content-body": "This is the premiere address at the Seaport, encompassing an entire city block. A defining contemporary landmark by internationally-lauded Kohn Pedersen Fox (KPF). A trio of residential towers anchored by a center destination courtyard with an architecturally-striking landmark bridge, pedestrian lanes and beautiful&nbsp;tree&nbsp;canopies.",
-            "caption-body": "Art meets commerce. Surrounded by striking architecture, the central courtyard will be one of the most talked-about public spaces in Boston, populated by destination retail and signature&nbsp;epicurean&nbsp;experiences.",
+            "stripe-content-body": "This is the premiere address at the Seaport, encompassing an entire city block. A defining contemporary landmark by internationally-lauded Kohn Pedersen Fox (KPF). A trio of residential towers anchored by a center destination courtyard with an architecturally-striking landmark bridge, pedestrian lanes and beautiful tree canopies.",
+            "caption-body": "Art meets commerce. Surrounded by striking architecture, the central courtyard will be one of the most talked-about public spaces in Boston, populated by destination retail and signature epicurean experiences.",
             "jeff-beers-international": "Interior Design by Jeffrey Beers International",
-            "globally-recognized": "Globally recognized, Jeffrey Beers has created some of the most recognized hospitality environments for Four Seasons, Langham Hotels, and Ritz Carlton. For EchelonSeaport he created elegant and superbly crafted arrival and amenity spaces with a strong eye for detail&nbsp;and&nbsp;meaning.",
-            "design-sensibility": "Jeffrey Beers' design sensibility combines crisp lines, unexpected textures, and natural materials that combine style and functionality. The distinctive interiors for EchelonSeaport were crafted to feel like an extension of one's own living room; warm, inviting and comfortable. Creating a sense of community the amenity experiences encourage residents to gather&nbsp;and&nbsp;socialize.",
+            "globally-recognized": "Globally recognized, Jeffrey Beers has created some of the most recognized hospitality environments for Four Seasons, Langham Hotels, and Ritz Carlton. For EchelonSeaport he created elegant and superbly crafted arrival and amenity spaces with a strong eye for detail and meaning.",
+            "design-sensibility": "Jeffrey Beers' design sensibility combines crisp lines, unexpected textures, and natural materials that combine style and functionality. The distinctive interiors for EchelonSeaport were crafted to feel like an extension of one's own living room; warm, inviting and comfortable. Creating a sense of community the amenity experiences encourage residents to gather and socialize.",
             "boston-is-heading": "This is Where Boston is Heading",
             "shaping-the-future": "Shaping the Future",
             "architecture-by": "Architecture By Kohn Pedersen Fox",
@@ -26349,7 +26349,17 @@ var translations = {
             "soaring-heights": "Charming, historic, cosmopolitan Boston has a brand-new face. The Seaport District has rapidly come into its own, becoming one the premiere neighborhoods in Boston.",
             "grandly-scaled": "Not just for dining, the Seaport District is shaping up to be Boston’s chicest neighborhood. With retailers ranging from innovative eyewear company, Warby Parker to classic brands like Filson, Lululemon and L.L. Bean there’s something for everyone. And that’s just the beginning…",
             "seaport-sweat": "Whether you like to run, walk or bike there is no better place to break a sweat than Seaport’s picturesque waterfront. The neighborhood sets a high bar for wellness with outdoor workouts on Seaport Green featuring the best of local and national fitness companies from Everybody Fights to Soulcycle and Equinox. Stock up on new gear at Lululemon or L.L Bean or grab a healthy meal at Juice Press and byChloe. Wellness made easy.",
-            "gallery": "Discover the Seaport. Vibrant and energetic, the Seaport neighborhood has arrived. On the cutting edge of Boston’s dining, shopping, and culture scene it's no wonder the Seaport is the city’s hottest “new” neighborhood."
+            "gallery": "Discover the Seaport. Vibrant and energetic, the Seaport neighborhood has arrived. On the cutting edge of Boston’s dining, shopping, and culture scene it's no wonder the Seaport is the city’s hottest “new” neighborhood.",
+            "get-centered": "Get Centered.",
+            "get-connected": "Get Connected.",
+            "seaport-neighborhood": "Seaport Neighborhood",
+            "wellness": "Destination Wellness",
+            "seaport-styled": "Seaport Styled",
+            "new-center": "The New Center of Boston",
+            "gallery-subtitle": "Neighborhood",
+            "gallery-title": "Gallery",
+            "seaport-dining-1": "Seaport",
+            "seaport-dining-2": "Dining"
         },
         "team": {
             "team-1": "Echelon Life represents the evolution of a new development philosophy that pairs extraordinary design with incomparable lifestyle amenities. Cottonwood Management, headquartered in Los Angeles, with over $2 Billion in assets under management, chose Boston as its East Coast headquarters and inaugural Echelon Life city, in recognition and reflection of the energy, academic spirit and innovative drive that permeate the city and make Boston’s urban life so appealing.",
@@ -26358,39 +26368,73 @@ var translations = {
             "team-4": "Regent Hotels & Resorts, known the world over for award-winning, white gloved five-star service, has teamed with Cottonwood to bring its expertise to Boston for EchelonSeaport, its first Regent Collection property in the United States. Regent will bring a sense of style and attention to service detail second to none to EchelonSeaport.",
             "team-5": "CBT Architects know Boston intimately and has teamed with KPF to bring EchelonSeaport to life in Boston. The award-winning architect has designed many of the finest residential projects in the City, including the Mandarin Oriental Condominiums, Twenty-Two Liberty and Millennium Ritz Carlton Boston.",
             "team-6": "Boston's leading builder in the Seaport District, John Moriarty & Associates is at the helm for EchelonSeaport. Renowned for their quality of delivered product, JMA has built over 20,000 luxury condominiums on the East Coast. Boston-based and privately owned, JMA thrives and succeeds building urban projects for trusted repeat clients and partners.",
-            "team-7": "Boston-based TCC has been the market leader in dedicated project condominium sales in and around the city, successfully closing over $6 billion in urban and suburban real estate sales over the past three decades. TCC's well-renowned sales team at EchelonSeaport has helped shape an unprecedented Sales & Experience Center for residents to explore all facets of Echelon Life."
+            "team-7": "Boston-based TCC has been the market leader in dedicated project condominium sales in and around the city, successfully closing over $6 billion in urban and suburban real estate sales over the past three decades. TCC's well-renowned sales team at EchelonSeaport has helped shape an unprecedented Sales & Experience Center for residents to explore all facets of Echelon Life.",
+            "team-1-role": "Developer",
+            "team-2-role": "Architect",
+            "team-3-role": "Amenities Interiors",
+            "team-4-role": "Service Standards",
+            "team-4-name": "Regent Hotels &amp; Resorts",
+            "team-5-role": "Residence Architect",
+            "team-6-role": "Builder",
+            "team-7-role": "Sales &amp; Marketing"
+        },
+        "contact-form": {
+            "broker": "Are You Currently Represented By A Broker?",
+            "first-name": "Your First Name",
+            "last-name": "Your Last Name",
+            "email": "Your Email",
+            "phone": "Your Phone",
+            "street": "Your Street Address",
+            "city": "City",
+            "state": "State",
+            "zip": "Zip",
+            "type": "Type of Residence",
+            "studio": "Studio",
+            "1-bedroom-a": "1 Bed",
+            "1-bedroom-b": "1 Bed + Den/1BA",
+            "2-bedroom": "2 Bed + Den/2.5 BA",
+            "3-bedroom": "3 Bed/3-3.5 BA",
+            "interested": "I’m Interested"
         },
         "residences": {
             "text-1": "The two contextual towers are a refined addition to the Seaport skyline. Timelessly crafted in stone and glass, Kohn Pedersen Fox created a silhouette with setbacks enhancing select residences with oversized private terraces.",
             "text-2": "Live large. A flagship address offering 255 condominium residences with Boston Harbor and Seaport park views, generous private stepped terraces, grand and elegant interiors, and extensive outdoor amenities including a spa pool, lounge and dining areas.",
             "text-3": "Live modern. Contemporary and cool, 135 Seaport offers 192 condominium residences with Harbor and wrap-around city and sunset views to the west. The expansive fifth-floor terrace offers a grand outdoor pool, sun cabanas, outdoor dining and lounge areas.",
-            "text-4": "Addressed to impress, the flagship residence at EchelonSeaport offers a hospitality-driven lifestyle experience. From the singular arrival and amenity experiences to the smartly crafted condominiums, every touchpoint emanates the extraordinariness of&nbsp;this&nbsp;residence.",
-            "text-5": "The Jeffrey Beers designed, double-height, 24-hour attended lobby ushers in the elevated design experience. Exotic marbles, warm woods, and intriguing metals create a richly-textured lobby experience with multiple conversation areas. Embracing the art of hospitality, this is an urban resort warm, inviting, comfortable and stimulating. By creating a sense of community, the lobby experiences encourage residents to gather&nbsp;and&nbsp;socialize.",
-            "text-6": "Each residence is a canvas for personal style with oversized window walls capturing city, sky and harbor views. Homes are bathed in natural light with engineered white oak wood plank&nbsp;flooring&nbsp;throughout.",
-            "text-7": "Dynamic vistas are offered at all levels, intimate views of the landscaped courtyard, glittering panoramas of the ever-changing skyline, and a captivating new perspective of the&nbsp;Boston&nbsp;Harbor.",
-            "text-8": "Both foodies and take-out aficionados will appreciate the clean lines of the open kitchens outfitted with custom cabinetry imported from Italy, and a state-of-the-art suite of top-of-the-line&nbsp;integrated&nbsp;appliances.",
-            "text-9": "The tiered silhouette of EchelonSeaport creates an array of oversized private outdoor terraces rarely seen in Boston. Designed to be an extension of your living and dining rooms, best enjoyed on beautiful spring, summer and&nbsp;fall&nbsp;days.",
+            "text-4": "Addressed to impress, the flagship residence at EchelonSeaport offers a hospitality-driven lifestyle experience. From the singular arrival and amenity experiences to the smartly crafted condominiums, every touchpoint emanates the extraordinariness of this residence.",
+            "text-5": "The Jeffrey Beers designed, double-height, 24-hour attended lobby ushers in the elevated design experience. Exotic marbles, warm woods, and intriguing metals create a richly-textured lobby experience with multiple conversation areas. Embracing the art of hospitality, this is an urban resort warm, inviting, comfortable and stimulating. By creating a sense of community, the lobby experiences encourage residents to gather and socialize.",
+            "text-6": "Each residence is a canvas for personal style with oversized window walls capturing city, sky and harbor views. Homes are bathed in natural light with engineered white oak wood plank flooring throughout.",
+            "text-7": "Dynamic vistas are offered at all levels, intimate views of the landscaped courtyard, glittering panoramas of the ever-changing skyline, and a captivating new perspective of the Boston Harbor.",
+            "text-8": "Both foodies and take-out aficionados will appreciate the clean lines of the open kitchens outfitted with custom cabinetry imported from Italy, and a state-of-the-art suite of top-of-the-line integrated appliances.",
+            "text-9": "The tiered silhouette of EchelonSeaport creates an array of oversized private outdoor terraces rarely seen in Boston. Designed to be an extension of your living and dining rooms, best enjoyed on beautiful spring, summer and fall days.",
             "two-addresses": "Two addresses.",
-            "singular-destination": "A Singular Destination."
+            "singular-destination": "A Singular Destination.",
+            "different-by-design": "Different by Design",
+            "133-seaport-residences": "133 Seaport Residences",
+            "living-work": "A Living Work of Art",
+            "own-sky": "Own the Sky",
+            "top-chef": "Top Chef",
+            "signature-terraces": "Signature City Terraces",
+            "preview-of": "For a Preview of EchelonSeaport",
+            "contact-info": "Please Provide Your Contact Information Below"
         },
         "lifestyle": {
-            "text-1": "An address unlike anywhere else. Indoors and out, EchelonSeaport offers a captivating lifestyle experience, with over 50,000 square feet of amenities designed by Jeffrey Beers International, the leading tastemaker in&nbsp;hospitality&nbsp;interiors.",
-            "text-2": "EchelonSeaport will offer the most talked about outdoor amenity spaces in Boston with manicured gardens, al fresco dining areas, and poolside sun terraces with cabanas. This is an outdoor living room for all residents&nbsp;to&nbsp;enjoy.",
-            "text-3": "Boldly inviting. EchelonSeaport offers three distinctive pool experiences designed to create a design-centric sanctuary at The Seaport. This is not just another residential address. This is an&nbsp;urban&nbsp;resort.",
-            "text-4": "Impeccably styled on a grand scale, a collection of social lounges overlook the outdoor gardens and amenities. Stylishly detailed, with soaring ceiling heights and rich architectural details. These spaces can be reserved for private entertaining&nbsp;and&nbsp;meetings.",
-            "text-5": "Inspired by Boston's rich intellectual heritage, the Library Lounge is appointed with curated artwork and photography. Comfortable seating areas create an ideal setting for a cocktail and a&nbsp;good&nbsp;book.",
-            "text-6": "Temperature-controlled wine storage, handsomely finished with custom wood and glass cabinetry offers an inviting space to sip, savor and learn about wine&nbsp;and&nbsp;viniculture.",
-            "text-7": "This is Boston's most coveted dinner invitation. Jeffrey Beers has designed for the industry's most recognized chefs, including Jean Georges Vongerichten and Todd English. At EchelonSeaport, he brings a special flair to the Private Dining Rooms with a state-of-the-art exhibition kitchen at&nbsp;the&nbsp;ready.",
-            "text-8": "Globally recognized for their unparalleled and intuitive hospitality standards, Regent Hotels &amp; Resorts has been selected to manage and oversee Residential Services. From the expertly trained concierge to the specially selected spa technicians, every EchelonSeaport service associate will deliver the&nbsp;Regent&nbsp;touch.",
-            "text-9": "In addition to the two outdoor pools and the indoor pool, EchelonSeaport offers an 8,500 square-feet Wellness Center that incorporates fitness as well as a tranquility spa with indoor and outdoor&nbsp;treatment&nbsp;areas.",
-            "text-10": "Re-charge yourself in the state-of-the-art fitness center, or find your balance in private yoga or stretching&nbsp;rooms&nbsp;nearby.",
-            "text-11": "Get pumped on the two-story indoor basketball court with a tech wall that can broadcast live games or group fitness classes. Enjoy a round at the finest courses with the cutting-edge golf simulator used by top PGA pros.&nbsp;Game&nbsp;on!",
-            "text-12": "Connected to the rooftop gardens, The Spa at EchelonSeaport includes private treatment rooms accented in teak, stone and natural materials. Treatments can be taken indoors, or residents can enjoy the lushly landscaped private&nbsp;outdoor&nbsp;sanctuaries.",
-            "text-13": "A first-of-its-kind residential amenity. The Echelon Innovation Center features programming developed by Boston's leading academics and incubators. Gather with fellow residents to gain inspiration and ideas from top business, tech and cultural leaders. Or find a creative place to work any time of&nbsp;the&nbsp;day.",
-            "text-14": "At its core, EchelonSeaport is about the luxury of saved time and convenience. Through the Echelon Life App, you now have access to a global luxury lifestyle management and concierge service that can accommodate your needs. Call the valet for your car, make a restaurant reservation, or book a private jet to Nantucket (or Paris). All in the palm of&nbsp;your&nbsp;hand.",
-            "text-15": "Relax and enjoy the view with your fellow residents in The Sky Lounge, an exclusive lifestyle clubhouse reserved for residents of 133 Seaport. Let the Regent-trained staff arrange for catering for your next meeting or&nbsp;get&nbsp;together.",
-            "text-16": "EchelonSeaport brings playtime for your pets to a whole new level. Your pup will quickly feel at home here, meeting other dogs at the outdoor pet run and play area or getting pampered at the pet spa. You can even coordinate with your dog walker or cat groomer through your Echelon&nbsp;Life&nbsp;app.",
-            "text-17": "Whether you have children or grandchildren, EchelonSeaport's family play center will make you wish you were a little kid again. The children in your life will love this room, made for discovery and fun. In true EchelonSeaport fashion, it includes dedicated outdoor play space&nbsp;as&nbsp;well.",
+            "text-1": "An address unlike anywhere else. Indoors and out, EchelonSeaport offers a captivating lifestyle experience, with over 50,000 square feet of amenities designed by Jeffrey Beers International, the leading tastemaker in hospitality interiors.",
+            "text-2": "EchelonSeaport will offer the most talked about outdoor amenity spaces in Boston with manicured gardens, al fresco dining areas, and poolside sun terraces with cabanas. This is an outdoor living room for all residents to enjoy.",
+            "text-3": "Boldly inviting. EchelonSeaport offers three distinctive pool experiences designed to create a design-centric sanctuary at The Seaport. This is not just another residential address. This is an urban resort.",
+            "text-4": "Impeccably styled on a grand scale, a collection of social lounges overlook the outdoor gardens and amenities. Stylishly detailed, with soaring ceiling heights and rich architectural details. These spaces can be reserved for private entertaining and meetings.",
+            "text-5": "Inspired by Boston's rich intellectual heritage, the Library Lounge is appointed with curated artwork and photography. Comfortable seating areas create an ideal setting for a cocktail and a good book.",
+            "text-6": "Temperature-controlled wine storage, handsomely finished with custom wood and glass cabinetry offers an inviting space to sip, savor and learn about wine and viniculture.",
+            "text-7": "This is Boston's most coveted dinner invitation. Jeffrey Beers has designed for the industry's most recognized chefs, including Jean Georges Vongerichten and Todd English. At EchelonSeaport, he brings a special flair to the Private Dining Rooms with a state-of-the-art exhibition kitchen at the ready.",
+            "text-8": "Globally recognized for their unparalleled and intuitive hospitality standards, Regent Hotels &amp; Resorts has been selected to manage and oversee Residential Services. From the expertly trained concierge to the specially selected spa technicians, every EchelonSeaport service associate will deliver the Regent touch.",
+            "text-9": "In addition to the two outdoor pools and the indoor pool, EchelonSeaport offers an 8,500 square-feet Wellness Center that incorporates fitness as well as a tranquility spa with indoor and outdoor treatment areas.",
+            "text-10": "Re-charge yourself in the state-of-the-art fitness center, or find your balance in private yoga or stretching rooms nearby.",
+            "text-11": "Get pumped on the two-story indoor basketball court with a tech wall that can broadcast live games or group fitness classes. Enjoy a round at the finest courses with the cutting-edge golf simulator used by top PGA pros. Game on!",
+            "text-12": "Connected to the rooftop gardens, The Spa at EchelonSeaport includes private treatment rooms accented in teak, stone and natural materials. Treatments can be taken indoors, or residents can enjoy the lushly landscaped private outdoor sanctuaries.",
+            "text-13": "A first-of-its-kind residential amenity. The Echelon Innovation Center features programming developed by Boston's leading academics and incubators. Gather with fellow residents to gain inspiration and ideas from top business, tech and cultural leaders. Or find a creative place to work any time of the day.",
+            "text-14": "At its core, EchelonSeaport is about the luxury of saved time and convenience. Through the Echelon Life App, you now have access to a global luxury lifestyle management and concierge service that can accommodate your needs. Call the valet for your car, make a restaurant reservation, or book a private jet to Nantucket (or Paris). All in the palm of your hand.",
+            "text-15": "Relax and enjoy the view with your fellow residents in The Sky Lounge, an exclusive lifestyle clubhouse reserved for residents of 133 Seaport. Let the Regent-trained staff arrange for catering for your next meeting or get together.",
+            "text-16": "EchelonSeaport brings playtime for your pets to a whole new level. Your pup will quickly feel at home here, meeting other dogs at the outdoor pet run and play area or getting pampered at the pet spa. You can even coordinate with your dog walker or cat groomer through your Echelon Life app.",
+            "text-17": "Whether you have children or grandchildren, EchelonSeaport's family play center will make you wish you were a little kid again. The children in your life will love this room, made for discovery and fun. In true EchelonSeaport fashion, it includes dedicated outdoor play space as well.",
             "elevate": "Elevate",
             "expectations": "Your Expectations",
             "captivating": "Naturally Captivating",
@@ -26466,7 +26510,17 @@ var translations = {
             "soaring-heights": "迷人的波士顿一直是历史文化底蕴和国际时尚潮流的融合体，如今它再次以一副崭新的面貌面向全世界，海港区飞速发展，已经成为波士顿首屈一指的新中心。",
             "grandly-scaled": "这里不仅是美食的天堂，还是波士顿最时尚的圣殿。商业中心范围广，品牌多样化，不仅仅有Filson，Lululemon，L.L. Bean此类经典品牌，也不乏Warby Parker这类创新品牌，只要您需要，总能在这里找到自己喜爱的商品。而这，仅仅是一个开始……",
             "seaport-sweat": "喜欢户外跑步、骑车、散步？那还有什么地方比Seaport风景如画的海滨区更合适！您可以在Lululemon或L.L Bean置办一身崭新的运动装备，然后到全美知名的Everbody Fights、Soulcycle和Equinox健身会所挥洒汗水，再前往Juice Press、byChloe享用健康的一餐。健康变得轻松而简单……",
-            "gallery": "充满生机与活力的海港区正在缓缓向我们走来，它时刻行走在波士顿美食艺术、购物及文化领域的最前沿，毫无疑问地成为了这座城市备受期待的“新”街区。"
+            "gallery": "充满生机与活力的海港区正在缓缓向我们走来，它时刻行走在波士顿美食艺术、购物及文化领域的最前沿，毫无疑问地成为了这座城市备受期待的“新”街区。",
+            "get-centered": "汇聚一堂",
+            "get-connected": "",
+            "seaport-neighborhood": "SEAPORT社区",
+            "wellness": "阳光户外",
+            "seaport-styled": "海港城的格调",
+            "new-center": "波士顿新中心",
+            "gallery-subtitle": "街区",
+            "gallery-title": "集景",
+            "seaport-dining-1": "海港区的餐饮文化",
+            "seaport-dining-2": ""
         },
         "team": {
             "team-1": "Echelon的生活代表着一种全新的发展理念的演变，就是将非凡的设计艺术同无可比拟的生活设施相结合起来。Cottonwood Management总部设在美国洛杉矶，管理着超过20亿美元的资产。公司选择了波士顿作为其东海岸总部和首座发布Echelon Life品牌的城市，将活力、学术精神和创新动力更加完美地渗透到这座城市中，令其更具吸引力，更加彰显魅力风采。",
@@ -26475,7 +26529,33 @@ var translations = {
             "team-4": "以多次荣获奖项和高水准的五星级服务而闻名于世的丽晶携手Cottonwood，共同为波士顿EchelonSeaport带来了专业的酒店知识和丰富的行业经验。而作为其重返美国市场的第一步，丽晶无所保留地将其特有的经营风格和对服务细节的考量融入进来。",
             "team-5": "总部位于波士顿的美国著名建筑公司CBT与国际知名建筑师事务所KPF倾力合作，将EchelonSeaport赋予生命。荣获众多殊荣的CBT在波士顿设计了一系列卓越的住宅作品，包括Mandarin Oriental、丽思卡尔顿酒店、Twenty-Two Liberty等。",
             "team-6": "作为波士顿海港区的领先建筑商，John Moriarty & Associates（JMA）全权掌舵EchelonSeaport项目。JMA以其交付产品的精品质量而闻名，在美国东海岸建造了超过两万套豪华产权公寓。公司总部位于美国波士顿，JMA的蓬勃发展，不断为赋予其信任的新老客户和合作伙伴打造精品城市项目。",
-            "team-7": "总部设在美国波士顿的TCC一直是波士顿地区市场领先的公寓项目销售公司，在过去的三十年中，TCC完美达成了超过60亿美元的城市和郊区房地产销售业绩。TCC在EchelonSeaport的知名销售团队塑造了一个前所未有的销售体验中心，以帮助客户探索 Echelon Life的方方面面。"
+            "team-7": "总部设在美国波士顿的TCC一直是波士顿地区市场领先的公寓项目销售公司，在过去的三十年中，TCC完美达成了超过60亿美元的城市和郊区房地产销售业绩。TCC在EchelonSeaport的知名销售团队塑造了一个前所未有的销售体验中心，以帮助客户探索 Echelon Life的方方面面。",
+            "team-1-role": "开发商",
+            "team-2-role": "建筑事务所",
+            "team-3-role": "公共设施/室内设计",
+            "team-4-role": "服务标准", // service standards
+            "team-4-name": "丽晶服务品质",
+            "team-5-role": "住宅设计",
+            "team-6-role": "建筑商",
+            "team-7-role": "销售&市场"
+        },
+        "contact-form": {
+            "broker": "您现在是由经纪人作为代表吗？",
+            "first-name": "您的名字",
+            "last-name": "您的姓氏",
+            "email": "您的电子邮件",
+            "phone": "您的电话",
+            "street": "您的街道地址",
+            "city": "城市",
+            "state": "州",
+            "zip": "邮编",
+            "type": "住宅类型",
+            "studio": "开间户型",
+            "1-bedroom-a": "1居室户型",
+            "1-bedroom-b": "1居室+1浴室户型",
+            "2-bedroom": "2居室+2.5浴室户型",
+            "3-bedroom": "3居室+3/3.5浴室户型",
+            "interested": "我很感兴趣"
         },
         "residences": {
             "text-1": "两幢住宅楼的外墙被恒久耐看的石头及玻璃材质所包围，海港区的天际线将在不久后被重新定义。KPF将楼梯轮廓设计为节节高升的云梯状，为住户打造出私家超大空中露台。",
@@ -26488,7 +26568,15 @@ var translations = {
             "text-8": "意大利进口定制橱柜，顶级集成电器，一流的选材，时尚的艺术理念，真正缔造了EchelonSeaport开放式厨房的艺术价值。品味生活，尽享美食。",
             "text-9": "EchelonSeaport 的阶梯式建筑轮廓构建出波士顿高端住宅中罕见的超大私家露台，即便在家中也能同时坐拥户外休闲与尽享美食的空间，感知四季变迁，笑看云卷云舒。",
             "two-addresses": "不同的建筑",
-            "singular-destination": "相同的体验"
+            "singular-destination": "相同的体验",
+            "different-by-design": "Different by Design",
+            "133-seaport-residences": "133 SEAPORT尊贵生活",
+            "living-work": "生活的艺术",
+            "own-sky": "坐拥城市天际",
+            "top-chef": "Top Chef",
+            "signature-terraces": "Signature City Terraces",
+            "preview-of": "For a Preview of EchelonSeaport",
+            "contact-info": "Please Provide Your Contact Information Below"
         },
         "lifestyle": {
             "text-1": "EchelonSeaport拥有超过50,000平方英尺的生活配套设施，由世界知名的室内设计公司Jeffrey Beers International全新打造。室内外尽显与众不同，着眼于高端居住品质，优越生活不言自明。",
@@ -26857,7 +26945,7 @@ exports.default = {
 if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
-__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"contact-component"},[_c('div',{staticClass:"contact-component-wrapper"},[_c('h2',[_vm._v("window.trans[\"contact\"][\"interested\"]")]),_vm._v(" "),_c('h5',[_vm._v("window.trans[\"contact\"][\"receive-updates\"]")]),_vm._v(" "),_c('contact-registration')],1)])}
+__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"contact-component"},[_c('div',{staticClass:"contact-component-wrapper"},[_c('h2',[_vm._v(_vm._s(_vm.$t("contact.interested")))]),_vm._v(" "),_c('h5',[_vm._v(_vm._s(_vm.$t("contact.receive-updates")))]),_vm._v(" "),_c('contact-registration')],1)])}
 __vue__options__.staticRenderFns = []
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
@@ -27231,15 +27319,15 @@ exports.default = {
             },
 
             locationSeaportContent: {
-                subtitle: "Seaport Neighborhood",
-                title: "Get Centered. <br />Get Connected.",
+                subtitle: window.trans["neighborhood"]["seaport-neighborhood"],
+                title: window.trans["neighborhood"]["get-centered"] + ". <br />" + window.trans["neighborhood"]["get-connected"] + ".",
                 body: window.trans["neighborhood"]["location-seaport"]
             },
 
             neighborhoodSliderImages: [{ image: "/img/neighborhood/fine-dining.jpg" }, { image: "/img/neighborhood/fine-scents.jpg" }, { image: "/img/neighborhood/morning-coffee.jpg" }, { image: "/img/neighborhood/menton.jpg", align: "hright" }, { image: "/img/neighborhood/ica.jpg" }, { image: "/img/neighborhood/ships.jpg" }, { image: "/img/neighborhood/by-chloe.jpg" }, { image: "/img/neighborhood/beer.jpg" }, { image: "/img/neighborhood/shop.jpg" }, { image: "/img/neighborhood/district-hall.jpg" }, { image: "/img/neighborhood/chairs.jpg" }, { image: "/img/neighborhood/food.jpg" }, { image: "/img/neighborhood/plants.jpg", align: "hright" }, { image: "/img/neighborhood/seaport-water.jpg", align: "hright" }, { image: "/img/neighborhood/boat.jpg" }, { image: "/img/neighborhood/bar.jpg" }, { image: "/img/neighborhood/fort-point.jpg", align: "hcenter" }, { image: "/img/neighborhood/seafood.jpg" }],
 
             soaringHeightsContent: {
-                title: "The New Center of Boston",
+                title: window.trans["neighborhood"]["new-center"],
                 body: window.trans["neighborhood"]["soaring-heights"],
                 image: "/img/neighborhood/soaring-heights.jpg",
                 halign: "center",
@@ -27248,7 +27336,7 @@ exports.default = {
             },
 
             grandlyScaledContent: {
-                title: "Seaport Styled",
+                title: window.trans["neighborhood"]["seaport-styled"],
                 body: window.trans["neighborhood"]["grandly-scaled"],
                 titleimage: "/img/neighborhood/seaport-styled-detail.jpg",
                 image: "/img/neighborhood/seaport-styled.jpg",
@@ -27259,7 +27347,7 @@ exports.default = {
             },
 
             seaportSweatContent: {
-                title: "Destination Wellness",
+                title: window.trans["neighborhood"]["wellness"],
                 body: window.trans["neighborhood"]["seaport-sweat"],
                 image: "/img/neighborhood/seaport-sweat.jpg",
                 halign: "center",
@@ -27268,8 +27356,8 @@ exports.default = {
             },
 
             neighborhoodGalleryContent: {
-                subtitle: "Neighborhood",
-                title: "Gallery",
+                subtitle: window.trans["neighborhood"]["gallery-subtitle"],
+                title: window.trans["neighborhood"]["gallery-title"],
                 body: window.trans["neighborhood"]["gallery"]
             }
         };
@@ -27295,8 +27383,8 @@ exports.default = {
 if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
-__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"neighborhood-component"},[_c('inset-image',{attrs:{"id":"the-seaport","c-content":_vm.headerImageContent}}),_vm._v(" "),_c('stripe',{attrs:{"c-content":_vm.locationSeaportContent}}),_vm._v(" "),_c('captioned-image',{attrs:{"c-content":_vm.soaringHeightsContent}}),_vm._v(" "),_c('div',{staticClass:"neighborhood-component-dining"},[_c('div',{staticClass:"neighborhood-component-dining-wrapper"},[_c('div',{staticClass:"neighborhood-component-dining-inner"},[_c('div',{staticClass:"neighborhood-component-dining-text"},[_c('div',{staticClass:"neighborhood-component-dining-text-inner"},[_vm._m(0),_vm._v(" "),_c('p',{staticClass:"neighborhood-component-dining-text-copy"},[_vm._v("\n                            "+_vm._s(_vm.$t("neighborhood.dining-text-copy"))+"\n                        ")])])]),_vm._v(" "),_c('div',{staticClass:"neighborhood-component-dining-middle-space hide-mobile"}),_vm._v(" "),_c('div',{staticClass:"neighborhood-component-dining-image at-the-bar hide-mobile"}),_vm._v(" "),_c('div',{staticClass:"neighborhood-component-dining-image delicious-dinner hide-mobile"}),_vm._v(" "),_c('div',{staticClass:"neighborhood-component-dining-image tasty-dessert hide-mobile"}),_vm._v(" "),_c('div',{staticClass:"neighborhood-component-dining-image at-the-entrance hide-mobile"}),_vm._v(" "),_c('div',{staticClass:"neighborhood-component-dining-image fine-dining"})])])]),_vm._v(" "),_c('dual-image-column',{attrs:{"c-content":_vm.grandlyScaledContent}}),_vm._v(" "),_c('captioned-image',{attrs:{"c-content":_vm.seaportSweatContent}}),_vm._v(" "),_c('neighborhood-map',{attrs:{"id":"map"}}),_vm._v(" "),_c('div',{staticClass:"neighborhood-component-slider-wrapper",attrs:{"id":"neighborhood-gallery"}},[_c('image-slider',{attrs:{"c-slider-images":_vm.neighborhoodSliderImages},on:{"loop":_vm.updateNeighborhoodSliderImage,"active-clicked":_vm.imageSliderOpenGallery}})],1),_vm._v(" "),_c('stripe',{attrs:{"c-content":_vm.neighborhoodGalleryContent}}),_vm._v(" "),_c('modal-gallery',{attrs:{"c-images":_vm.neighborhoodSliderImages}})],1)}
-__vue__options__.staticRenderFns = [function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"neighborhood-component-dining-text-title"},[_c('h2',[_vm._v("Seaport")]),_vm._v(" "),_c('h1',[_vm._v("Dining")])])}]
+__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"neighborhood-component"},[_c('inset-image',{attrs:{"id":"the-seaport","c-content":_vm.headerImageContent}}),_vm._v(" "),_c('stripe',{attrs:{"c-content":_vm.locationSeaportContent}}),_vm._v(" "),_c('captioned-image',{attrs:{"c-content":_vm.soaringHeightsContent}}),_vm._v(" "),_c('div',{staticClass:"neighborhood-component-dining"},[_c('div',{staticClass:"neighborhood-component-dining-wrapper"},[_c('div',{staticClass:"neighborhood-component-dining-inner"},[_c('div',{staticClass:"neighborhood-component-dining-text"},[_c('div',{staticClass:"neighborhood-component-dining-text-inner"},[_c('div',{staticClass:"neighborhood-component-dining-text-title"},[_c('h2',[_vm._v(_vm._s(_vm.$t("neighborhood.seaport-dining-1")))]),_vm._v(" "),_c('h1',[_vm._v(_vm._s(_vm.$t("neighborhood.seaport-dining-2")))])]),_vm._v(" "),_c('p',{staticClass:"neighborhood-component-dining-text-copy"},[_vm._v("\n                            "+_vm._s(_vm.$t("neighborhood.dining-text-copy"))+"\n                        ")])])]),_vm._v(" "),_c('div',{staticClass:"neighborhood-component-dining-middle-space hide-mobile"}),_vm._v(" "),_c('div',{staticClass:"neighborhood-component-dining-image at-the-bar hide-mobile"}),_vm._v(" "),_c('div',{staticClass:"neighborhood-component-dining-image delicious-dinner hide-mobile"}),_vm._v(" "),_c('div',{staticClass:"neighborhood-component-dining-image tasty-dessert hide-mobile"}),_vm._v(" "),_c('div',{staticClass:"neighborhood-component-dining-image at-the-entrance hide-mobile"}),_vm._v(" "),_c('div',{staticClass:"neighborhood-component-dining-image fine-dining"})])])]),_vm._v(" "),_c('dual-image-column',{attrs:{"c-content":_vm.grandlyScaledContent}}),_vm._v(" "),_c('captioned-image',{attrs:{"c-content":_vm.seaportSweatContent}}),_vm._v(" "),_c('neighborhood-map',{attrs:{"id":"map"}}),_vm._v(" "),_c('div',{staticClass:"neighborhood-component-slider-wrapper",attrs:{"id":"neighborhood-gallery"}},[_c('image-slider',{attrs:{"c-slider-images":_vm.neighborhoodSliderImages},on:{"loop":_vm.updateNeighborhoodSliderImage,"active-clicked":_vm.imageSliderOpenGallery}})],1),_vm._v(" "),_c('stripe',{attrs:{"c-content":_vm.neighborhoodGalleryContent}}),_vm._v(" "),_c('modal-gallery',{attrs:{"c-images":_vm.neighborhoodSliderImages}})],1)}
+__vue__options__.staticRenderFns = []
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
@@ -27498,7 +27586,7 @@ exports.default = {
 if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
-__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"residences-component"},[_c('div',{staticClass:"singular-destination-component",attrs:{"id":"overview"}},[_c('div',{staticClass:"singular-destination-component-title-row"},[_c('h1',{staticClass:"singular-destination-component-title-row-title"},[_vm._v("\n                "+_vm._s(_vm.$t("residences.two-addresses"))),_c('br'),_vm._v("\n                "+_vm._s(_vm.$t("residences.singular-destination"))+"\n            ")]),_vm._v(" "),_c('p',{staticClass:"singular-destination-component-title-row-body"},[_vm._v("\n                \""+_vm._s(_vm.$t("residences.text-1"))+"\"\n            ")])]),_vm._v(" "),_c('div',{staticClass:"singular-destination-component-image-row"},[_c('div',{staticClass:"column left"},[_c('div',{staticClass:"image"}),_vm._v(" "),_c('div',{staticClass:"text"},[_c('h2',[_vm._v("133 Seaport")]),_vm._v(" "),_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-2")))])])]),_vm._v(" "),_c('div',{staticClass:"column right"},[_c('div',{staticClass:"image"}),_vm._v(" "),_c('div',{staticClass:"text"},[_c('h2',[_vm._v("135 Seaport")]),_vm._v(" "),_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-3")))])])])])]),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('div',{staticClass:"stripe-component",attrs:{"id":"section-3"}},[_c('div',{staticClass:"stripe-component-content"},[_c('h2',{staticClass:"stripe-component-content-subtitle"},[_vm._v("Echelon")]),_vm._v(" "),_c('h1',{staticClass:"stripe-component-content-title"},[_vm._v("133 Seaport")]),_vm._v(" "),_c('div',{staticClass:"stripe-component-content-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-4")))])])])]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component margin-full-bleed",attrs:{"id":"lobby"}},[_c('div',{staticClass:"captioned-image-component-image",staticStyle:{"background-image":"url(\"/uploads/img/4-image.jpg?version=1530029525\")","background-position":"center center"}}),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption"},[_c('h1',{staticClass:"captioned-image-component-caption-title"},[_vm._v("Different by Design")]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-5")))])])])]),_vm._v(" "),_vm._m(1),_vm._v(" "),_c('div',{staticClass:"stripe-component",attrs:{"id":"section-6"}},[_c('div',{staticClass:"stripe-component-content"},[_c('h2',{staticClass:"stripe-component-content-subtitle"},[_vm._v("133 Seaport Residences")]),_vm._v(" "),_c('h1',{staticClass:"stripe-component-content-title"},[_vm._v("A Living Work of Art")]),_vm._v(" "),_c('div',{staticClass:"stripe-component-content-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-6")))])])])]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component margin-full-bleed",attrs:{"id":"views"}},[_c('div',{staticClass:"captioned-image-component-image",staticStyle:{"background-image":"url(\"/uploads/img/7-image.jpg?version=1530029525\")","background-position":"center bottom"}}),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption"},[_c('h1',{staticClass:"captioned-image-component-caption-title"},[_vm._v("Own the Sky")]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-7")))])])])]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component margin-full-bleed",attrs:{"id":"kitchen"}},[_c('div',{staticClass:"captioned-image-component-image",staticStyle:{"background-image":"url(\"/uploads/img/8-image.jpg?version=1530029525\")","background-position":"center center"}}),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption"},[_c('h1',{staticClass:"captioned-image-component-caption-title"},[_vm._v("Top Chef")]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-8")))])])])]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component margin-full-bleed",attrs:{"id":"terraces"}},[_c('div',{staticClass:"captioned-image-component-image",staticStyle:{"background-image":"url(\"/uploads/img/10-image.jpg?version=1530029526\")","background-position":"center bottom"}}),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption"},[_c('h1',{staticClass:"captioned-image-component-caption-title"},[_vm._v("Signature City Terraces")]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-9")))])])])]),_vm._v(" "),_c('div',{staticClass:"one-thirty-five-seaport-component",attrs:{"id":"section-11"}},[_c('div',{staticClass:"one-thirty-five-seaport-component-column hero"}),_vm._v(" "),_c('div',{staticClass:"one-thirty-five-seaport-component-column contact"},[_c('div',{staticClass:"one-thirty-five-seaport-component-column contact-wrapper"},[_c('h1',[_vm._v("For a Preview of EchelonSeaport")]),_vm._v(" "),_c('h2',[_vm._v("Please Provide Your Contact Information Below.")]),_vm._v(" "),_c('contact-registration',{attrs:{"id":"contact-registration"}})],1)])])])}
+__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"residences-component"},[_c('div',{staticClass:"singular-destination-component",attrs:{"id":"overview"}},[_c('div',{staticClass:"singular-destination-component-title-row"},[_c('h1',{staticClass:"singular-destination-component-title-row-title"},[_vm._v("\n                "+_vm._s(_vm.$t("residences.two-addresses"))),_c('br'),_vm._v("\n                "+_vm._s(_vm.$t("residences.singular-destination"))+"\n            ")]),_vm._v(" "),_c('p',{staticClass:"singular-destination-component-title-row-body"},[_vm._v("\n                \""+_vm._s(_vm.$t("residences.text-1"))+"\"\n            ")])]),_vm._v(" "),_c('div',{staticClass:"singular-destination-component-image-row"},[_c('div',{staticClass:"column left"},[_c('div',{staticClass:"image"}),_vm._v(" "),_c('div',{staticClass:"text"},[_c('h2',[_vm._v("133 Seaport")]),_vm._v(" "),_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-2")))])])]),_vm._v(" "),_c('div',{staticClass:"column right"},[_c('div',{staticClass:"image"}),_vm._v(" "),_c('div',{staticClass:"text"},[_c('h2',[_vm._v("135 Seaport")]),_vm._v(" "),_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-3")))])])])])]),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('div',{staticClass:"stripe-component",attrs:{"id":"section-3"}},[_c('div',{staticClass:"stripe-component-content"},[_c('h2',{staticClass:"stripe-component-content-subtitle"},[_vm._v("Echelon")]),_vm._v(" "),_c('h1',{staticClass:"stripe-component-content-title"},[_vm._v("133 Seaport")]),_vm._v(" "),_c('div',{staticClass:"stripe-component-content-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-4")))])])])]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component margin-full-bleed",attrs:{"id":"lobby"}},[_c('div',{staticClass:"captioned-image-component-image",staticStyle:{"background-image":"url(\"/uploads/img/4-image.jpg?version=1530029525\")","background-position":"center center"}}),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption"},[_c('h1',{staticClass:"captioned-image-component-caption-title"},[_vm._v("{{ $t(\"residences.different-by-design\") }")]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-5")))])])])]),_vm._v(" "),_vm._m(1),_vm._v(" "),_c('div',{staticClass:"stripe-component",attrs:{"id":"section-6"}},[_c('div',{staticClass:"stripe-component-content"},[_c('h2',{staticClass:"stripe-component-content-subtitle"},[_vm._v(_vm._s(_vm.$t("residences.133-seaport-residences")))]),_vm._v(" "),_c('h1',{staticClass:"stripe-component-content-title"},[_vm._v(_vm._s(_vm.$t("residences.living-work")))]),_vm._v(" "),_c('div',{staticClass:"stripe-component-content-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-6")))])])])]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component margin-full-bleed",attrs:{"id":"views"}},[_c('div',{staticClass:"captioned-image-component-image",staticStyle:{"background-image":"url(\"/uploads/img/7-image.jpg?version=1530029525\")","background-position":"center bottom"}}),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption"},[_c('h1',{staticClass:"captioned-image-component-caption-title"},[_vm._v(_vm._s(_vm.$t("residences.own-sky")))]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-7")))])])])]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component margin-full-bleed",attrs:{"id":"kitchen"}},[_c('div',{staticClass:"captioned-image-component-image",staticStyle:{"background-image":"url(\"/uploads/img/8-image.jpg?version=1530029525\")","background-position":"center center"}}),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption"},[_c('h1',{staticClass:"captioned-image-component-caption-title"},[_vm._v(_vm._s(_vm.$t("residences.top-chef")))]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-8")))])])])]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component margin-full-bleed",attrs:{"id":"terraces"}},[_c('div',{staticClass:"captioned-image-component-image",staticStyle:{"background-image":"url(\"/uploads/img/10-image.jpg?version=1530029526\")","background-position":"center bottom"}}),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption"},[_c('h1',{staticClass:"captioned-image-component-caption-title"},[_vm._v(_vm._s(_vm.$t("signature.terraces")))]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-9")))])])])]),_vm._v(" "),_c('div',{staticClass:"one-thirty-five-seaport-component",attrs:{"id":"section-11"}},[_c('div',{staticClass:"one-thirty-five-seaport-component-column hero"}),_vm._v(" "),_c('div',{staticClass:"one-thirty-five-seaport-component-column contact"},[_c('div',{staticClass:"one-thirty-five-seaport-component-column contact-wrapper"},[_c('h1',[_vm._v(_vm._s(_vm.$t("residences.preview-of")))]),_vm._v(" "),_c('h2',[_vm._v("{{ $t(\"residences.contact-info\") }")]),_vm._v(" "),_c('contact-registration',{attrs:{"id":"contact-registration"}})],1)])])])}
 __vue__options__.staticRenderFns = [function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"inset-image-component",attrs:{"id":"133-seaport"}},[_c('div',{staticClass:"inset-image-component-inner",staticStyle:{"background-image":"url(\"/uploads/img/2-image.jpg?version=1530029525\")","background-position":"center center"}})])},function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"inset-image-component",attrs:{"id":"living-room"}},[_c('div',{staticClass:"inset-image-component-inner",staticStyle:{"background-image":"url(\"/uploads/img/5-image.jpg?version=1530029525\")","background-position":"center bottom"}})])}]
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
@@ -27521,31 +27609,31 @@ exports.default = {
     data: function data() {
         return {
             team: [{
-                role: "Developer",
+                role: window.trans["team"]["team-1-role"],
                 name: "Cottonwood Management",
                 body: window.trans["team"]["team-1"]
             }, {
-                role: "Architect",
+                role: window.trans["team"]["team-2-role"],
                 name: "Kohn Pedersen Fox",
                 body: window.trans["team"]["team-2"]
             }, {
-                role: "Amenities Interiors",
+                role: window.trans["team"]["team-3-role"],
                 name: "Jeffrey Beers International",
                 body: window.trans["team"]["team-3"]
             }, {
-                role: "Service Standards",
-                name: "Regent Hotels &amp; Resorts",
+                role: window.trans["team"]["team-4-role"],
+                name: window.trans["team"]["team-4-name"],
                 body: window.trans["team"]["team-4"]
             }, {
-                role: "Residence Architect",
+                role: window.trans["team"]["team-5-role"],
                 name: "CBT Architects",
                 body: window.trans["team"]["team-5"]
             }, {
-                role: "Builder",
+                role: window.trans["team"]["team-6-role"],
                 name: "John Moriarty &amp; Associates",
                 body: window.trans["team"]["team-6"]
             }, {
-                role: "Sales &amp; Marketing",
+                role: window.trans["team"]["team-7-role"],
                 name: "TCC - The Collaborative Companies",
                 body: window.trans["team"]["team-7"]
             }]

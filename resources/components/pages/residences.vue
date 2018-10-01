@@ -55,7 +55,7 @@
             <div class="captioned-image-component-image" style="background-image: url(&quot;/uploads/img/4-image.jpg?version=1530029525&quot;); background-position: center center;"></div>
 
             <div class="captioned-image-component-caption">
-                <h1 class="captioned-image-component-caption-title">Different by Design</h1>
+                <h1 class="captioned-image-component-caption-title">{{ $t("residences.different-by-design") }</h1>
 
                 <div class="captioned-image-component-caption-body">
                     <p>{{ $t("residences.text-5") }}</p>
@@ -69,9 +69,9 @@
 
         <div class="stripe-component" id="section-6">
             <div class="stripe-component-content">
-                <h2 class="stripe-component-content-subtitle">133 Seaport Residences</h2>
+                <h2 class="stripe-component-content-subtitle">{{ $t("residences.133-seaport-residences") }}</h2>
 
-                <h1 class="stripe-component-content-title">A Living Work of Art</h1>
+                <h1 class="stripe-component-content-title">{{ $t("residences.living-work") }}</h1>
 
                 <div class="stripe-component-content-body">
                     <p>{{ $t("residences.text-6") }}</p>
@@ -83,7 +83,7 @@
             <div class="captioned-image-component-image" style="background-image: url(&quot;/uploads/img/7-image.jpg?version=1530029525&quot;); background-position: center bottom;"></div>
 
             <div class="captioned-image-component-caption">
-                <h1 class="captioned-image-component-caption-title">Own the Sky</h1>
+                <h1 class="captioned-image-component-caption-title">{{ $t("residences.own-sky") }}</h1>
 
                 <div class="captioned-image-component-caption-body">
                     <p>{{ $t("residences.text-7") }}</p>
@@ -95,7 +95,7 @@
             <div class="captioned-image-component-image" style="background-image: url(&quot;/uploads/img/8-image.jpg?version=1530029525&quot;); background-position: center center;"></div>
 
             <div class="captioned-image-component-caption">
-                <h1 class="captioned-image-component-caption-title">Top Chef</h1>
+                <h1 class="captioned-image-component-caption-title">{{ $t("residences.top-chef") }}</h1>
 
                 <div class="captioned-image-component-caption-body">
                     <p>{{ $t("residences.text-8") }}</p>
@@ -107,7 +107,7 @@
             <div class="captioned-image-component-image" style="background-image: url(&quot;/uploads/img/10-image.jpg?version=1530029526&quot;); background-position: center bottom;"></div>
 
             <div class="captioned-image-component-caption">
-                <h1 class="captioned-image-component-caption-title">Signature City Terraces</h1>
+                <h1 class="captioned-image-component-caption-title">{{ $t("signature.terraces") }}</h1>
 
                 <div class="captioned-image-component-caption-body">
                     <p>{{ $t("residences.text-9") }}</p>
@@ -120,9 +120,9 @@
 
             <div class="one-thirty-five-seaport-component-column contact">
                 <div class="one-thirty-five-seaport-component-column contact-wrapper">
-                    <h1>For a Preview of EchelonSeaport</h1>
+                    <h1>{{ $t("residences.preview-of") }}</h1>
 
-                    <h2>Please Provide Your Contact Information Below.</h2>
+                    <h2>{{ $t("residences.contact-info") }</h2>
 
                     <contact-registration id="contact-registration" />
                 </div>

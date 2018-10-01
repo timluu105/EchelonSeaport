@@ -17,43 +17,43 @@
             return {
                 team: [
                     {
-                        role: "Developer",
+                        role: window.trans["team"]["team-1-role"],
                         name: "Cottonwood Management",
                         body: window.trans["team"]["team-1"]
                     },
 
                     {
-                        role: "Architect",
+                        role: window.trans["team"]["team-2-role"],
                         name: "Kohn Pedersen Fox",
                         body: window.trans["team"]["team-2"]
                     },
 
                     {
-                        role: "Amenities Interiors",
+                        role: window.trans["team"]["team-3-role"],
                         name: "Jeffrey Beers International",
                         body: window.trans["team"]["team-3"]
                     },
 
                     {
-                        role: "Service Standards",
-                        name: "Regent Hotels &amp; Resorts",
+                        role: window.trans["team"]["team-4-role"],
+                        name: window.trans["team"]["team-4-name"],
                         body: window.trans["team"]["team-4"]
                     },
 
                     {
-                        role: "Residence Architect",
+                        role: window.trans["team"]["team-5-role"],
                         name: "CBT Architects",
                         body: window.trans["team"]["team-5"]
                     },
 
                     {
-                        role: "Builder",
+                        role: window.trans["team"]["team-6-role"],
                         name: "John Moriarty &amp; Associates",
                         body: window.trans["team"]["team-6"]
                     },
 
                     {
-                        role: "Sales &amp; Marketing",
+                        role: window.trans["team"]["team-7-role"],
                         name: "TCC - The Collaborative Companies",
                         body: window.trans["team"]["team-7"]
                     }

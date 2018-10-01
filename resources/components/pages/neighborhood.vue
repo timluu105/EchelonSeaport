@@ -10,8 +10,8 @@
                     <div class="neighborhood-component-dining-text">
                         <div class="neighborhood-component-dining-text-inner">
                             <div class="neighborhood-component-dining-text-title">
-                                <h2>Seaport</h2>
-                                <h1>Dining</h1>
+                                <h2>{{$t("neighborhood.seaport-dining-1")}}</h2>
+                                <h1>{{$t("neighborhood.seaport-dining-2")}}</h1>
                             </div>
 
                             <p class="neighborhood-component-dining-text-copy">
@@ -86,8 +86,8 @@
                 },
 
                 locationSeaportContent: {
-                    subtitle: "Seaport Neighborhood",
-                    title: "Get Centered. <br />Get Connected.",
+                    subtitle: window.trans["neighborhood"]["seaport-neighborhood"],
+                    title: window.trans["neighborhood"]["get-centered"] + " <br />" + window.trans["neighborhood"]["get-connected"],
                     body: window.trans["neighborhood"]["location-seaport"]
                 },
 
@@ -114,7 +114,7 @@
                 ],
 
                 soaringHeightsContent: {
-                    title: "The New Center of Boston",
+                    title: window.trans["neighborhood"]["new-center"],
                     body: window.trans["neighborhood"]["soaring-heights"],
                     image: "/img/neighborhood/soaring-heights.jpg",
                     halign: "center",
@@ -123,7 +123,7 @@
                 },
 
                 grandlyScaledContent: {
-                    title: "Seaport Styled",
+                    title: window.trans["neighborhood"]["seaport-styled"],
                     body: window.trans["neighborhood"]["grandly-scaled"],
                     titleimage: "/img/neighborhood/seaport-styled-detail.jpg",
                     image: "/img/neighborhood/seaport-styled.jpg",
@@ -134,7 +134,7 @@
                 },
 
                 seaportSweatContent: {
-                    title: "Destination Wellness",
+                    title: window.trans["neighborhood"]["wellness"],
                     body: window.trans["neighborhood"]["seaport-sweat"],
                     image: "/img/neighborhood/seaport-sweat.jpg",
                     halign: "center",
@@ -143,8 +143,8 @@
                 },
 
                 neighborhoodGalleryContent: {
-                    subtitle: "Neighborhood",
-                    title: "Gallery",
+                    subtitle: window.trans["neighborhood"]["gallery-subtitle"],
+                    title: window.trans["neighborhood"]["gallery-title"],
                     body: window.trans["neighborhood"]["gallery"]
                 }
             };
