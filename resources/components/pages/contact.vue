@@ -1,8 +1,8 @@
 <template>
     <div class="contact-component">
         <div class="contact-component-wrapper">
-            <h2>window.trans["contact"]["interested"]</h2>
-            <h5>window.trans["contact"]["receive-updates"]</h5>
+            <h2>{{ $t("contact.interested") }}</h2>
+            <h5>{{ $t("contact.receive-updates") }}</h5>
             <contact-registration />
         </div>
     </div>
