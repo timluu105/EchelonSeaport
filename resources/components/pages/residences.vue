@@ -55,7 +55,7 @@
             <div class="captioned-image-component-image" style="background-image: url(&quot;/uploads/img/4-image.jpg?version=1530029525&quot;); background-position: center center;"></div>
 
             <div class="captioned-image-component-caption">
-                <h1 class="captioned-image-component-caption-title">{{ $t("residences.different-by-design") }</h1>
+                <h1 class="captioned-image-component-caption-title">{{ $t("residences.different-by-design") }}</h1>
 
                 <div class="captioned-image-component-caption-body">
                     <p>{{ $t("residences.text-5") }}</p>
@@ -107,7 +107,7 @@
             <div class="captioned-image-component-image" style="background-image: url(&quot;/uploads/img/10-image.jpg?version=1530029526&quot;); background-position: center bottom;"></div>
 
             <div class="captioned-image-component-caption">
-                <h1 class="captioned-image-component-caption-title">{{ $t("signature.terraces") }}</h1>
+                <h1 class="captioned-image-component-caption-title">{{ $t("residences.signature-terraces") }}</h1>
 
                 <div class="captioned-image-component-caption-body">
                     <p>{{ $t("residences.text-9") }}</p>
@@ -122,7 +122,7 @@
                 <div class="one-thirty-five-seaport-component-column contact-wrapper">
                     <h1>{{ $t("residences.preview-of") }}</h1>
 
-                    <h2>{{ $t("residences.contact-info") }</h2>
+                    <h2>{{ $t("residences.contact-info") }}</h2>
 
                     <contact-registration id="contact-registration" />
                 </div>

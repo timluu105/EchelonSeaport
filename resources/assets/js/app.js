@@ -388,7 +388,7 @@ const translations = {
             "architecture": "Architecture & Design",
             "floor-plans": "楼层计划",
             "news": "News",
-            "gallery": "集景", // from other source
+            "gallery": "Gallery",
             "team": "Team",
             "contact": "Contact"
         },
