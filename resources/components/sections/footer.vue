@@ -35,7 +35,7 @@
                 <img src="/img/eho.svg" alt="Equal Housing Opportunity" />
                 <p>{{$t("legal.equal-opportunity")}}</p>
                 <p>{{$t("legal.this-material")}}</p>
-                <p>{{$t("legal.units-described")}</p>
+                <p>{{$t("legal.units-described")}}</p>
             </div>
         </div>
     </footer>
