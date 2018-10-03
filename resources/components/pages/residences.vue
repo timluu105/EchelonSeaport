@@ -8,7 +8,7 @@
                 </h1>
 
                 <p class="singular-destination-component-title-row-body">
-                    "{{ $t("residences.text-1") }}"
+                    {{ $t("residences.text-1") }}
                 </p>
             </div>
 
