@@ -10,6 +10,16 @@
             :class="{ 'nav-hidden': $store.getters.getNavHidden }">
 
             <div class="navbar-mobile-header">
+                <!--div class="navlink">
+                        <div class="spacer"><i class="fa fa-globe"></i></div>
+                        <div class="link">
+                            <i class="fa fa-globe"></i>
+                            <div class="subnav">
+                                <a href="/lang/en" class="subnav-link">{{$t("shared.lang-en")}}</a>
+                                <a href="/lang/cn" class="subnav-link">{{$t("shared.lang-cn")}}</a>
+                            </div>
+                        </div>
+                    </div-->
                 <a
                     id="main-number-nav"
                     class="navbar-mobile-header-phone-link"
@@ -21,12 +31,22 @@
                 <button
                     class="navbar-mobile-header-toggle"
                     :class="{ open: openNav }"
-                    @click="openNav = !openNav">
+                    @click="openNav = !openNav; openLanguageNav = false;">
 
+                    <!-- hamburger icon: 3 bars -->
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="sr-only">Toggle navigation</span>
+                </button>
+
+                <button
+                    class="navbar-mobile-header-toggle navbar-mobile-header-toggle-language"
+                    :class="{ open: openLanguageNav }"
+                    @click="openLanguageNav = !openLanguageNav; openNav = false;">
+
+                    <span class="fa fa-globe"></span>
+                    <span class="sr-only">Toggle language selector</span>
                 </button>
 
                 <router-link class="navbar-mobile-header-logo" to="/" exact>
@@ -39,6 +59,21 @@
                     class="navbar-mobile-header-cta-toggle"
                     :class="{ 'cta-open': this.$store.getters.getCtaOpen }">
                     <div class="navbar-mobile-header-cta-toggle-inner"></div>
+                </div>
+            </div>
+
+            <!-- Language Nav Selector -->
+            <div class="navlinks" :class="{ open: openLanguageNav}" v-show="openLanguageNav">
+                <div class="navlinks-wrapper">
+                    <div class="navlink">
+                        <div class="spacer">{{$t("shared.lang-en")}}</div>
+                        <a class="link" href="/lang/en">{{$t("shared.lang-en")}}</a>
+                    </div>
+
+                    <div class="navlink">
+                        <div class="spacer">{{$t("shared.lang-cn")}}</div>
+                        <a class="link" href="/lang/cn">{{$t("shared.lang-cn")}}</a>
+                    </div>
                 </div>
             </div>
 
@@ -91,8 +126,8 @@
                         <div class="link">
                             <i class="fa fa-globe"></i>
                             <div class="subnav">
-                                <a href="/lang/en" class="subnav-link">EN | English</a>
-                                <a href="/lang/cn" class="subnav-link">CN | Chinese</a>
+                                <a href="/lang/en" class="subnav-link">{{$t("shared.lang-en")}} | English</a>
+                                <a href="/lang/cn" class="subnav-link">{{$t("shared.lang-cn")}} | Chinese</a>
                             </div>
                         </div>
                     </div>
@@ -118,6 +153,7 @@
         data() {
             return {
                 openNav: false,
+                openLanguageNav: false,
                 subnavLinks: {},
 
                 localSubnavLinks: {

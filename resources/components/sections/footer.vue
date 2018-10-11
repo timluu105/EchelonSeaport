@@ -5,7 +5,7 @@
 
         <div class="footer-component-wrapper">
             <h1>EchelonSeaport</h1>
-            <h2><span class="mobile-block bold">Sales Gallery:</span> <span class="mobile-block">101 Seaport Blvd. Boston&nbsp;MA&nbsp;02210</span></h2>
+            <h2><span class="mobile-block bold">{{$t("footer.sales-gallery")}}:</span> <span class="mobile-block">101 Seaport Blvd. Boston&nbsp;MA&nbsp;02210</span></h2>
             <h2><a id="main-number-footer" class="mobile-block" :href="$store.getters.getMainNumberLink">{{ $store.getters.getMainNumber }}</a> <span class="divider">|</span> <a class="mobile-block" href="mailto:info@echelonseaport.com">info@echelonseaport.com</a></h2>
 
             <h2 class="footer-component-links-wrapper">
@@ -19,13 +19,13 @@
                     class="legal-toggle"
                     @click="toggleLegal">
 
-                    Legal
+                    {{$t("footer.legal")}}
                 </span>
             </p>
             <p>
                 <span>
-                    <a href="/lang/en">EN</a> |
-                    <a href="/lang/cn">CN</a>
+                    <a href="/lang/en">{{$t("shared.lang-en")}}</a> |
+                    <a href="/lang/cn">{{$t("shared.lang-cn")}}</a>
                 </span>
             </p>
         </div>

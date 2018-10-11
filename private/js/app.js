@@ -26465,6 +26465,7 @@ var translations = {
             "units-described": "The residential units described herein and marketed under the licensed “REGENT” and/or “REGENT COLLECTION” trademark are not owned, developed, or sold by Regent Asia Pacific Management Limited (“Regent”) or any of its affiliates, and neither Regent nor any of its affiliates makes any representation, warranty, or guarantee with respect to such residential units."
         },
         "images": {
+            "gallery": "Gallery",
             "image-1": "EchelonSeaport",
             "image-2": "133 Seaport",
             "image-3": "135 Seaport",
@@ -26487,19 +26488,58 @@ var translations = {
             "image-20": "133 Resident Living Room",
             "image-21": "133 Resident Kitchen",
             "image-22": "133 Resident Terrace"
+        },
+        "floorplans": {
+            "for-availability": "For Floor Plans & Availability",
+            "contact-us-at": "Contact Us at %phone_link%"
+        },
+        "singular-destination": {
+            "133-Seaport": "133 Seaport",
+            "135-Seaport": "135 Seaport",
+            "text-1": "The two contextual towers are a refined addition to the Seaport skyline. Timelessly crafted in stone and glass, Kohn Pedersen Fox created a silhouette with setbacks enhancing select residences with oversized private terraces.",
+            "text-2": "Live large. A flagship address offering 255 condominium residences with Boston Harbor and Seaport park views, generous private stepped terraces, grand and elegant interiors, and extensive outdoor amenities including a spa pool, lounge and dining areas.",
+            "text-3": "Live modern. Contemporary and cool, 135 Seaport offers 192 condominium residences with Harbor and wrap-around city and sunset views to the west. The expansive fifth-floor terrace offers a grand outdoor pool, sun cabanas, outdoor dining and lounge areas.",
+            "two-addresses": "Two addresses.",
+            "singular-destination": "A Singular Destination."
+        },
+        "call-to-action": {
+            "first-name": "First Name",
+            "last-name": "Last Name",
+            "email": "Email",
+            "phone": "Phone",
+            "more-information": "For More Information",
+            "on-echelon": "On Echelon Seaport",
+            "tell-me-more": "Tell Me More",
+            "thank-you": "Thank You for Registering",
+            "broker-will": "A broker will contact you with additional information"
+        },
+        "neighborhood-map": {
+            "all": "All",
+            "dining": "Dining",
+            "shopping": "Shopping",
+            "culture": "Culture",
+            "hotels": "Hotels"
+        },
+        "footer": {
+            "sales-gallery": "Sales Gallery",
+            "legal": "Legal"
+        },
+        "shared": {
+            "lang-en": "EN",
+            "lang-cn": "中文"
         }
     },
     "cn": {
         "pages": {
             "lifestyle": "品质生活",
-            "neighborhood": "Neighborhood",
-            "residences": "Residences",
-            "architecture": "Architecture & Design",
+            "neighborhood": "社区",
+            "residences": "住宅",
+            "architecture": "建筑与设计",
             "floor-plans": "楼层计划",
-            "news": "News",
-            "gallery": "Gallery",
-            "team": "Team",
-            "contact": "Contact"
+            "news": "新闻报导",
+            "gallery": "照片",
+            "team": "团队",
+            "contact": "联系方式"
         },
         "architecture": {
             "stripe-content-body": "EchelonSeaport 已经成为海港区甚至是波士顿整个城市街区的代表性建筑，是由国际顶级建筑师事务所Kohn Pedersen Fox（KPF）定义的当代地标。三座住宅楼环绕着中央庭院，美轮美奂的廊桥、多条人行道及郁郁葱葱的树冠纵横交织，坐落其中。",
@@ -26528,14 +26568,14 @@ var translations = {
             "modern-living": "摩登生活"
         },
         "contact": {
-            "interested": "Interested in learning more?",
-            "receive-updates": "To receive exclusive updates, please provide your contact information below."
+            "interested": "有兴趣收到更多资讯？",
+            "receive-updates": "欲收到独家资讯更新，请于下方留下您的联系方式"
         },
         "neighborhood": {
-            "dining-text-copy": "屡获殊荣的餐饮品牌早已令波士顿海港区成为最受欢迎的餐饮聚集地。在这里，您能享受到美食届的奥斯卡奖¬——James Beard奖项获得者Barbara Lynch、Ming Tsai和Joanne Chang等人制作出来的美食佳肴，多滋多样，应有尽有。",
+            "dining-text-copy": "屡获殊荣的餐饮品牌早已令波士顿海港区成为最受欢迎的餐饮聚集地。在这里，您能享受到美食届的奥斯卡奖­——James Beard奖项获得者Barbara Lynch、Ming Tsai和Joanne Chang等人制作出来的美食佳肴，多滋多样，应有尽有。",
             "dining-text-title": "Seaport",
             "dining-text-title-2": "Dining",
-            "location-seaport": "EchelonSeaport坐落在波士顿最受期待的创新区，这不仅仅是一处居所，更是一种崭新的生活方式。无论是活力十足的中庭氛围，还是品牌化管理的商业中心，亦或是多样的室内外生活设施，都可以为您带来全新的体验。不但传承了波士顿丰富的文化格调，更在城市持续发展的过程中留下了自己的独特印记",
+            "location-seaport": "EchelonSeaport坐落在波士顿最受期待的创新区，这不仅仅是一处居所，更是一种崭新的生活方式。无论是活力十足的中庭氛围，还是品牌化管理的商业中心，亦或是多样的室内外生活设施，都可以为您带来全新的体验。不但传承了波士顿丰富的文化格调，更在城市持续发展的过程中留下了自己的独特印记。",
             "soaring-heights": "迷人的波士顿一直是历史文化底蕴和国际时尚潮流的融合体，如今它再次以一副崭新的面貌面向全世界，海港区飞速发展，已经成为波士顿首屈一指的新中心。",
             "grandly-scaled": "这里不仅是美食的天堂，还是波士顿最时尚的圣殿。商业中心范围广，品牌多样化，不仅仅有Filson，Lululemon，L.L. Bean此类经典品牌，也不乏Warby Parker这类创新品牌，只要您需要，总能在这里找到自己喜爱的商品。而这，仅仅是一个开始……",
             "seaport-sweat": "喜欢户外跑步、骑车、散步？那还有什么地方比Seaport风景如画的海滨区更合适！您可以在Lululemon或L.L Bean置办一身崭新的运动装备，然后到全美知名的Everbody Fights、Soulcycle和Equinox健身会所挥洒汗水，再前往Juice Press、byChloe享用健康的一餐。健康变得轻松而简单……",
@@ -26604,8 +26644,8 @@ var translations = {
             "own-sky": "坐拥城市天际",
             "top-chef": "艺术厨房",
             "signature-terraces": "独特的空中私家露台",
-            "preview-of": "For a Preview of EchelonSeaport",
-            "contact-info": "Please Provide Your Contact Information Below"
+            "preview-of": "预约参观EchelonSeaport",
+            "contact-info": "请留下您的联系方式"
         },
         "lifestyle": {
             "text-1": "EchelonSeaport拥有超过50,000平方英尺的生活配套设施，由世界知名的室内设计公司Jeffrey Beers International全新打造。室内外尽显与众不同，着眼于高端居住品质，优越生活不言自明。",
@@ -26639,7 +26679,7 @@ var translations = {
             "echelonwellness": "健康生活",
             "reinvigorate": "为生活注入新活力",
             "fitness": "运动的升华",
-            "gaming": "球场上的激",
+            "gaming": "球场上的激情",
             "zen": "私人禅式空间",
             "culture": "ECHELON文化",
             "innovation": "核心打造 创新无限",
@@ -26655,6 +26695,7 @@ var translations = {
             "units-described": "本网站描述的并在“丽晶”和/或“丽晶系列”商标许可下销售的住宅单位未由丽晶亚太地区管理有限公司（“丽晶”）或其任何附属公司所拥有、开发或销售，且丽晶及其任何附属公司对此类住宅单位将不作出任何陈述、保证或担保。"
         },
         "images": {
+            "gallery": "照片",
             "image-1": "波士顿海港区EchelonSeaport",
             "image-2": "号楼建筑外观",
             "image-3": "号楼建筑外观",
@@ -26677,6 +26718,45 @@ var translations = {
             "image-20": "客厅",
             "image-21": "厨房",
             "image-22": "阳台"
+        },
+        "floorplans": {
+            "for-availability": "对于楼层计划与可出售情况",
+            "contact-us-at": "请拨打电话%phone_link%与我们取得联系"
+        },
+        "singular-destination": {
+            "133-Seaport": "133 Seaport",
+            "135-Seaport": "135 Seaport",
+            "text-1": "两幢住宅楼的外墙被恒久耐看的石头及玻璃材质所包围，海港区的天际线将在不久后被重新定义。KPF将楼梯轮廓设计为节节高升的云梯状，为住户打造出私家超大空中露台。",
+            "text-2": "133 Seaport共含产权公寓255套，主打宽阔奢华生活空间。不仅令住户尽享波士顿海湾和海港公园景致，还配有豪华高贵的小区配套设施，例如SPA、酒廊和餐饮等等。",
+            "text-3": "135 Seaport共含产权公寓180套，主打时尚精致生活空间。城市风光，海湾胜景，日升日落，海天一线，极致美景尽入眼帘。位于3层的小区花园更设有高标准的室外泳池，水边凉亭，以及户外休闲空间。",
+            "two-addresses": "不同的建筑",
+            "singular-destination": "相同的体验"
+        },
+        "call-to-action": {
+            "first-name": "您的名字",
+            "last-name": "您的姓氏",
+            "email": "您的电子邮件",
+            "phone": "您的电话",
+            "more-information": "更多关于EchelonSeaport的资讯",
+            "on-echelon": "",
+            "tell-me-more": "与我联系",
+            "thank-you": "感谢您的注册",
+            "broker-will": "销售人员将与您联系并告知更多资讯"
+        },
+        "neighborhood-map": {
+            "all": "全部",
+            "dining": "餐饮",
+            "shopping": "购物",
+            "culture": "文化",
+            "hotels": "酒店"
+        },
+        "footer": {
+            "sales-gallery": "销售展示中心地址",
+            "legal": "法务声明"
+        },
+        "shared": {
+            "lang-en": "EN",
+            "lang-cn": "中文"
         }
     }
 };
@@ -26696,15 +26776,11 @@ for (var language in translations) {
     }
 }
 
-console.log("Here");
-console.log(flattenedTranslations);
-
 Vue.i18n.add('en', flattenedTranslations["en"]);
 Vue.i18n.add('cn', flattenedTranslations["cn"]);
 
 var languageSelected = window.translanguage in flattenedTranslations ? window.translanguage : "en";
 
-console.log("Set language to: ", languageSelected);
 Vue.i18n.set(languageSelected);
 window.trans = translations[languageSelected];
 
@@ -26843,10 +26919,7 @@ router.afterEach(function (to, from) {
 
 var App = new Vue({
     router: router,
-    store: store,
-    props: {
-        lang: { "header1": "Eeeee" }
-    }
+    store: store
 }).$mount("#app");
 
 },{"es6-object-assign":2,"imports/analytics.js":16,"pages/architecture.vue":20,"pages/contact.vue":21,"pages/error404.vue":22,"pages/floorplan-and-availability-alt.vue":23,"pages/gallery.vue":24,"pages/home.vue":25,"pages/lifestyle.vue":26,"pages/neighborhood.vue":27,"pages/news.vue":28,"pages/newspaper.vue":29,"pages/residences.vue":30,"pages/team.vue":31,"pages/thanks.vue":32,"sections/call-to-action.vue":40,"sections/footer.vue":42,"sections/intro.vue":43,"sections/nav.vue":44,"vue-resource":6,"vue-router":7,"vue/dist/vue.js":8,"vue/dist/vue.min.js":9,"vuex":13,"vuex-i18n":11,"vuex-router-sync":12,"what-input":14}],16:[function(require,module,exports){
@@ -27069,6 +27142,14 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = {
     mixins: [_basePage2.default],
 
+    data: function data() {
+        var contactText = this.$t("floorplans.contact-us-at");
+        var contactLinkAndText = contactText.replace('%phone_link%', '<a id="main-number-availability" class="mobile-block" href="' + this.$store.getters.getMainNumberLink + '">' + this.$store.getters.getMainNumber + '</a>');
+        return {
+            "contactlinkandtext": contactLinkAndText
+        };
+    },
+
     components: {
         "contact-registration": _contactRegistration2.default
     }
@@ -27077,7 +27158,7 @@ exports.default = {
 if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
-__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"floorplan-and-availability-alt-component"},[_c('h1',[_vm._v("For Floor Plans & Availability")]),_vm._v(" "),_c('h2',[_vm._v("Contact Us at "),_c('a',{staticClass:"mobile-block",attrs:{"id":"main-number-availability","href":_vm.$store.getters.getMainNumberLink}},[_vm._v(_vm._s(_vm.$store.getters.getMainNumber))])]),_vm._v(" "),_c('div',{staticClass:"floorplan-and-availability-alt-contact-container"},[_c('contact-registration')],1)])}
+__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"floorplan-and-availability-alt-component"},[_c('h1',[_vm._v(_vm._s(_vm.$t("floorplans.for-availability")))]),_vm._v(" "),_c('h2',{domProps:{"innerHTML":_vm._s(_vm.contactlinkandtext)}}),_vm._v(" "),_c('div',{staticClass:"floorplan-and-availability-alt-contact-container"},[_c('contact-registration')],1)])}
 __vue__options__.staticRenderFns = []
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
@@ -27218,7 +27299,7 @@ exports.default = {
 if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
-__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"gallery-component"},[_c('div',{staticClass:"gallery-component-slider-wrapper"},[_c('image-slider',{attrs:{"c-slider-images":_vm.galleryImages},on:{"loop":_vm.updateGallerySliderImage,"active-clicked":_vm.imageSliderOpenGallery}})],1),_vm._v(" "),_c('div',{staticClass:"gallery-component-image-wrapper"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-xs-12"},[_c('h1',{staticClass:"gallery-component-title"},[_vm._v("Gallery")]),_vm._v(" "),_c('div',{staticClass:"gallery-component-image-grid"},_vm._l((_vm.galleryImages),function(item,index){return _c('div',{key:index,staticClass:"gallery-component-image-grid-item",on:{"click":function($event){_vm.openModalGallery(index)}}},[_c('div',{staticClass:"gallery-component-image-grid-item-image",class:item.align,style:({ backgroundImage: 'url(' + item.image + ')' })}),_vm._v(" "),_c('div',{staticClass:"gallery-component-image-grid-item-title"},[_vm._v("\n                                "+_vm._s(item.title)+"\n                            ")])])}))])])])]),_vm._v(" "),_c('modal-gallery',{attrs:{"c-images":_vm.galleryImages}})],1)}
+__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"gallery-component"},[_c('div',{staticClass:"gallery-component-slider-wrapper"},[_c('image-slider',{attrs:{"c-slider-images":_vm.galleryImages},on:{"loop":_vm.updateGallerySliderImage,"active-clicked":_vm.imageSliderOpenGallery}})],1),_vm._v(" "),_c('div',{staticClass:"gallery-component-image-wrapper"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-xs-12"},[_c('h1',{staticClass:"gallery-component-title"},[_vm._v(_vm._s(_vm.$t("images.gallery")))]),_vm._v(" "),_c('div',{staticClass:"gallery-component-image-grid"},_vm._l((_vm.galleryImages),function(item,index){return _c('div',{key:index,staticClass:"gallery-component-image-grid-item",on:{"click":function($event){_vm.openModalGallery(index)}}},[_c('div',{staticClass:"gallery-component-image-grid-item-image",class:item.align,style:({ backgroundImage: 'url(' + item.image + ')' })}),_vm._v(" "),_c('div',{staticClass:"gallery-component-image-grid-item-title"},[_vm._v("\n                                "+_vm._s(item.title)+"\n                            ")])])}))])])])]),_vm._v(" "),_c('modal-gallery',{attrs:{"c-images":_vm.galleryImages}})],1)}
 __vue__options__.staticRenderFns = []
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
@@ -27712,7 +27793,7 @@ exports.default = {
 if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
-__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"residences-component"},[_c('div',{staticClass:"singular-destination-component",attrs:{"id":"overview"}},[_c('div',{staticClass:"singular-destination-component-title-row"},[_c('h1',{staticClass:"singular-destination-component-title-row-title"},[_vm._v("\n                "+_vm._s(_vm.$t("residences.two-addresses"))),_c('br'),_vm._v("\n                "+_vm._s(_vm.$t("residences.singular-destination"))+"\n            ")]),_vm._v(" "),_c('p',{staticClass:"singular-destination-component-title-row-body"},[_vm._v("\n                \""+_vm._s(_vm.$t("residences.text-1"))+"\"\n            ")])]),_vm._v(" "),_c('div',{staticClass:"singular-destination-component-image-row"},[_c('div',{staticClass:"column left"},[_c('div',{staticClass:"image"}),_vm._v(" "),_c('div',{staticClass:"text"},[_c('h2',[_vm._v("133 Seaport")]),_vm._v(" "),_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-2")))])])]),_vm._v(" "),_c('div',{staticClass:"column right"},[_c('div',{staticClass:"image"}),_vm._v(" "),_c('div',{staticClass:"text"},[_c('h2',[_vm._v("135 Seaport")]),_vm._v(" "),_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-3")))])])])])]),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('div',{staticClass:"stripe-component",attrs:{"id":"section-3"}},[_c('div',{staticClass:"stripe-component-content"},[_c('h2',{staticClass:"stripe-component-content-subtitle"},[_vm._v("Echelon")]),_vm._v(" "),_c('h1',{staticClass:"stripe-component-content-title"},[_vm._v("133 Seaport")]),_vm._v(" "),_c('div',{staticClass:"stripe-component-content-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-4")))])])])]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component margin-full-bleed",attrs:{"id":"lobby"}},[_c('div',{staticClass:"captioned-image-component-image",staticStyle:{"background-image":"url(\"/uploads/img/4-image.jpg?version=1530029525\")","background-position":"center center"}}),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption"},[_c('h1',{staticClass:"captioned-image-component-caption-title"},[_vm._v(_vm._s(_vm.$t("residences.different-by-design")))]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-5")))])])])]),_vm._v(" "),_vm._m(1),_vm._v(" "),_c('div',{staticClass:"stripe-component",attrs:{"id":"section-6"}},[_c('div',{staticClass:"stripe-component-content"},[_c('h2',{staticClass:"stripe-component-content-subtitle"},[_vm._v(_vm._s(_vm.$t("residences.133-seaport-residences")))]),_vm._v(" "),_c('h1',{staticClass:"stripe-component-content-title"},[_vm._v(_vm._s(_vm.$t("residences.living-work")))]),_vm._v(" "),_c('div',{staticClass:"stripe-component-content-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-6")))])])])]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component margin-full-bleed",attrs:{"id":"views"}},[_c('div',{staticClass:"captioned-image-component-image",staticStyle:{"background-image":"url(\"/uploads/img/7-image.jpg?version=1530029525\")","background-position":"center bottom"}}),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption"},[_c('h1',{staticClass:"captioned-image-component-caption-title"},[_vm._v(_vm._s(_vm.$t("residences.own-sky")))]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-7")))])])])]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component margin-full-bleed",attrs:{"id":"kitchen"}},[_c('div',{staticClass:"captioned-image-component-image",staticStyle:{"background-image":"url(\"/uploads/img/8-image.jpg?version=1530029525\")","background-position":"center center"}}),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption"},[_c('h1',{staticClass:"captioned-image-component-caption-title"},[_vm._v(_vm._s(_vm.$t("residences.top-chef")))]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-8")))])])])]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component margin-full-bleed",attrs:{"id":"terraces"}},[_c('div',{staticClass:"captioned-image-component-image",staticStyle:{"background-image":"url(\"/uploads/img/10-image.jpg?version=1530029526\")","background-position":"center bottom"}}),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption"},[_c('h1',{staticClass:"captioned-image-component-caption-title"},[_vm._v(_vm._s(_vm.$t("residences.signature-terraces")))]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-9")))])])])]),_vm._v(" "),_c('div',{staticClass:"one-thirty-five-seaport-component",attrs:{"id":"section-11"}},[_c('div',{staticClass:"one-thirty-five-seaport-component-column hero"}),_vm._v(" "),_c('div',{staticClass:"one-thirty-five-seaport-component-column contact"},[_c('div',{staticClass:"one-thirty-five-seaport-component-column contact-wrapper"},[_c('h1',[_vm._v(_vm._s(_vm.$t("residences.preview-of")))]),_vm._v(" "),_c('h2',[_vm._v(_vm._s(_vm.$t("residences.contact-info")))]),_vm._v(" "),_c('contact-registration',{attrs:{"id":"contact-registration"}})],1)])])])}
+__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"residences-component"},[_c('div',{staticClass:"singular-destination-component",attrs:{"id":"overview"}},[_c('div',{staticClass:"singular-destination-component-title-row"},[_c('h1',{staticClass:"singular-destination-component-title-row-title"},[_vm._v("\n                "+_vm._s(_vm.$t("residences.two-addresses"))),_c('br'),_vm._v("\n                "+_vm._s(_vm.$t("residences.singular-destination"))+"\n            ")]),_vm._v(" "),_c('p',{staticClass:"singular-destination-component-title-row-body"},[_vm._v("\n                "+_vm._s(_vm.$t("residences.text-1"))+"\n            ")])]),_vm._v(" "),_c('div',{staticClass:"singular-destination-component-image-row"},[_c('div',{staticClass:"column left"},[_c('div',{staticClass:"image"}),_vm._v(" "),_c('div',{staticClass:"text"},[_c('h2',[_vm._v("133 Seaport")]),_vm._v(" "),_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-2")))])])]),_vm._v(" "),_c('div',{staticClass:"column right"},[_c('div',{staticClass:"image"}),_vm._v(" "),_c('div',{staticClass:"text"},[_c('h2',[_vm._v("135 Seaport")]),_vm._v(" "),_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-3")))])])])])]),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('div',{staticClass:"stripe-component",attrs:{"id":"section-3"}},[_c('div',{staticClass:"stripe-component-content"},[_c('h2',{staticClass:"stripe-component-content-subtitle"},[_vm._v("Echelon")]),_vm._v(" "),_c('h1',{staticClass:"stripe-component-content-title"},[_vm._v("133 Seaport")]),_vm._v(" "),_c('div',{staticClass:"stripe-component-content-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-4")))])])])]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component margin-full-bleed",attrs:{"id":"lobby"}},[_c('div',{staticClass:"captioned-image-component-image",staticStyle:{"background-image":"url(\"/uploads/img/4-image.jpg?version=1530029525\")","background-position":"center center"}}),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption"},[_c('h1',{staticClass:"captioned-image-component-caption-title"},[_vm._v(_vm._s(_vm.$t("residences.different-by-design")))]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-5")))])])])]),_vm._v(" "),_vm._m(1),_vm._v(" "),_c('div',{staticClass:"stripe-component",attrs:{"id":"section-6"}},[_c('div',{staticClass:"stripe-component-content"},[_c('h2',{staticClass:"stripe-component-content-subtitle"},[_vm._v(_vm._s(_vm.$t("residences.133-seaport-residences")))]),_vm._v(" "),_c('h1',{staticClass:"stripe-component-content-title"},[_vm._v(_vm._s(_vm.$t("residences.living-work")))]),_vm._v(" "),_c('div',{staticClass:"stripe-component-content-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-6")))])])])]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component margin-full-bleed",attrs:{"id":"views"}},[_c('div',{staticClass:"captioned-image-component-image",staticStyle:{"background-image":"url(\"/uploads/img/7-image.jpg?version=1530029525\")","background-position":"center bottom"}}),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption"},[_c('h1',{staticClass:"captioned-image-component-caption-title"},[_vm._v(_vm._s(_vm.$t("residences.own-sky")))]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-7")))])])])]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component margin-full-bleed",attrs:{"id":"kitchen"}},[_c('div',{staticClass:"captioned-image-component-image",staticStyle:{"background-image":"url(\"/uploads/img/8-image.jpg?version=1530029525\")","background-position":"center center"}}),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption"},[_c('h1',{staticClass:"captioned-image-component-caption-title"},[_vm._v(_vm._s(_vm.$t("residences.top-chef")))]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-8")))])])])]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component margin-full-bleed",attrs:{"id":"terraces"}},[_c('div',{staticClass:"captioned-image-component-image",staticStyle:{"background-image":"url(\"/uploads/img/10-image.jpg?version=1530029526\")","background-position":"center bottom"}}),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption"},[_c('h1',{staticClass:"captioned-image-component-caption-title"},[_vm._v(_vm._s(_vm.$t("residences.signature-terraces")))]),_vm._v(" "),_c('div',{staticClass:"captioned-image-component-caption-body"},[_c('p',[_vm._v(_vm._s(_vm.$t("residences.text-9")))])])])]),_vm._v(" "),_c('div',{staticClass:"one-thirty-five-seaport-component",attrs:{"id":"section-11"}},[_c('div',{staticClass:"one-thirty-five-seaport-component-column hero"}),_vm._v(" "),_c('div',{staticClass:"one-thirty-five-seaport-component-column contact"},[_c('div',{staticClass:"one-thirty-five-seaport-component-column contact-wrapper"},[_c('h1',[_vm._v(_vm._s(_vm.$t("residences.preview-of")))]),_vm._v(" "),_c('h2',[_vm._v(_vm._s(_vm.$t("residences.contact-info")))]),_vm._v(" "),_c('contact-registration',{attrs:{"id":"contact-registration"}})],1)])])])}
 __vue__options__.staticRenderFns = [function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"inset-image-component",attrs:{"id":"133-seaport"}},[_c('div',{staticClass:"inset-image-component-inner",staticStyle:{"background-image":"url(\"/uploads/img/2-image.jpg?version=1530029525\")","background-position":"center center"}})])},function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"inset-image-component",attrs:{"id":"living-room"}},[_c('div',{staticClass:"inset-image-component-inner",staticStyle:{"background-image":"url(\"/uploads/img/5-image.jpg?version=1530029525\")","background-position":"center bottom"}})])}]
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
@@ -28534,8 +28615,8 @@ exports.default = {
 if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
-__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"call-to-action-component"},[_c('div',{staticClass:"call-to-action-component-underlay",class:{ disabled: !_vm.expanded },on:{"click":_vm.contract}}),_vm._v(" "),_c('div',{staticClass:"call-to-action-component-element",class:[{ 'fade-out': _vm.hideCallToAction || !_vm.expanded && _vm.submitted, expanded: _vm.expanded, 'cta-open': this.$store.getters.getCtaOpen }]},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"call-to-action-component-element-form",class:{ 'fade-out': _vm.submitted }},[_c('form',{on:{"submit":function($event){$event.preventDefault();return _vm.onSubmit($event)}}},[_vm._m(1),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.form.first_name),expression:"form.first_name"}],staticClass:"contact-field input",attrs:{"type":"text","name":"first_name"},domProps:{"value":(_vm.form.first_name)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.form, "first_name", $event.target.value)}}}),_vm._v(" "),_vm._m(2),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.form.last_name),expression:"form.last_name"}],staticClass:"contact-field input",attrs:{"type":"text","name":"last_name"},domProps:{"value":(_vm.form.last_name)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.form, "last_name", $event.target.value)}}}),_vm._v(" "),_vm._m(3),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.form.email),expression:"form.email"}],staticClass:"contact-field input",attrs:{"type":"text","name":"email"},domProps:{"value":(_vm.form.email)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.form, "email", $event.target.value)}}}),_vm._v(" "),_c('label',{attrs:{"for":"phone"}},[_vm._v("\n                    Phone\n                ")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.form.phone),expression:"form.phone"}],staticClass:"contact-field input",attrs:{"type":"text","name":"phone"},domProps:{"value":(_vm.form.phone)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.form, "phone", $event.target.value)}}}),_vm._v(" "),_c('input',{staticClass:"contact-field submit",attrs:{"type":"submit","value":"Tell Me More","disabled":!_vm.canSubmit}})])]),_vm._v(" "),_c('div',{staticClass:"call-to-action-component-element-cover",class:{ 'fade-out': _vm.expanded },on:{"click":_vm.expand}},[_vm._m(4)]),_vm._v(" "),_c('div',{staticClass:"call-to-action-component-element-toggle",class:{ interactive: _vm.expanded },on:{"click":_vm.contract}})])])}
-__vue__options__.staticRenderFns = [function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"call-to-action-component-element-thanks"},[_c('div',[_c('img',{staticClass:"call-to-action-component-element-thanks-logo",attrs:{"src":"/img/logo-icon-gold.svg","alt":"Echelon Seaport"}}),_vm._v(" "),_c('h1',{staticClass:"call-to-action-component-element-thanks-headline"},[_vm._v("\n                    Thank You for Registering\n                ")]),_vm._v(" "),_c('p',{staticClass:"call-to-action-component-element-thanks-body"},[_vm._v("\n                    A broker will contact you with additional information\n                ")])])])},function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('label',{attrs:{"for":"first_name"}},[_c('span',{staticClass:"required"},[_vm._v("First Name")])])},function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('label',{attrs:{"for":"last_name"}},[_c('span',{staticClass:"required"},[_vm._v("Last Name")])])},function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('label',{attrs:{"for":"email"}},[_c('span',{staticClass:"required"},[_vm._v("Email")])])},function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"call-to-action-component-element-cover-inner"},[_c('div',{staticClass:"call-to-action-component-element-cover-inner-text heavy"},[_vm._v("\n                    For More Information\n                ")]),_vm._v(" "),_c('div',{staticClass:"call-to-action-component-element-cover-inner-text light"},[_vm._v("\n                    On Echelon Seaport\n                ")])])}]
+__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"call-to-action-component"},[_c('div',{staticClass:"call-to-action-component-underlay",class:{ disabled: !_vm.expanded },on:{"click":_vm.contract}}),_vm._v(" "),_c('div',{staticClass:"call-to-action-component-element",class:[{ 'fade-out': _vm.hideCallToAction || !_vm.expanded && _vm.submitted, expanded: _vm.expanded, 'cta-open': this.$store.getters.getCtaOpen }]},[_c('div',{staticClass:"call-to-action-component-element-thanks"},[_c('div',[_c('img',{staticClass:"call-to-action-component-element-thanks-logo",attrs:{"src":"/img/logo-icon-gold.svg","alt":"Echelon Seaport"}}),_vm._v(" "),_c('h1',{staticClass:"call-to-action-component-element-thanks-headline"},[_vm._v("\n                    "+_vm._s(_vm.$t("call-to-action.thank-you"))+"\n                ")]),_vm._v(" "),_c('p',{staticClass:"call-to-action-component-element-thanks-body"},[_vm._v("\n                    "+_vm._s(_vm.$t("call-to-action.broker-will"))+"\n                ")])])]),_vm._v(" "),_c('div',{staticClass:"call-to-action-component-element-form",class:{ 'fade-out': _vm.submitted }},[_c('form',{on:{"submit":function($event){$event.preventDefault();return _vm.onSubmit($event)}}},[_c('label',{attrs:{"for":"first_name"}},[_c('span',{staticClass:"required"},[_vm._v(_vm._s(_vm.$t("call-to-action.first-name")))])]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.form.first_name),expression:"form.first_name"}],staticClass:"contact-field input",attrs:{"type":"text","name":"first_name"},domProps:{"value":(_vm.form.first_name)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.form, "first_name", $event.target.value)}}}),_vm._v(" "),_c('label',{attrs:{"for":"last_name"}},[_c('span',{staticClass:"required"},[_vm._v(_vm._s(_vm.$t("call-to-action.last-name")))])]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.form.last_name),expression:"form.last_name"}],staticClass:"contact-field input",attrs:{"type":"text","name":"last_name"},domProps:{"value":(_vm.form.last_name)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.form, "last_name", $event.target.value)}}}),_vm._v(" "),_c('label',{attrs:{"for":"email"}},[_c('span',{staticClass:"required"},[_vm._v(_vm._s(_vm.$t("call-to-action.email")))])]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.form.email),expression:"form.email"}],staticClass:"contact-field input",attrs:{"type":"text","name":"email"},domProps:{"value":(_vm.form.email)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.form, "email", $event.target.value)}}}),_vm._v(" "),_c('label',{attrs:{"for":"phone"}},[_vm._v("\n                    "+_vm._s(_vm.$t("call-to-action.phone"))+"\n                ")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.form.phone),expression:"form.phone"}],staticClass:"contact-field input",attrs:{"type":"text","name":"phone"},domProps:{"value":(_vm.form.phone)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.form, "phone", $event.target.value)}}}),_vm._v(" "),_c('input',{staticClass:"contact-field submit",attrs:{"type":"submit","disabled":!_vm.canSubmit},domProps:{"value":_vm.$t('call-to-action.tell-me-more')}})])]),_vm._v(" "),_c('div',{staticClass:"call-to-action-component-element-cover",class:{ 'fade-out': _vm.expanded },on:{"click":_vm.expand}},[_c('div',{staticClass:"call-to-action-component-element-cover-inner"},[_c('div',{staticClass:"call-to-action-component-element-cover-inner-text heavy"},[_vm._v("\n                    "+_vm._s(_vm.$t("call-to-action.more-information"))+"\n                ")]),_vm._v(" "),_c('div',{staticClass:"call-to-action-component-element-cover-inner-text light"},[_vm._v("\n                    "+_vm._s(_vm.$t("call-to-action.on-echelon"))+"\n                ")])])]),_vm._v(" "),_c('div',{staticClass:"call-to-action-component-element-toggle",class:{ interactive: _vm.expanded },on:{"click":_vm.contract}})])])}
+__vue__options__.staticRenderFns = []
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
@@ -28649,8 +28730,8 @@ exports.default = {
 if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
-__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('footer',{staticClass:"footer-component",class:{ 'footer-hidden': _vm.$store.getters.getFooterHidden }},[_c('div',{staticClass:"footer-component-wrapper"},[_c('h1',[_vm._v("EchelonSeaport")]),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('h2',[_c('a',{staticClass:"mobile-block",attrs:{"id":"main-number-footer","href":_vm.$store.getters.getMainNumberLink}},[_vm._v(_vm._s(_vm.$store.getters.getMainNumber))]),_vm._v(" "),_c('span',{staticClass:"divider"},[_vm._v("|")]),_vm._v(" "),_c('a',{staticClass:"mobile-block",attrs:{"href":"mailto:info@echelonseaport.com"}},[_vm._v("info@echelonseaport.com")])]),_vm._v(" "),_vm._m(1),_vm._v(" "),_c('p',[_c('span',{staticClass:"legal-toggle",on:{"click":_vm.toggleLegal}},[_vm._v("\n\n                Legal\n            ")])]),_vm._v(" "),_vm._m(2)]),_vm._v(" "),_c('div',{staticClass:"footer-component-legal"},[_c('div',{staticClass:"footer-component-legal-inner"},[_c('img',{attrs:{"src":"/img/eho.svg","alt":"Equal Housing Opportunity"}}),_vm._v(" "),_c('p',[_vm._v(_vm._s(_vm.$t("legal.equal-opportunity")))]),_vm._v(" "),_c('p',[_vm._v(_vm._s(_vm.$t("legal.this-material")))]),_vm._v(" "),_c('p',[_vm._v(_vm._s(_vm.$t("legal.units-described")))])])])])}
-__vue__options__.staticRenderFns = [function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('h2',[_c('span',{staticClass:"mobile-block bold"},[_vm._v("Sales Gallery:")]),_vm._v(" "),_c('span',{staticClass:"mobile-block"},[_vm._v("101 Seaport Blvd. Boston MA 02210")])])},function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('h2',{staticClass:"footer-component-links-wrapper"},[_c('a',{attrs:{"target":"_blank","rel":"noopener","href":"https://www.facebook.com/echelonseaport"}},[_c('i',{staticClass:"fa fa-facebook-f"})]),_vm._v(" "),_c('a',{attrs:{"target":"_blank","rel":"noopener","href":"https://www.instagram.com/echelonseaport/"}},[_c('i',{staticClass:"fa fa-instagram"})]),_vm._v(" "),_c('a',{attrs:{"target":"_blank","rel":"noopener","href":"https://twitter.com/echelonseaport"}},[_c('i',{staticClass:"fa fa-twitter"})])])},function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('p',[_c('span',[_c('a',{attrs:{"href":"/lang/en"}},[_vm._v("EN")]),_vm._v(" |\n                "),_c('a',{attrs:{"href":"/lang/cn"}},[_vm._v("CN")])])])}]
+__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('footer',{staticClass:"footer-component",class:{ 'footer-hidden': _vm.$store.getters.getFooterHidden }},[_c('div',{staticClass:"footer-component-wrapper"},[_c('h1',[_vm._v("EchelonSeaport")]),_vm._v(" "),_c('h2',[_c('span',{staticClass:"mobile-block bold"},[_vm._v(_vm._s(_vm.$t("footer.sales-gallery"))+":")]),_vm._v(" "),_c('span',{staticClass:"mobile-block"},[_vm._v("101 Seaport Blvd. Boston MA 02210")])]),_vm._v(" "),_c('h2',[_c('a',{staticClass:"mobile-block",attrs:{"id":"main-number-footer","href":_vm.$store.getters.getMainNumberLink}},[_vm._v(_vm._s(_vm.$store.getters.getMainNumber))]),_vm._v(" "),_c('span',{staticClass:"divider"},[_vm._v("|")]),_vm._v(" "),_c('a',{staticClass:"mobile-block",attrs:{"href":"mailto:info@echelonseaport.com"}},[_vm._v("info@echelonseaport.com")])]),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('p',[_c('span',{staticClass:"legal-toggle",on:{"click":_vm.toggleLegal}},[_vm._v("\n\n                "+_vm._s(_vm.$t("footer.legal"))+"\n            ")])]),_vm._v(" "),_c('p',[_c('span',[_c('a',{attrs:{"href":"/lang/en"}},[_vm._v(_vm._s(_vm.$t("shared.lang-en")))]),_vm._v(" |\n                "),_c('a',{attrs:{"href":"/lang/cn"}},[_vm._v(_vm._s(_vm.$t("shared.lang-cn")))])])])]),_vm._v(" "),_c('div',{staticClass:"footer-component-legal"},[_c('div',{staticClass:"footer-component-legal-inner"},[_c('img',{attrs:{"src":"/img/eho.svg","alt":"Equal Housing Opportunity"}}),_vm._v(" "),_c('p',[_vm._v(_vm._s(_vm.$t("legal.equal-opportunity")))]),_vm._v(" "),_c('p',[_vm._v(_vm._s(_vm.$t("legal.this-material")))]),_vm._v(" "),_c('p',[_vm._v(_vm._s(_vm.$t("legal.units-described")))])])])])}
+__vue__options__.staticRenderFns = [function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('h2',{staticClass:"footer-component-links-wrapper"},[_c('a',{attrs:{"target":"_blank","rel":"noopener","href":"https://www.facebook.com/echelonseaport"}},[_c('i',{staticClass:"fa fa-facebook-f"})]),_vm._v(" "),_c('a',{attrs:{"target":"_blank","rel":"noopener","href":"https://www.instagram.com/echelonseaport/"}},[_c('i',{staticClass:"fa fa-instagram"})]),_vm._v(" "),_c('a',{attrs:{"target":"_blank","rel":"noopener","href":"https://twitter.com/echelonseaport"}},[_c('i',{staticClass:"fa fa-twitter"})])])}]
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
@@ -28763,6 +28844,7 @@ exports.default = {
     data: function data() {
         return {
             openNav: false,
+            openLanguageNav: false,
             subnavLinks: {},
 
             localSubnavLinks: {
@@ -28808,8 +28890,8 @@ exports.default = {
 if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
-__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('nav',{staticClass:"navbar-component",class:'theme-' + _vm.$store.getters.getNavTheme},[_c('div',{staticClass:"navbar-component-spacer"}),_vm._v(" "),_c('div',{staticClass:"navbar-component-nav",class:{ 'nav-hidden': _vm.$store.getters.getNavHidden }},[_c('div',{staticClass:"navbar-mobile-header"},[_c('a',{staticClass:"navbar-mobile-header-phone-link",attrs:{"id":"main-number-nav","href":_vm.$store.getters.getMainNumberLink}},[_c('i',{staticClass:"fa fa-phone"}),_vm._v(" "+_vm._s(_vm.$store.getters.getMainNumber)+"\n            ")]),_vm._v(" "),_c('button',{staticClass:"navbar-mobile-header-toggle",class:{ open: _vm.openNav },on:{"click":function($event){_vm.openNav = !_vm.openNav}}},[_c('span',{staticClass:"icon-bar"}),_vm._v(" "),_c('span',{staticClass:"icon-bar"}),_vm._v(" "),_c('span',{staticClass:"icon-bar"}),_vm._v(" "),_c('span',{staticClass:"sr-only"},[_vm._v("Toggle navigation")])]),_vm._v(" "),_c('router-link',{staticClass:"navbar-mobile-header-logo",attrs:{"to":"/","exact":""}},[_c('div',{staticClass:"navbar-mobile-header-logo-image dark"}),_vm._v(" "),_c('div',{staticClass:"navbar-mobile-header-logo-image light"})]),_vm._v(" "),_c('div',{staticClass:"navbar-mobile-header-cta-toggle",class:{ 'cta-open': this.$store.getters.getCtaOpen },on:{"click":_vm.toggleCTA}},[_c('div',{staticClass:"navbar-mobile-header-cta-toggle-inner"})])],1),_vm._v(" "),_c('div',{staticClass:"navlinks",class:{ open: _vm.openNav }},[_c('div',{staticClass:"navlinks-wrapper"},[_c('router-link',{staticClass:"desktop-logo",attrs:{"to":"/","exact":""}},[_c('img',{staticClass:"desktop-logo-image dark",attrs:{"src":"/img/logo-icon-nav.svg","alt":"Echelon Seaport"}}),_vm._v(" "),_c('img',{staticClass:"desktop-logo-image light",attrs:{"src":"/img/logo-icon-nav-white.svg","alt":"Echelon Seaport"}})]),_vm._v(" "),_vm._l((_vm.navLinks),function(link){return _c('router-link',{staticClass:"navlink",attrs:{"to":link.path,"exact":""}},[_c('div',{staticClass:"spacer"},[_vm._v(_vm._s(link.title))]),_vm._v(" "),_c('div',{staticClass:"link"},[_vm._v("\n                        "+_vm._s(link.title)+"\n\n                        "),(link.hasOwnProperty('page') && _vm.subnavLinks.hasOwnProperty(link.page))?_c('div',{staticClass:"subnav"},[_vm._l((_vm.subnavLinks[link.page]),function(subnavLink){return [(link.path === _vm.$route.path)?_c('a',{staticClass:"subnav-link",attrs:{"href":'#' + subnavLink.id},on:{"click":function($event){$event.preventDefault();_vm.scrollToAnchor('#' + subnavLink.id)}}},[_vm._v("\n\n                                    "+_vm._s(subnavLink.title)+"\n                                ")]):_c('router-link',{staticClass:"subnav-link",attrs:{"to":link.path + '#' + subnavLink.id}},[_vm._v("\n\n                                    "+_vm._s(subnavLink.title)+"\n                                ")])]})],2):_vm._e()])])}),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('a',{staticClass:"navlink hide-mobile",attrs:{"href":_vm.$store.getters.getMainNumberLink}},[_c('div',{staticClass:"link"},[_c('i',{staticClass:"fa fa-phone"}),_vm._v(" "+_vm._s(_vm.$store.getters.getMainNumber))]),_vm._v(" "),_c('div',{staticClass:"spacer"},[_c('i',{staticClass:"fa fa-phone"}),_vm._v(" "+_vm._s(_vm.$store.getters.getMainNumber))])])],2)])])])}
-__vue__options__.staticRenderFns = [function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"navlink"},[_c('div',{staticClass:"spacer"},[_c('i',{staticClass:"fa fa-globe"})]),_vm._v(" "),_c('div',{staticClass:"link"},[_c('i',{staticClass:"fa fa-globe"}),_vm._v(" "),_c('div',{staticClass:"subnav"},[_c('a',{staticClass:"subnav-link",attrs:{"href":"/lang/en"}},[_vm._v("EN")]),_vm._v(" "),_c('a',{staticClass:"subnav-link",attrs:{"href":"/lang/cn"}},[_vm._v("CN")])])])])}]
+__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('nav',{staticClass:"navbar-component",class:'theme-' + _vm.$store.getters.getNavTheme},[_c('div',{staticClass:"navbar-component-spacer"}),_vm._v(" "),_c('div',{staticClass:"navbar-component-nav",class:{ 'nav-hidden': _vm.$store.getters.getNavHidden }},[_c('div',{staticClass:"navbar-mobile-header"},[_c('a',{staticClass:"navbar-mobile-header-phone-link",attrs:{"id":"main-number-nav","href":_vm.$store.getters.getMainNumberLink}},[_c('i',{staticClass:"fa fa-phone"}),_vm._v(" "+_vm._s(_vm.$store.getters.getMainNumber)+"\n            ")]),_vm._v(" "),_c('button',{staticClass:"navbar-mobile-header-toggle",class:{ open: _vm.openNav },on:{"click":function($event){_vm.openNav = !_vm.openNav; _vm.openLanguageNav = false;}}},[_c('span',{staticClass:"icon-bar"}),_vm._v(" "),_c('span',{staticClass:"icon-bar"}),_vm._v(" "),_c('span',{staticClass:"icon-bar"}),_vm._v(" "),_c('span',{staticClass:"sr-only"},[_vm._v("Toggle navigation")])]),_vm._v(" "),_c('button',{staticClass:"navbar-mobile-header-toggle navbar-mobile-header-toggle-language",class:{ open: _vm.openLanguageNav },on:{"click":function($event){_vm.openLanguageNav = !_vm.openLanguageNav; _vm.openNav = false;}}},[_c('span',{staticClass:"fa fa-globe"}),_vm._v(" "),_c('span',{staticClass:"sr-only"},[_vm._v("Toggle language selector")])]),_vm._v(" "),_c('router-link',{staticClass:"navbar-mobile-header-logo",attrs:{"to":"/","exact":""}},[_c('div',{staticClass:"navbar-mobile-header-logo-image dark"}),_vm._v(" "),_c('div',{staticClass:"navbar-mobile-header-logo-image light"})]),_vm._v(" "),_c('div',{staticClass:"navbar-mobile-header-cta-toggle",class:{ 'cta-open': this.$store.getters.getCtaOpen },on:{"click":_vm.toggleCTA}},[_c('div',{staticClass:"navbar-mobile-header-cta-toggle-inner"})])],1),_vm._v(" "),_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.openLanguageNav),expression:"openLanguageNav"}],staticClass:"navlinks",class:{ open: _vm.openLanguageNav}},[_c('div',{staticClass:"navlinks-wrapper"},[_c('div',{staticClass:"navlink"},[_c('div',{staticClass:"spacer"},[_vm._v(_vm._s(_vm.$t("shared.lang-en")))]),_vm._v(" "),_c('a',{staticClass:"link",attrs:{"href":"/lang/en"}},[_vm._v(_vm._s(_vm.$t("shared.lang-en")))])]),_vm._v(" "),_c('div',{staticClass:"navlink"},[_c('div',{staticClass:"spacer"},[_vm._v(_vm._s(_vm.$t("shared.lang-cn")))]),_vm._v(" "),_c('a',{staticClass:"link",attrs:{"href":"/lang/cn"}},[_vm._v(_vm._s(_vm.$t("shared.lang-cn")))])])])]),_vm._v(" "),_c('div',{staticClass:"navlinks",class:{ open: _vm.openNav }},[_c('div',{staticClass:"navlinks-wrapper"},[_c('router-link',{staticClass:"desktop-logo",attrs:{"to":"/","exact":""}},[_c('img',{staticClass:"desktop-logo-image dark",attrs:{"src":"/img/logo-icon-nav.svg","alt":"Echelon Seaport"}}),_vm._v(" "),_c('img',{staticClass:"desktop-logo-image light",attrs:{"src":"/img/logo-icon-nav-white.svg","alt":"Echelon Seaport"}})]),_vm._v(" "),_vm._l((_vm.navLinks),function(link){return _c('router-link',{staticClass:"navlink",attrs:{"to":link.path,"exact":""}},[_c('div',{staticClass:"spacer"},[_vm._v(_vm._s(link.title))]),_vm._v(" "),_c('div',{staticClass:"link"},[_vm._v("\n                        "+_vm._s(link.title)+"\n\n                        "),(link.hasOwnProperty('page') && _vm.subnavLinks.hasOwnProperty(link.page))?_c('div',{staticClass:"subnav"},[_vm._l((_vm.subnavLinks[link.page]),function(subnavLink){return [(link.path === _vm.$route.path)?_c('a',{staticClass:"subnav-link",attrs:{"href":'#' + subnavLink.id},on:{"click":function($event){$event.preventDefault();_vm.scrollToAnchor('#' + subnavLink.id)}}},[_vm._v("\n\n                                    "+_vm._s(subnavLink.title)+"\n                                ")]):_c('router-link',{staticClass:"subnav-link",attrs:{"to":link.path + '#' + subnavLink.id}},[_vm._v("\n\n                                    "+_vm._s(subnavLink.title)+"\n                                ")])]})],2):_vm._e()])])}),_vm._v(" "),_c('div',{staticClass:"navlink"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"link"},[_c('i',{staticClass:"fa fa-globe"}),_vm._v(" "),_c('div',{staticClass:"subnav"},[_c('a',{staticClass:"subnav-link",attrs:{"href":"/lang/en"}},[_vm._v(_vm._s(_vm.$t("shared.lang-en"))+" | English")]),_vm._v(" "),_c('a',{staticClass:"subnav-link",attrs:{"href":"/lang/cn"}},[_vm._v(_vm._s(_vm.$t("shared.lang-cn"))+" | Chinese")])])])]),_vm._v(" "),_c('a',{staticClass:"navlink hide-mobile",attrs:{"href":_vm.$store.getters.getMainNumberLink}},[_c('div',{staticClass:"link"},[_c('i',{staticClass:"fa fa-phone"}),_vm._v(" "+_vm._s(_vm.$store.getters.getMainNumber))]),_vm._v(" "),_c('div',{staticClass:"spacer"},[_c('i',{staticClass:"fa fa-phone"}),_vm._v(" "+_vm._s(_vm.$store.getters.getMainNumber))])])],2)])])])}
+__vue__options__.staticRenderFns = [function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"spacer"},[_c('i',{staticClass:"fa fa-globe"})])}]
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
@@ -28835,30 +28917,30 @@ exports.default = {
             maps: [{
                 id: "all",
                 image: "all.jpg",
-                title: "All",
+                title: window.trans['neighborhood-map']['all'],
                 locations: []
             }, {
                 id: "dining",
                 image: "dining.jpg",
-                title: "Dining",
+                title: window.trans['neighborhood-map']['dining'],
 
                 locations: ["75 on Liberty Wharf", "Aura", "Babbo", "Bastille Kitchen", "Blue Dragon", "by Chloe", "Caffe Nero", "Committee", "Del Frisco's Double Eagle Steakhhouse", "Empire", "Flour Bakery", "Drink", "James Hook & Co", "Legal Harborside", "Legal Test Kitchen", "Lola 42", "Lolita", "Lookout Rooftop", "Mastro's Ocean Club", "Menton", "Meritage", "Morton's", "Nebo", "Oak + Rowan", "Ocean Prime", "Rosa Mexicano", "Row 34", "Rowe's Wharf Sea Grille", "Salvatore's", "Sapore Restaurant & Bar", "Smith & Wollensky", "Sportello", "Strega Waterfront", "The Barking Crab", "Trade", "Trillium Brewing Co."]
             }, {
                 id: "shopping",
                 image: "shopping.jpg",
-                title: "Shopping",
+                title: window.trans['neighborhood-map']['shopping'],
 
                 locations: ["BlueMercury", "Bonobo's", "CVS", "Equinox", "Everbody Fights", "Filson", "Lululemon", "MiniLuxe", "Warby Parker"]
             }, {
                 id: "culture",
                 image: "culture.jpg",
-                title: "Culture",
+                title: window.trans['neighborhood-map']['culture'],
 
                 locations: ["Blue Hills Bank Concert Pavilion", "Boston Children's Museum", "Boston Convention & Exhibition Center", "Boston Fish Pier", "Boston Tea Party Museum", "Children's Wharf Park", "District Hall", "Fan Pier Park", "Fort Point Arts Community Gallery", "Institute of Contemporary Art (ICA)", "Kings", "Lawn on D", "Post Office Square", "Rose Fitzgerald Kennedy Greenway", "Seagreen Park", "Seaport Common", "Seaport World Trade Center", "Showcase ICON Theater", "Society of Arts & Crafts", "South Boston Maritime Park", "Spirit of Boston", "The Grand"]
             }, {
                 id: "hotels",
                 image: "hotels.jpg",
-                title: "hotels",
+                title: window.trans['neighborhood-map']['hotels'],
 
                 locations: ["Boston Harbor Hotel", "Hilton Downtown", "Intercontinental Boston", "Renaissance Hotel", "Seaport Hotel", "The Envoy Hotel", "The Langham", "The Westin", "Yotel"]
             }]

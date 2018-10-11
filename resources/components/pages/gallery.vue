@@ -12,7 +12,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <h1 class="gallery-component-title">Gallery</h1>
+                        <h1 class="gallery-component-title">{{$t("images.gallery")}}</h1>
 
                         <div class="gallery-component-image-grid">
                             <div

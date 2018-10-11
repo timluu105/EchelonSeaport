@@ -20,11 +20,11 @@
                     />
 
                     <h1 class="call-to-action-component-element-thanks-headline">
-                        Thank You for Registering
+                        {{$t("call-to-action.thank-you")}}
                     </h1>
 
                     <p class="call-to-action-component-element-thanks-body">
-                        A broker will contact you with additional information
+                        {{$t("call-to-action.broker-will")}}
                     </p>
                 </div>
             </div>
@@ -35,7 +35,7 @@
 
                 <form @submit.prevent="onSubmit">
                     <label for="first_name">
-                        <span class="required">First Name</span>
+                        <span class="required">{{$t("call-to-action.first-name")}}</span>
                     </label>
 
                     <input
@@ -46,7 +46,7 @@
                     />
 
                     <label for="last_name">
-                        <span class="required">Last Name</span>
+                        <span class="required">{{$t("call-to-action.last-name")}}</span>
                     </label>
 
                     <input
@@ -57,7 +57,7 @@
                     />
 
                     <label for="email">
-                        <span class="required">Email</span>
+                        <span class="required">{{$t("call-to-action.email")}}</span>
                     </label>
 
                     <input
@@ -68,7 +68,7 @@
                     />
 
                     <label for="phone">
-                        Phone
+                        {{$t("call-to-action.phone")}}
                     </label>
 
                     <input
@@ -81,7 +81,7 @@
                     <input
                         class="contact-field submit"
                         type="submit"
-                        value="Tell Me More"
+                        :value="$t('call-to-action.tell-me-more')"
                         :disabled="!canSubmit"
                     />
                 </form>
@@ -94,11 +94,11 @@
 
                 <div class="call-to-action-component-element-cover-inner">
                     <div class="call-to-action-component-element-cover-inner-text heavy">
-                        For More Information
+                        {{$t("call-to-action.more-information")}}
                     </div>
 
                     <div class="call-to-action-component-element-cover-inner-text light">
-                        On Echelon Seaport
+                        {{$t("call-to-action.on-echelon")}}
                     </div>
                 </div>
             </div>

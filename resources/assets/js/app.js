@@ -380,6 +380,7 @@ const translations = {
             "units-described": "The residential units described herein and marketed under the licensed “REGENT” and/or “REGENT COLLECTION” trademark are not owned, developed, or sold by Regent Asia Pacific Management Limited (“Regent”) or any of its affiliates, and neither Regent nor any of its affiliates makes any representation, warranty, or guarantee with respect to such residential units.",
         },
         "images": {
+            "gallery": "Gallery",
             "image-1": "EchelonSeaport",
             "image-2": "133 Seaport",
             "image-3": "135 Seaport",
@@ -402,19 +403,58 @@ const translations = {
             "image-20": "133 Resident Living Room",
             "image-21": "133 Resident Kitchen",
             "image-22": "133 Resident Terrace"
+        },
+        "floorplans": {
+            "for-availability": "For Floor Plans & Availability",
+            "contact-us-at": "Contact Us at %phone_link%"
+        },
+        "singular-destination": {
+            "133-Seaport": "133 Seaport",
+            "135-Seaport": "135 Seaport",
+            "text-1": "The two contextual towers are a refined addition to the Seaport skyline. Timelessly crafted in stone and glass, Kohn Pedersen Fox created a silhouette with setbacks enhancing select residences with oversized private terraces.",
+            "text-2": "Live large. A flagship address offering 255 condominium residences with Boston Harbor and Seaport park views, generous private stepped terraces, grand and elegant interiors, and extensive outdoor amenities including a spa pool, lounge and dining areas.",
+            "text-3": "Live modern. Contemporary and cool, 135 Seaport offers 192 condominium residences with Harbor and wrap-around city and sunset views to the west. The expansive fifth-floor terrace offers a grand outdoor pool, sun cabanas, outdoor dining and lounge areas.",
+            "two-addresses": "Two addresses.",
+            "singular-destination": "A Singular Destination.",
+        },
+        "call-to-action": {
+            "first-name": "First Name",
+            "last-name": "Last Name",
+            "email": "Email",
+            "phone": "Phone",
+            "more-information": "For More Information",
+            "on-echelon": "On Echelon Seaport",
+            "tell-me-more": "Tell Me More",
+            "thank-you": "Thank You for Registering",
+            "broker-will": "A broker will contact you with additional information"
+        },
+        "neighborhood-map": {
+            "all": "All",
+            "dining": "Dining",
+            "shopping": "Shopping",
+            "culture": "Culture",
+            "hotels": "Hotels"
+        },
+        "footer": {
+            "sales-gallery": "Sales Gallery",
+            "legal": "Legal",
+        },
+        "shared": {
+            "lang-en": "EN",
+            "lang-cn": "中文"
         }
     },
     "cn": {
         "pages": {
             "lifestyle": "品质生活",
-            "neighborhood": "Neighborhood",
-            "residences": "Residences",
-            "architecture": "Architecture & Design",
+            "neighborhood": "社区",
+            "residences": "住宅",
+            "architecture": "建筑与设计",
             "floor-plans": "楼层计划",
-            "news": "News",
-            "gallery": "Gallery",
-            "team": "Team",
-            "contact": "Contact"
+            "news": "新闻报导",
+            "gallery": "照片",
+            "team": "团队",
+            "contact": "联系方式"
         },
         "architecture": {
             "stripe-content-body": "EchelonSeaport 已经成为海港区甚至是波士顿整个城市街区的代表性建筑，是由国际顶级建筑师事务所Kohn Pedersen Fox（KPF）定义的当代地标。三座住宅楼环绕着中央庭院，美轮美奂的廊桥、多条人行道及郁郁葱葱的树冠纵横交织，坐落其中。",
@@ -443,14 +483,14 @@ const translations = {
             "modern-living": "摩登生活"
         },
         "contact": {
-            "interested": "Interested in learning more?",
-            "receive-updates": "To receive exclusive updates, please provide your contact information below.",
+            "interested": "有兴趣收到更多资讯？",
+            "receive-updates": "欲收到独家资讯更新，请于下方留下您的联系方式",
         },
         "neighborhood": {
-            "dining-text-copy": "屡获殊荣的餐饮品牌早已令波士顿海港区成为最受欢迎的餐饮聚集地。在这里，您能享受到美食届的奥斯卡奖¬——James Beard奖项获得者Barbara Lynch、Ming Tsai和Joanne Chang等人制作出来的美食佳肴，多滋多样，应有尽有。",
+            "dining-text-copy": "屡获殊荣的餐饮品牌早已令波士顿海港区成为最受欢迎的餐饮聚集地。在这里，您能享受到美食届的奥斯卡奖­——James Beard奖项获得者Barbara Lynch、Ming Tsai和Joanne Chang等人制作出来的美食佳肴，多滋多样，应有尽有。",
             "dining-text-title": "Seaport",
             "dining-text-title-2": "Dining",
-            "location-seaport": "EchelonSeaport坐落在波士顿最受期待的创新区，这不仅仅是一处居所，更是一种崭新的生活方式。无论是活力十足的中庭氛围，还是品牌化管理的商业中心，亦或是多样的室内外生活设施，都可以为您带来全新的体验。不但传承了波士顿丰富的文化格调，更在城市持续发展的过程中留下了自己的独特印记",
+            "location-seaport": "EchelonSeaport坐落在波士顿最受期待的创新区，这不仅仅是一处居所，更是一种崭新的生活方式。无论是活力十足的中庭氛围，还是品牌化管理的商业中心，亦或是多样的室内外生活设施，都可以为您带来全新的体验。不但传承了波士顿丰富的文化格调，更在城市持续发展的过程中留下了自己的独特印记。",
             "soaring-heights": "迷人的波士顿一直是历史文化底蕴和国际时尚潮流的融合体，如今它再次以一副崭新的面貌面向全世界，海港区飞速发展，已经成为波士顿首屈一指的新中心。",
             "grandly-scaled": "这里不仅是美食的天堂，还是波士顿最时尚的圣殿。商业中心范围广，品牌多样化，不仅仅有Filson，Lululemon，L.L. Bean此类经典品牌，也不乏Warby Parker这类创新品牌，只要您需要，总能在这里找到自己喜爱的商品。而这，仅仅是一个开始……",
             "seaport-sweat": "喜欢户外跑步、骑车、散步？那还有什么地方比Seaport风景如画的海滨区更合适！您可以在Lululemon或L.L Bean置办一身崭新的运动装备，然后到全美知名的Everbody Fights、Soulcycle和Equinox健身会所挥洒汗水，再前往Juice Press、byChloe享用健康的一餐。健康变得轻松而简单……",
@@ -519,8 +559,8 @@ const translations = {
             "own-sky": "坐拥城市天际",
             "top-chef": "艺术厨房",
             "signature-terraces": "独特的空中私家露台",
-            "preview-of": "For a Preview of EchelonSeaport",
-            "contact-info": "Please Provide Your Contact Information Below"
+            "preview-of": "预约参观EchelonSeaport",
+            "contact-info": "请留下您的联系方式"
         },
         "lifestyle": {
             "text-1": "EchelonSeaport拥有超过50,000平方英尺的生活配套设施，由世界知名的室内设计公司Jeffrey Beers International全新打造。室内外尽显与众不同，着眼于高端居住品质，优越生活不言自明。",
@@ -554,7 +594,7 @@ const translations = {
             "echelonwellness": "健康生活",
             "reinvigorate": "为生活注入新活力",
             "fitness": "运动的升华",
-            "gaming": "球场上的激",
+            "gaming": "球场上的激情",
             "zen": "私人禅式空间",
             "culture": "ECHELON文化",
             "innovation": "核心打造 创新无限",
@@ -570,6 +610,7 @@ const translations = {
             "units-described": "本网站描述的并在“丽晶”和/或“丽晶系列”商标许可下销售的住宅单位未由丽晶亚太地区管理有限公司（“丽晶”）或其任何附属公司所拥有、开发或销售，且丽晶及其任何附属公司对此类住宅单位将不作出任何陈述、保证或担保。",
         },
         "images": {
+            "gallery": "照片",
             "image-1": "波士顿海港区EchelonSeaport",
             "image-2": "号楼建筑外观",
             "image-3": "号楼建筑外观",
@@ -592,6 +633,45 @@ const translations = {
             "image-20": "客厅",
             "image-21": "厨房",
             "image-22": "阳台",
+        },
+        "floorplans": {
+            "for-availability": "对于楼层计划与可出售情况",
+            "contact-us-at": "请拨打电话%phone_link%与我们取得联系"
+        },
+         "singular-destination": {
+             "133-Seaport": "133 Seaport",
+             "135-Seaport": "135 Seaport",
+             "text-1": "两幢住宅楼的外墙被恒久耐看的石头及玻璃材质所包围，海港区的天际线将在不久后被重新定义。KPF将楼梯轮廓设计为节节高升的云梯状，为住户打造出私家超大空中露台。",
+             "text-2": "133 Seaport共含产权公寓255套，主打宽阔奢华生活空间。不仅令住户尽享波士顿海湾和海港公园景致，还配有豪华高贵的小区配套设施，例如SPA、酒廊和餐饮等等。",
+             "text-3": "135 Seaport共含产权公寓180套，主打时尚精致生活空间。城市风光，海湾胜景，日升日落，海天一线，极致美景尽入眼帘。位于3层的小区花园更设有高标准的室外泳池，水边凉亭，以及户外休闲空间。",
+             "two-addresses": "不同的建筑",
+             "singular-destination": "相同的体验",
+        },
+        "call-to-action": {
+            "first-name": "您的名字",
+            "last-name": "您的姓氏",
+            "email": "您的电子邮件",
+            "phone": "您的电话",
+            "more-information": "更多关于EchelonSeaport的资讯",
+            "on-echelon": "",
+            "tell-me-more": "与我联系",
+            "thank-you": "感谢您的注册",
+            "broker-will": "销售人员将与您联系并告知更多资讯"
+        },
+        "neighborhood-map": {
+                "all": "全部",
+                "dining": "餐饮",
+                "shopping": "购物",
+                "culture": "文化",
+                "hotels": "酒店"
+        },
+        "footer": {
+                "sales-gallery": "销售展示中心地址",
+                "legal": "法务声明",
+        },
+        "shared": {
+            "lang-en": "EN",
+            "lang-cn": "中文"
         }
     }
 };
@@ -611,16 +691,11 @@ for(var language in translations) {
     }
 }
 
-console.log("Here");
-console.log(flattenedTranslations);
-
-
 Vue.i18n.add('en', flattenedTranslations["en"]);
 Vue.i18n.add('cn', flattenedTranslations["cn"]);
 
 var languageSelected = (window.translanguage in flattenedTranslations) ? window.translanguage : "en";
 
-console.log("Set language to: ", languageSelected);
 Vue.i18n.set(languageSelected);
 window.trans = translations[languageSelected];
 
@@ -758,8 +833,5 @@ router.afterEach((to, from) => {
 
 const App = new Vue({
     router,
-    store,
-    props: {
-        lang: {"header1": "Eeeee"}
-    }
+    store
 }).$mount("#app");

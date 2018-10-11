@@ -10472,7 +10472,7 @@ h1, h2, h3, h4, h5, h6 {
       font-family: "Montserrat-SemiBold";
       position: absolute;
       top: 50%;
-      right: 60px;
+      right: 90px;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
@@ -10539,6 +10539,9 @@ h1, h2, h3, h4, h5, h6 {
         -webkit-transform: translateY(50%) rotate(-45deg);
         -ms-transform: translateY(50%) rotate(-45deg);
         transform: translateY(50%) rotate(-45deg); }
+      .navbar-component-nav .navbar-mobile-header-toggle-language {
+        top: 45%;
+        right: 50px; }
   .navbar-component-nav .navlinks {
     opacity: 1;
     -webkit-transition: max-height 500ms;
@@ -10716,6 +10719,8 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #000; }
   .navbar-component.theme-dark .navbar-component-nav .navbar-mobile-header-toggle .icon-bar {
     background-color: #fff; }
+  .navbar-component.theme-dark .navbar-component-nav .navbar-mobile-header-toggle .fa-globe {
+    color: #fff; }
   @media (min-width: 1200px) {
     .navbar-component.theme-dark .navbar-component-nav .navlinks-wrapper .navlink {
       color: #fff; }
