@@ -226,6 +226,43 @@ const translations = {
             "team": "Team",
             "contact": "Contact"
         },
+        "subnav-lifestyle": {
+            "the-waterfall-terrace-pool": "The Waterfall Terrace Pool",
+            "alfresco-dining": "Alfresco Dining",
+            "the-grand-pool": "The Grand Pool",
+            "133-seaport-lounge": "133 Seaport Lounge",
+            "library-lounge": "Library Lounge",
+            "tasting-room": "Tasting Room",
+            "135-seaport-lounge": "135 Seaport Lounge",
+            "regent-service": "Regent Service",
+            "indoor-pool": "Indoor Pool",
+            "fitness": "Fitness",
+            "basketball-court": "Basketball Court",
+            "spa-suite": "Spa Suite",
+            "innovation-center": "Innovation Center",
+            "echelon-life": "Echelon Life",
+            "sky-lounge": "Sky Lounge",
+            "echelon-pets": "Echelon Pets",
+            "playroom": "Playroom",
+        },
+        "subnav-residences": {
+            "overview": "Overview",
+            "133-seaport": "133 Seaport",
+            "lobby": "Lobby",
+            "living-room": "Living Room",
+            "views": "Views",
+            "kitchen": "Kitchen",
+            "terraces": "Terraces"
+        },
+        "subnav-architecture-and-design": {
+            "kpf-architecture": "KPF Architecture",
+            "jeffrey-beers-interiors": "Jeffrey Beers Interiors"
+        },
+        "subnav-neighborhood": {
+            "the-seaport": "The Seaport",
+            "map": "Map",
+            "neighborhood-gallery": "Neighborhood Gallery"
+        },
         "architecture": {
             "stripe-content-body": "This is the premiere address at the Seaport, encompassing an entire city block. A defining contemporary landmark by internationally-lauded Kohn Pedersen Fox (KPF). A trio of residential towers anchored by a center destination courtyard with an architecturally-striking landmark bridge, pedestrian lanes and beautiful tree canopies.",
             "caption-body": "Art meets commerce. Surrounded by striking architecture, the central courtyard will be one of the most talked-about public spaces in Boston, populated by destination retail and signature epicurean experiences.",
@@ -442,6 +479,10 @@ const translations = {
         "shared": {
             "lang-en": "EN",
             "lang-cn": "中文"
+        },
+        "hubspot": {
+            "form-id": "e585428e-7606-4ab7-8e10-bfbdd5992a00",
+            "thank-you": "Thank you for registering",
         }
     },
     "cn": {
@@ -455,6 +496,43 @@ const translations = {
             "gallery": "照片",
             "team": "团队",
             "contact": "联系方式"
+        },
+        "subnav-lifestyle": {
+            "the-waterfall-terrace-pool": "The Waterfall Terrace Pool",
+            "alfresco-dining": "Alfresco Dining",
+            "the-grand-pool": "The Grand Pool",
+            "133-seaport-lounge": "133 Seaport Lounge",
+            "library-lounge": "Library Lounge",
+            "tasting-room": "Tasting Room",
+            "135-seaport-lounge": "135 Seaport Lounge",
+            "regent-service": "Regent Service",
+            "indoor-pool": "Indoor Pool",
+            "fitness": "Fitness",
+            "basketball-court": "Basketball Court",
+            "spa-suite": "Spa Suite",
+            "innovation-center": "Innovation Center",
+            "echelon-life": "Echelon Life",
+            "sky-lounge": "Sky Lounge",
+            "echelon-pets": "Echelon Pets",
+            "playroom": "Playroom",
+        },
+        "subnav-residences": {
+            "overview": "Overview",
+            "133-seaport": "133 Seaport",
+            "lobby": "Lobby",
+            "living-room": "Living Room",
+            "views": "Views",
+            "kitchen": "Kitchen",
+            "terraces": "Terraces"
+        },
+        "subnav-architecture-and-design": {
+            "kpf-architecture": "KPF Architecture",
+            "jeffrey-beers-interiors": "Jeffrey Beers Interiors"
+        },
+        "subnav-neighborhood": {
+            "the-seaport": "The Seaport",
+            "map": "Map",
+            "neighborhood-gallery": "Neighborhood Gallery"
         },
         "architecture": {
             "stripe-content-body": "EchelonSeaport 已经成为海港区甚至是波士顿整个城市街区的代表性建筑，是由国际顶级建筑师事务所Kohn Pedersen Fox（KPF）定义的当代地标。三座住宅楼环绕着中央庭院，美轮美奂的廊桥、多条人行道及郁郁葱葱的树冠纵横交织，坐落其中。",
@@ -666,12 +744,16 @@ const translations = {
                 "hotels": "酒店"
         },
         "footer": {
-                "sales-gallery": "销售展示中心地址",
-                "legal": "法务声明",
+            "sales-gallery": "销售展示中心地址",
+            "legal": "法务声明",
         },
         "shared": {
             "lang-en": "EN",
             "lang-cn": "中文"
+        },
+        "hubspot": {
+            "form-id": "3baecad0-a9ff-43e3-8455-8ae1b4f359f9",
+            "thank-you": "感谢您的注册",
         }
     }
 };

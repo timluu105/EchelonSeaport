@@ -26311,6 +26311,43 @@ var translations = {
             "team": "Team",
             "contact": "Contact"
         },
+        "subnav-lifestyle": {
+            "the-waterfall-terrace-pool": "The Waterfall Terrace Pool",
+            "alfresco-dining": "Alfresco Dining",
+            "the-grand-pool": "The Grand Pool",
+            "133-seaport-lounge": "133 Seaport Lounge",
+            "library-lounge": "Library Lounge",
+            "tasting-room": "Tasting Room",
+            "135-seaport-lounge": "135 Seaport Lounge",
+            "regent-service": "Regent Service",
+            "indoor-pool": "Indoor Pool",
+            "fitness": "Fitness",
+            "basketball-court": "Basketball Court",
+            "spa-suite": "Spa Suite",
+            "innovation-center": "Innovation Center",
+            "echelon-life": "Echelon Life",
+            "sky-lounge": "Sky Lounge",
+            "echelon-pets": "Echelon Pets",
+            "playroom": "Playroom"
+        },
+        "subnav-residences": {
+            "overview": "Overview",
+            "133-seaport": "133 Seaport",
+            "lobby": "Lobby",
+            "living-room": "Living Room",
+            "views": "Views",
+            "kitchen": "Kitchen",
+            "terraces": "Terraces"
+        },
+        "subnav-architecture-and-design": {
+            "kpf-architecture": "KPF Architecture",
+            "jeffrey-beers-interiors": "Jeffrey Beers Interiors"
+        },
+        "subnav-neighborhood": {
+            "the-seaport": "The Seaport",
+            "map": "Map",
+            "neighborhood-gallery": "Neighborhood Gallery"
+        },
         "architecture": {
             "stripe-content-body": "This is the premiere address at the Seaport, encompassing an entire city block. A defining contemporary landmark by internationally-lauded Kohn Pedersen Fox (KPF). A trio of residential towers anchored by a center destination courtyard with an architecturally-striking landmark bridge, pedestrian lanes and beautiful tree canopies.",
             "caption-body": "Art meets commerce. Surrounded by striking architecture, the central courtyard will be one of the most talked-about public spaces in Boston, populated by destination retail and signature epicurean experiences.",
@@ -26527,6 +26564,10 @@ var translations = {
         "shared": {
             "lang-en": "EN",
             "lang-cn": "中文"
+        },
+        "hubspot": {
+            "form-id": "e585428e-7606-4ab7-8e10-bfbdd5992a00",
+            "thank-you": "Thank you for registering"
         }
     },
     "cn": {
@@ -26540,6 +26581,43 @@ var translations = {
             "gallery": "照片",
             "team": "团队",
             "contact": "联系方式"
+        },
+        "subnav-lifestyle": {
+            "the-waterfall-terrace-pool": "The Waterfall Terrace Pool",
+            "alfresco-dining": "Alfresco Dining",
+            "the-grand-pool": "The Grand Pool",
+            "133-seaport-lounge": "133 Seaport Lounge",
+            "library-lounge": "Library Lounge",
+            "tasting-room": "Tasting Room",
+            "135-seaport-lounge": "135 Seaport Lounge",
+            "regent-service": "Regent Service",
+            "indoor-pool": "Indoor Pool",
+            "fitness": "Fitness",
+            "basketball-court": "Basketball Court",
+            "spa-suite": "Spa Suite",
+            "innovation-center": "Innovation Center",
+            "echelon-life": "Echelon Life",
+            "sky-lounge": "Sky Lounge",
+            "echelon-pets": "Echelon Pets",
+            "playroom": "Playroom"
+        },
+        "subnav-residences": {
+            "overview": "Overview",
+            "133-seaport": "133 Seaport",
+            "lobby": "Lobby",
+            "living-room": "Living Room",
+            "views": "Views",
+            "kitchen": "Kitchen",
+            "terraces": "Terraces"
+        },
+        "subnav-architecture-and-design": {
+            "kpf-architecture": "KPF Architecture",
+            "jeffrey-beers-interiors": "Jeffrey Beers Interiors"
+        },
+        "subnav-neighborhood": {
+            "the-seaport": "The Seaport",
+            "map": "Map",
+            "neighborhood-gallery": "Neighborhood Gallery"
         },
         "architecture": {
             "stripe-content-body": "EchelonSeaport 已经成为海港区甚至是波士顿整个城市街区的代表性建筑，是由国际顶级建筑师事务所Kohn Pedersen Fox（KPF）定义的当代地标。三座住宅楼环绕着中央庭院，美轮美奂的廊桥、多条人行道及郁郁葱葱的树冠纵横交织，坐落其中。",
@@ -26757,6 +26835,10 @@ var translations = {
         "shared": {
             "lang-en": "EN",
             "lang-cn": "中文"
+        },
+        "hubspot": {
+            "form-id": "3baecad0-a9ff-43e3-8455-8ae1b4f359f9",
+            "thank-you": "感谢您的注册"
         }
     }
 };
@@ -28637,7 +28719,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = {
     data: function data() {
         return {
-            formId: "e585428e-7606-4ab7-8e10-bfbdd5992a00"
+            formId: this.$t("hubspot.form-id")
         };
     },
 
@@ -28660,7 +28742,7 @@ exports.default = {
                 portalId: "3434592",
                 formId: _this2.formId,
                 target: "#contact-registration",
-                inlineMessage: "Thank you for registering",
+                inlineMessage: _this2.$t("hubspot.thank-you"),
                 onFormReady: _this2.formReady
             });
         });
@@ -28848,7 +28930,88 @@ exports.default = {
             subnavLinks: {},
 
             localSubnavLinks: {
-                neighborhood: [{ id: "the-seaport", title: "The Seaport" }, { id: "map", title: "Map" }, { id: "neighborhood-gallery", title: "Neighborhood Gallery" }]
+                neighborhood: [{ id: "the-seaport", title: window.trans['subnav-neighborhood']['the-seaport'] }, { id: "map", title: window.trans['subnav-neighborhood']['map'] }, { id: "neighborhood-gallery", title: window.trans['subnav-neighborhood']['neighborhood-gallery'] }],
+                lifestyle: [{
+                    "id": "the-waterfall-terrace-pool",
+                    "title": window.trans['subnav-lifestyle']['the-waterfall-terrace-pool']
+                }, {
+                    "id": "alfresco-dining",
+                    "title": window.trans['subnav-lifestyle']['alfresco-dining']
+                }, {
+                    "id": "the-grand-pool",
+                    "title": window.trans['subnav-lifestyle']['the-grand-pool']
+                }, {
+                    "id": "133-seaport-lounge",
+                    "title": window.trans['subnav-lifestyle']['133-seaport-lounge']
+                }, {
+                    "id": "library-lounge",
+                    "title": window.trans['subnav-lifestyle']['library-lounge']
+                }, {
+                    "id": "tasting-room",
+                    "title": window.trans['subnav-lifestyle']['tasting-room']
+                }, {
+                    "id": "135-seaport-lounge",
+                    "title": window.trans['subnav-lifestyle']['135-seaport-lounge']
+                }, {
+                    "id": "regent-service",
+                    "title": window.trans['subnav-lifestyle']['regent-service']
+                }, {
+                    "id": "indoor-pool",
+                    "title": window.trans['subnav-lifestyle']['indoor-pool']
+                }, {
+                    "id": "fitness",
+                    "title": window.trans['subnav-lifestyle']['fitness']
+                }, {
+                    "id": "basketball-court",
+                    "title": window.trans['subnav-lifestyle']['basketball-court']
+                }, {
+                    "id": "spa-suite",
+                    "title": window.trans['subnav-lifestyle']['spa-suite']
+                }, {
+                    "id": "innovation-center",
+                    "title": window.trans['subnav-lifestyle']['innovation-center']
+                }, {
+                    "id": "echelon-life",
+                    "title": window.trans['subnav-lifestyle']['echelon-life']
+                }, {
+                    "id": "sky-lounge",
+                    "title": window.trans['subnav-lifestyle']['sky-lounge']
+                }, {
+                    "id": "echelon-pets",
+                    "title": window.trans['subnav-lifestyle']['echelon-pets']
+                }, {
+                    "id": "playroom",
+                    "title": window.trans['subnav-lifestyle']['playroom']
+                }],
+                "residences": [{
+                    "id": "overview",
+                    "title": window.trans['subnav-residences']['overview']
+                }, {
+                    "id": "133-seaport",
+                    "title": window.trans['subnav-residences']['133-seaport']
+                }, {
+                    "id": "lobby",
+                    "title": window.trans['subnav-residences']['lobby']
+                }, {
+                    "id": "living-room",
+                    "title": window.trans['subnav-residences']['living-room']
+                }, {
+                    "id": "views",
+                    "title": window.trans['subnav-residences']['views']
+                }, {
+                    "id": "kitchen",
+                    "title": window.trans['subnav-residences']['kitchen']
+                }, {
+                    "id": "terraces",
+                    "title": window.trans['subnav-residences']['terraces']
+                }],
+                "architecture": [{
+                    "id": "kpf-architecture",
+                    "title": window.trans['subnav-architecture-and-design']['kpf-architecture']
+                }, {
+                    "id": "jeffrey-beers-interiors",
+                    "title": window.trans['subnav-architecture-and-design']['jeffrey-beers-interiors']
+                }]
             },
 
             navLinks: [{ path: "/lifestyle", title: window.trans["pages"]["lifestyle"], page: "lifestyle" }, { path: "/residences", title: window.trans["pages"]["residences"], page: "residences" }, { path: "/neighborhood", title: window.trans["pages"]["neighborhood"], page: "neighborhood" }, { path: "/architecture-and-design", title: window.trans["pages"]["architecture"], page: "architecture" }, { path: "/floorplan-and-availability", title: window.trans["pages"]["floor-plans"] }, { path: "/news", title: window.trans["pages"]["news"] }, { path: "/gallery", title: window.trans["pages"]["gallery"] }, { path: "/team", title: window.trans["pages"]["team"] }, { path: "/contact", title: window.trans["pages"]["contact"] }]

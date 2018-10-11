@@ -158,9 +158,119 @@
 
                 localSubnavLinks: {
                     neighborhood: [
-                        { id: "the-seaport", title: "The Seaport" },
-                        { id: "map", title: "Map" },
-                        { id: "neighborhood-gallery", title: "Neighborhood Gallery" }
+                        { id: "the-seaport", title: window.trans['subnav-neighborhood']['the-seaport'] },
+                        { id: "map", title: window.trans['subnav-neighborhood']['map'] },
+                        { id: "neighborhood-gallery", title: window.trans['subnav-neighborhood']['neighborhood-gallery'] }
+                    ],
+                    lifestyle: [
+                        {
+                            "id": "the-waterfall-terrace-pool",
+                            "title": window.trans['subnav-lifestyle']['the-waterfall-terrace-pool']
+                        },
+                        {
+                            "id": "alfresco-dining",
+                            "title": window.trans['subnav-lifestyle']['alfresco-dining']
+                        },
+                        {
+                            "id": "the-grand-pool",
+                            "title": window.trans['subnav-lifestyle']['the-grand-pool']
+                        },
+                        {
+                            "id": "133-seaport-lounge",
+                            "title": window.trans['subnav-lifestyle']['133-seaport-lounge']
+                        },
+                        {
+                            "id": "library-lounge",
+                            "title": window.trans['subnav-lifestyle']['library-lounge']
+                        },
+                        {
+                            "id": "tasting-room",
+                            "title": window.trans['subnav-lifestyle']['tasting-room']
+                        },
+                        {
+                            "id": "135-seaport-lounge",
+                            "title": window.trans['subnav-lifestyle']['135-seaport-lounge']
+                        },
+                        {
+                            "id": "regent-service",
+                            "title": window.trans['subnav-lifestyle']['regent-service']
+                        },
+                        {
+                            "id": "indoor-pool",
+                            "title": window.trans['subnav-lifestyle']['indoor-pool']
+                        },
+                        {
+                            "id": "fitness",
+                            "title": window.trans['subnav-lifestyle']['fitness']
+                        },
+                        {
+                            "id": "basketball-court",
+                            "title": window.trans['subnav-lifestyle']['basketball-court']
+                        },
+                        {
+                            "id": "spa-suite",
+                            "title": window.trans['subnav-lifestyle']['spa-suite']
+                        },
+                        {
+                            "id": "innovation-center",
+                            "title": window.trans['subnav-lifestyle']['innovation-center']
+                        },
+                        {
+                            "id": "echelon-life",
+                            "title": window.trans['subnav-lifestyle']['echelon-life']
+                        },
+                        {
+                            "id": "sky-lounge",
+                            "title": window.trans['subnav-lifestyle']['sky-lounge']
+                        },
+                        {
+                            "id": "echelon-pets",
+                            "title": window.trans['subnav-lifestyle']['echelon-pets']
+                        },
+                        {
+                            "id": "playroom",
+                            "title": window.trans['subnav-lifestyle']['playroom']
+                        }
+                    ],
+                    "residences": [
+                        {
+                            "id": "overview",
+                            "title": window.trans['subnav-residences']['overview']
+                        },
+                        {
+                            "id": "133-seaport",
+                            "title": window.trans['subnav-residences']['133-seaport']
+                        },
+                        {
+                            "id": "lobby",
+                            "title": window.trans['subnav-residences']['lobby']
+                        },
+                        {
+                            "id": "living-room",
+                            "title": window.trans['subnav-residences']['living-room']
+                        },
+                        {
+                            "id": "views",
+                            "title": window.trans['subnav-residences']['views']
+                        },
+                        {
+                            "id": "kitchen",
+                            "title": window.trans['subnav-residences']['kitchen']
+                        },
+                        {
+                            "id": "terraces",
+                            "title": window.trans['subnav-residences']['terraces']
+                        }
+                    ],
+                    "architecture": [
+                        {
+                            "id": "kpf-architecture",
+                            "title": window.trans['subnav-architecture-and-design']['kpf-architecture']
+                        },
+                        {
+                            "id": "jeffrey-beers-interiors",
+                            "title": window.trans['subnav-architecture-and-design']['jeffrey-beers-interiors']
+                        }
                     ]
                 },
 

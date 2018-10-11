@@ -9,7 +9,7 @@
     export default {
         data() {
             return {
-                formId: "e585428e-7606-4ab7-8e10-bfbdd5992a00"
+                formId: this.$t("hubspot.form-id")
             };
         },
 
@@ -27,7 +27,7 @@
                     portalId: "3434592",
                     formId: this.formId,
                     target: "#contact-registration",
-                    inlineMessage: "Thank you for registering",
+                    inlineMessage: this.$t("hubspot.thank-you"),
                     onFormReady: this.formReady
                 });
             });
