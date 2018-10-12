@@ -65,15 +65,20 @@
             <!-- Language Nav Selector -->
             <div class="navlinks" :class="{ open: openLanguageNav}" v-show="openLanguageNav">
                 <div class="navlinks-wrapper">
-                    <div class="navlink">
+                    <a class="navlink" href="/lang/en">
                         <div class="spacer">{{$t("shared.lang-en")}}</div>
-                        <a class="link" href="/lang/en">{{$t("shared.lang-en")}}</a>
-                    </div>
 
-                    <div class="navlink">
+                        <div class="link">
+                            {{$t("shared.lang-en")}}
+                        </div>
+                    </a>
+                    <a class="navlink" href="/lang/cn">
                         <div class="spacer">{{$t("shared.lang-cn")}}</div>
-                        <a class="link" href="/lang/cn">{{$t("shared.lang-cn")}}</a>
-                    </div>
+
+                        <div class="link">
+                            {{$t("shared.lang-cn")}}
+                        </div>
+                    </a>
                 </div>
             </div>
 
