@@ -483,6 +483,10 @@ const translations = {
         "hubspot": {
             "form-id": "e585428e-7606-4ab7-8e10-bfbdd5992a00",
             "thank-you": "Thank you for registering",
+        },
+        "register-thank-you": {
+            "thank-you": "Thank you for registering your interest.",
+            "echelon-insiders": "Exclusive Echelon Insiders will be the first to receive project updates, announcements and invitations."
         }
     },
     "cn": {
@@ -553,7 +557,7 @@ const translations = {
         "home": {
             "anchoring": "海港区作为波士顿的最具创新与活力的区域，早已成为当地最令人神往的居住宝地。坐落于此的EchelonSeaport定会为您带来最值得期待的生活方式。",
             "contemporary-landmark": "由国际顶尖建筑设计事务所KPF实力操刀，另搭配由美国著名室内设计所Jefferey Beers精品打造共享空间设施，EchelonSeaport将注定成为波士顿当地的经典地标。",
-            "extraordinary": "集萃风华，醇熟悦享，高档生活配套设施一应俱全，悦享受城市高尚生活。",
+            "extraordinary": "集萃风华，醇熟悦享，高档生活配套设施一应俱全，悦享城市高尚生活。",
             "canvas": "绮丽的阳光悄悄透过落地窗，温柔地洒落在屋中的每个角落。眺望窗外，在慵懒中静观曼妙的波士顿海天一线。",
             "the-seaport": "海港区",
             "kpf-architecture": "KPF 建筑事务所 <br />JEFFREY BEERS设计",
@@ -622,7 +626,7 @@ const translations = {
         "residences": {
             "text-1": "两幢住宅楼的外墙被恒久耐看的石头及玻璃材质所包围，海港区的天际线将在不久后被重新定义。KPF将楼梯轮廓设计为节节高升的云梯状，为住户打造出私家超大空中露台。",
             "text-2": "133 Seaport共含产权公寓255套，主打宽阔奢华生活空间。不仅令住户尽享波士顿海湾和海港公园景致，还配有豪华高贵的小区配套设施，例如SPA、酒廊和餐饮等等。",
-            "text-3": "135 Seaport共含产权公寓180套，主打时尚精致生活空间。城市风光，海湾胜景，日升日落，海天一线，极致美景尽入眼帘。位于3层的小区花园更设有高标准的室外泳池，水边凉亭，以及户外休闲空间。",
+            "text-3": "135 Seaport共含产权公寓192套，主打时尚精致生活空间。城市风光，海湾胜景，日升日落，海天一线，极致美景尽入眼帘。位于3层的小区花园更设有高标准的室外泳池，水边凉亭，以及户外休闲空间。",
             "text-4": "EchelonSeaport旨在令住户享受到五星级酒店般的生活体验。从您踏入EchelonSeaport的那一刻起，每一项贴心服务，每一套生活设施的使用，每一处感官，都会散发出它的独特魅力。",
             "text-5": "EchelonSeaport配有24小时大堂前台，一层大堂内还设有多个社交区域。在Jefferey Beers的设计下，异国风情的大理石地面，暖色调的木质与迷人的金属光泽交相辉映，将大堂烘托出一种高贵奢华之感。",
             "text-6": "品上一杯香浓的咖啡，坐在落地窗边远望城市和海湾胜景，逃离了喧嚣与繁杂，静享暖阳。温柔的阳光洒落在白色的橡木地板上，如同一幅镌刻永恒的画卷，墨染流年，岁月静好。",
@@ -754,6 +758,10 @@ const translations = {
         "hubspot": {
             "form-id": "3baecad0-a9ff-43e3-8455-8ae1b4f359f9",
             "thank-you": "感谢您的注册",
+        },
+        "register-thank-you": {
+            "thank-you": "Thank you for registering your interest.",
+            "echelon-insiders": "Exclusive Echelon Insiders will be the first to receive project updates, announcements and invitations."
         }
     }
 };
