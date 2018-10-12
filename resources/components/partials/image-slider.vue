@@ -52,7 +52,7 @@
                 @mouseover="showPrevNavigation"
                 @mouseout="hideNavigation">
 
-                Previous
+                {{ $t("image-slider.previous") }}
                 <div class="slider-image-navigation-button-arrow"></div>
             </div>
 
@@ -66,7 +66,7 @@
                 @mouseout="hideNavigation">
 
                 <div class="slider-image-navigation-button-arrow"></div>
-                Next
+                {{ $t("image-slider.next") }}
             </div>
         </div>
     </div>
