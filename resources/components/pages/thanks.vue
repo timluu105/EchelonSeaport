@@ -5,8 +5,8 @@
                 <img src="/img/logo.svg" alt="Echelon Seaport" />
             </router-link>
 
-            <h1>Thank you for registering your interest.</h1>
-            <h2>Exclusive Echelon Insiders will be the first to receive project updates, announcements and invitations.</h2>
+            <h1>{{ $t("register-thank-you.thank-you") }}</h1>
+            <h2>{{ $t("register-thank-you.echelon-insiders") }}</h2>
         </div>
     </div>
 </template>

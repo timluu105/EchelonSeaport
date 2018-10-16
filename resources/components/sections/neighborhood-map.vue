@@ -51,14 +51,14 @@
                     {
                         id: "all",
                         image: "all.jpg",
-                        title: "All",
+                        title: window.trans['neighborhood-map']['all'],
                         locations: []
                     },
 
                     {
                         id: "dining",
                         image: "dining.jpg",
-                        title: "Dining",
+                        title: window.trans['neighborhood-map']['dining'],
 
                         locations: [
                             "75 on Liberty Wharf",
@@ -103,7 +103,7 @@
                     {
                         id: "shopping",
                         image: "shopping.jpg",
-                        title: "Shopping",
+                        title: window.trans['neighborhood-map']['shopping'],
 
                         locations: [
                             "BlueMercury",
@@ -121,7 +121,7 @@
                     {
                         id: "culture",
                         image: "culture.jpg",
-                        title: "Culture",
+                        title: window.trans['neighborhood-map']['culture'],
 
                         locations: [
                             "Blue Hills Bank Concert Pavilion",
@@ -152,7 +152,7 @@
                     {
                         id: "hotels",
                         image: "hotels.jpg",
-                        title: "hotels",
+                        title: window.trans['neighborhood-map']['hotels'],
 
                         locations: [
                             "Boston Harbor Hotel",

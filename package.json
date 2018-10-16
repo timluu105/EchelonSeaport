@@ -10,6 +10,7 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
     "babelify": "^8.0.0",
+    "bower": "^1.8.4",
     "browserify": "^16.2.2",
     "contain-element": "^1.7.5",
     "cropperjs": "^1.4.0",
@@ -35,6 +36,7 @@
     "vue-template-compiler": "^2.5.16",
     "vueify": "^9.4.1",
     "vuex": "^3.0.1",
+    "vuex-i18n": "^1.10.5",
     "vuex-router-sync": "^5.0.0",
     "what-input": "^5.1.0"
   },

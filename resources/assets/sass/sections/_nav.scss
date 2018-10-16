@@ -131,7 +131,7 @@
                 @include font-semibold;
                 position: absolute;
                 top: 50%;
-                right: 60px;
+                right: 90px;
                 transform: translateY(-50%);
                 display: inline-block;
                 color: $c-text-highlight;
@@ -206,6 +206,11 @@
                         bottom: 50%;
                         transform: translateY(50%) rotate(-45deg);
                     }
+                }
+
+                &-language {
+                    top: 45%;
+                    right: 50px;
                 }
             }
         }
@@ -414,6 +419,10 @@
 
             .navbar-mobile-header-toggle .icon-bar {
                 background-color: $c-text-light;
+            }
+
+            .navbar-mobile-header-toggle .fa-globe {
+                color: $c-text-light;
             }
 
             .navlinks-wrapper .navlink {
