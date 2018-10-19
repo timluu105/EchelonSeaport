@@ -2,6 +2,8 @@
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
+use Lang;
+use App;
 
 class Meta extends Model {
 
@@ -137,7 +139,7 @@ class Meta extends Model {
             // Make sure that the meta description is enabled. If it's
             // not enabled then we don't want to use this one and then
             // we use a fallback.
-            if ($meta->enabled) return self::fillDefaultsIfEmpty($meta);
+            if ($meta->enabled) return self::translate(self::fillDefaultsIfEmpty($meta));
         }
 
         if ($fallback === 'dashboard') {
@@ -158,10 +160,19 @@ class Meta extends Model {
             // Make sure that the meta description is enabled. If it's
             // not enabled then we don't want to use this one and then
             // we use a fallback.
-            if ($meta->enabled) return self::fillDefaultsIfEmpty($meta);
+            if ($meta->enabled) return self::translate(self::fillDefaultsIfEmpty($meta));
         }
 
-        return self::fillDefaultsIfEmpty($default);
+        return self::translate(self::fillDefaultsIfEmpty($default));
     }
 
+    static function translate(Meta $meta) {
+    	$page = $meta->page;
+
+    	if(Lang::has("site.page-titles." . $page)) {
+    		$meta->title = Lang::get("site.page-titles." . $page);
+		}
+
+		return $meta;
+	}
 }
