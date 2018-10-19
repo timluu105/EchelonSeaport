@@ -17,7 +17,7 @@ Route::middleware('auth:api')->get('/user', function(Request $request) {
     return $request->user();
 });
 
-Route::post('/meta', 'ApiController@postMeta');
+Route::middleware("set_locale")->post('/meta', 'ApiController@postMeta');
 Route::post('/page-content', 'ApiController@postPageContent');
 Route::post('/register-contact', 'ApiController@postRegister');
 Route::get('/subnav-links', 'ApiController@getSubnavLinks');

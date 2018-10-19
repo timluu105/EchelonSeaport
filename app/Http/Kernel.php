@@ -35,8 +35,8 @@ class Kernel extends HttpKernel
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
             \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
-            \App\Http\Middleware\InjectMeta::class,
 			\App\Http\Middleware\SetLocale::class,
+            \App\Http\Middleware\InjectMeta::class,
 
         ],
 
@@ -62,6 +62,7 @@ class Kernel extends HttpKernel
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'register' => \App\Http\Middleware\Register::class,
         'dashboard_access' => \App\Http\Middleware\DashboardAccess::class,
+		"set_locale" => \App\Http\Middleware\SetLocale::class,
     ];
 
 }

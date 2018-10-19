@@ -870,7 +870,10 @@ router.afterEach((to, from) => {
         $.ajax({
             type: "POST",
             url: "/api/meta" + env.apiToken,
-            data: { path: routePath === "" ? "home" : routePath }
+            data: { path: routePath === "" ? "home" : routePath },
+            headers: {
+                "X-Selected-Language": window.translanguage
+            }
         }).done(function(metaData) {
             let metaInfo, metaContent;
 
