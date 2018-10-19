@@ -30,7 +30,7 @@
                                     :href="item.pdf"
                                     target="_blank">
 
-                                    Download PDF
+                                    {{ $t("news.download-pdf") }}
                                 </a>
                             </template>
                         </div>
