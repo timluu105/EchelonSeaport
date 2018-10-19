@@ -482,7 +482,9 @@ const translations = {
         },
         "shared": {
             "lang-en": "EN",
-            "lang-cn": "中文"
+            "lang-cn": "中文",
+            "lang-english": "English",
+            "lang-chinese": "Chinese"
         },
         "hubspot": {
             "form-id": "e585428e-7606-4ab7-8e10-bfbdd5992a00",
@@ -491,6 +493,9 @@ const translations = {
         "register-thank-you": {
             "thank-you": "Thank you for registering your interest.",
             "echelon-insiders": "Exclusive Echelon Insiders will be the first to receive project updates, announcements and invitations."
+        },
+        "news": {
+            "download-pdf": "Download PDF"
         }
     },
     "cn": {
@@ -506,41 +511,41 @@ const translations = {
             "contact": "联系方式"
         },
         "subnav-lifestyle": {
-            "the-waterfall-terrace-pool": "The Waterfall Terrace Pool",
-            "alfresco-dining": "Alfresco Dining",
-            "the-grand-pool": "The Grand Pool",
-            "133-seaport-lounge": "133 Seaport Lounge",
-            "library-lounge": "Library Lounge",
-            "tasting-room": "Tasting Room",
-            "135-seaport-lounge": "135 Seaport Lounge",
-            "regent-service": "Regent Service",
-            "indoor-pool": "Indoor Pool",
-            "fitness": "Fitness",
-            "basketball-court": "Basketball Court",
-            "spa-suite": "Spa Suite",
-            "innovation-center": "Innovation Center",
-            "echelon-life": "Echelon Life",
-            "sky-lounge": "Sky Lounge",
-            "echelon-pets": "Echelon Pets",
-            "playroom": "Playroom",
+            "the-waterfall-terrace-pool": "瀑布游泳池",
+            "alfresco-dining": "户外雅座",
+            "the-grand-pool": "室外大游泳池",
+            "133-seaport-lounge": "1号楼休息室",
+            "library-lounge": "图书馆及商务中心",
+            "tasting-room": "品酒室",
+            "135-seaport-lounge": "2号楼休息室",
+            "regent-service": "丽晶服务",
+            "indoor-pool": "室内游泳池",
+            "fitness": "健身中心",
+            "basketball-court": "室内篮球馆",
+            "spa-suite": "Spa套房",
+            "innovation-center": "创新中心",
+            "echelon-life": "Echelon 生活",
+            "sky-lounge": "空中酒廊e",
+            "echelon-pets": "宠物社区",
+            "playroom": "亲子乐园",
         },
         "subnav-residences": {
             "overview": "Overview",
-            "133-seaport": "133 Seaport",
-            "lobby": "Lobby",
-            "living-room": "Living Room",
-            "views": "Views",
-            "kitchen": "Kitchen",
-            "terraces": "Terraces"
+            "133-seaport": "133 Seaport （不用翻译）",
+            "lobby": "大堂",
+            "living-room": "客厅",
+            "views": "景观",
+            "kitchen": "厨房",
+            "terraces": "露台"
         },
         "subnav-architecture-and-design": {
-            "kpf-architecture": "KPF Architecture",
-            "jeffrey-beers-interiors": "Jeffrey Beers Interiors"
+            "kpf-architecture": "KPF建筑设计事务所",
+            "jeffrey-beers-interiors": "JBI室内设计公司"
         },
         "subnav-neighborhood": {
-            "the-seaport": "The Seaport",
-            "map": "Map",
-            "neighborhood-gallery": "Neighborhood Gallery"
+            "the-seaport": "海港区",
+            "map": "地图",
+            "neighborhood-gallery": "街区集景"
         },
         "architecture": {
             "stripe-content-body": "EchelonSeaport 已经成为海港区甚至是波士顿整个城市街区的代表性建筑，是由国际顶级建筑师事务所Kohn Pedersen Fox（KPF）定义的当代地标。三座住宅楼环绕着中央庭院，美轮美奂的廊桥、多条人行道及郁郁葱葱的树冠纵横交织，坐落其中。",
@@ -669,7 +674,7 @@ const translations = {
             "elevate": "超乎您的想象",
             "expectations": "", // empty second half of elevate
             "captivating": "阳光与自然",
-            "grandpool": "The Grand Pool",
+            "grandpool": "室外大游泳池",
             "echelonentertaining": "设计风格",
             "impressive": "每个角度都令人印象深刻",
             "chapter": "文化与艺术的传承",
@@ -721,8 +726,8 @@ const translations = {
             "image-22": "133 Resident Terrace 阳台",
         },
         "image-slider": {
-            "previous": "Previous",
-            "next": "Next"
+            "previous": "上一页",
+            "next": "下一页"
         },
         "floorplans": {
             "for-availability": "对于楼层计划与可出售情况",
@@ -761,15 +766,20 @@ const translations = {
         },
         "shared": {
             "lang-en": "EN",
-            "lang-cn": "中文"
+            "lang-cn": "中文",
+            "lang-english": "English",
+            "lang-chinese": "Chinese"
         },
         "hubspot": {
             "form-id": "3baecad0-a9ff-43e3-8455-8ae1b4f359f9",
             "thank-you": "感谢您的注册",
         },
         "register-thank-you": {
-            "thank-you": "Thank you for registering your interest.",
-            "echelon-insiders": "Exclusive Echelon Insiders will be the first to receive project updates, announcements and invitations."
+            "thank-you": "感谢您的注册",
+            "echelon-insiders": "Echelon专属用户将收到一手最新项目更新资讯、通告及活动邀请"
+        },
+        "news": {
+            "download-pdf": "下载PDF"
         }
     }
 };

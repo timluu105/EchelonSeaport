@@ -131,8 +131,8 @@
                         <div class="link">
                             <i class="fa fa-globe"></i>
                             <div class="subnav">
-                                <a href="/lang/en" class="subnav-link">{{$t("shared.lang-en")}} | English</a>
-                                <a href="/lang/cn" class="subnav-link">{{$t("shared.lang-cn")}} | Chinese</a>
+                                <a href="/lang/en" class="subnav-link">{{$t("shared.lang-en")}} | {{$t("shared.lang-english")}}</a>
+                                <a href="/lang/cn" class="subnav-link">{{$t("shared.lang-cn")}} | {{$t("shared.lang-chinese")}}</a>
                             </div>
                         </div>
                     </div>
