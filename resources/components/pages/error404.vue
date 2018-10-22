@@ -6,7 +6,7 @@
                     <img src="/img/logo.svg" alt="Echelon Seaport" />
                 </router-link>
 
-                <h1>Page Not Found</h1>
+                <h1>{{ $t("errors.not-found") }}</h1>
             </div>
         </div>
     </div>

@@ -496,6 +496,9 @@ const translations = {
         },
         "news": {
             "download-pdf": "Download PDF"
+        },
+        "errors": {
+            "not-found": "Page Not Found"
         }
     },
     "cn": {
@@ -530,7 +533,7 @@ const translations = {
             "playroom": "亲子乐园",
         },
         "subnav-residences": {
-            "overview": "Overview",
+            "overview": "总瞰",
             "133-seaport": "133 Seaport （不用翻译）",
             "lobby": "大堂",
             "living-room": "客厅",
@@ -768,7 +771,7 @@ const translations = {
             "lang-en": "EN",
             "lang-cn": "中文",
             "lang-english": "English",
-            "lang-chinese": "Chinese"
+            "lang-chinese": "简体中文"
         },
         "hubspot": {
             "form-id": "3baecad0-a9ff-43e3-8455-8ae1b4f359f9",
@@ -780,6 +783,9 @@ const translations = {
         },
         "news": {
             "download-pdf": "下载PDF"
+        },
+        "errors": {
+            "not-found": "页面无法显示"
         }
     }
 };
