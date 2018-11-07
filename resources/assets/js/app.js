@@ -325,7 +325,7 @@ const translations = {
             "team-2-role": "Architect",
             "team-3-role": "Amenities Interiors",
             "team-4-role": "Service Standards",
-            "team-4-name": "Regent Hotels &amp; Resorts",
+            "team-4-name": "Regent Hotels & Resorts",
             "team-5-role": "Residence Architect",
             "team-6-role": "Builder",
             "team-7-role": "Sales &amp; Marketing",
@@ -377,7 +377,7 @@ const translations = {
             "text-5": "Inspired by Boston's rich intellectual heritage, the Library Lounge is appointed with curated artwork and photography. Comfortable seating areas create an ideal setting for a cocktail and a good book.",
             "text-6": "Temperature-controlled wine storage, handsomely finished with custom wood and glass cabinetry offers an inviting space to sip, savor and learn about wine and viniculture.",
             "text-7": "This is Boston's most coveted dinner invitation. Jeffrey Beers has designed for the industry's most recognized chefs, including Jean Georges Vongerichten and Todd English. At EchelonSeaport, he brings a special flair to the Private Dining Rooms with a state-of-the-art exhibition kitchen at the ready.",
-            "text-8": "Globally recognized for their unparalleled and intuitive hospitality standards, Regent Hotels &amp; Resorts has been selected to manage and oversee Residential Services. From the expertly trained concierge to the specially selected spa technicians, every EchelonSeaport service associate will deliver the Regent touch.",
+            "text-8": "Globally recognized for their unparalleled and intuitive hospitality standards, Regent Hotels & Resorts has been selected to manage and oversee Residential Services. From the expertly trained concierge to the specially selected spa technicians, every EchelonSeaport service associate will deliver the Regent touch.",
             "text-9": "In addition to the two outdoor pools and the indoor pool, EchelonSeaport offers an 8,500 square-feet Wellness Center that incorporates fitness as well as a tranquility spa with indoor and outdoor treatment areas.",
             "text-10": "Re-charge yourself in the state-of-the-art fitness center, or find your balance in private yoga or stretching rooms nearby.",
             "text-11": "Get pumped on the two-story indoor basketball court with a tech wall that can broadcast live games or group fitness classes. Enjoy a round at the finest courses with the cutting-edge golf simulator used by top PGA pros. Game on!",
@@ -408,7 +408,7 @@ const translations = {
             "echelonlife": "Echelon Life",
             "aboveitall": "Above It All",
             "pets": "Echelon Pets",
-            "dogrun": "Outdoor Dog Run &amp; Pet Spa",
+            "dogrun": "Outdoor Dog Run & Pet Spa",
             "playtime": "Playtime"
         },
         "legal": {
@@ -534,7 +534,7 @@ const translations = {
         },
         "subnav-residences": {
             "overview": "总瞰",
-            "133-seaport": "133 Seaport （不用翻译）",
+            "133-seaport": "133 Seaport",
             "lobby": "大堂",
             "living-room": "客厅",
             "views": "景观",
