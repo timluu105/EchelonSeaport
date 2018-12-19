@@ -165,7 +165,8 @@
                     neighborhood: [
                         { id: "the-seaport", title: window.trans['subnav-neighborhood']['the-seaport'] },
                         { id: "map", title: window.trans['subnav-neighborhood']['map'] },
-                        { id: "neighborhood-gallery", title: window.trans['subnav-neighborhood']['neighborhood-gallery'] }
+                        { id: "neighborhood-gallery", title: window.trans['subnav-neighborhood']['neighborhood-gallery'] },
+                        { id: "neighborhood-video", title: window.trans['subnav-neighborhood']['neighborhood-video'] }
                     ],
                     lifestyle: [
                         {

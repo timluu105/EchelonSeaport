@@ -261,7 +261,8 @@ const translations = {
         "subnav-neighborhood": {
             "the-seaport": "The Seaport",
             "map": "Map",
-            "neighborhood-gallery": "Neighborhood Gallery"
+            "neighborhood-gallery": "Neighborhood Gallery",
+            "neighborhood-video": "Neighborhood Video"
         },
         "architecture": {
             "stripe-content-body": "This is the premiere address at the Seaport, encompassing an entire city block. A defining contemporary landmark by internationally-lauded Kohn Pedersen Fox (KPF). A trio of residential towers anchored by a center destination courtyard with an architecturally-striking landmark bridge, pedestrian lanes and beautiful tree canopies.",
@@ -302,6 +303,7 @@ const translations = {
             "grandly-scaled": "Not just for dining, the Seaport District is shaping up to be Boston’s chicest neighborhood. With retailers ranging from innovative eyewear company, Warby Parker to classic brands like Filson, Lululemon and L.L. Bean there’s something for everyone. And that’s just the beginning…",
             "seaport-sweat": "Whether you like to run, walk or bike there is no better place to break a sweat than Seaport’s picturesque waterfront. The neighborhood sets a high bar for wellness with outdoor workouts on Seaport Green featuring the best of local and national fitness companies from Everybody Fights to Soulcycle and Equinox. Stock up on new gear at Lululemon or L.L Bean or grab a healthy meal at Juice Press and byChloe. Wellness made easy.",
             "gallery": "Discover the Seaport. Vibrant and energetic, the Seaport neighborhood has arrived. On the cutting edge of Boston’s dining, shopping, and culture scene it's no wonder the Seaport is the city’s hottest “new” neighborhood.",
+            "gallery-video": "Seaport is a vibrant 21st Century neighborhood where innovation, architecture, and modern amenities converge to create Boston's most sought-after destination.",
             "get-centered": "Get Centered.",
             "get-connected": "Get Connected.",
             "seaport-neighborhood": "Seaport Neighborhood",
@@ -310,6 +312,8 @@ const translations = {
             "new-center":  "The New Center of Boston",
             "gallery-subtitle": "Neighborhood",
             "gallery-title": "Gallery",
+            "gallery-video-subtitle": "Neighborhood",
+            "gallery-video-title": "Video",
             "seaport-dining-1": "Seaport",
             "seaport-dining-2": "Dining"
         },
@@ -548,7 +552,8 @@ const translations = {
         "subnav-neighborhood": {
             "the-seaport": "海港区",
             "map": "地图",
-            "neighborhood-gallery": "街区集景"
+            "neighborhood-gallery": "街区集景",
+            "neighborhood-video": "Neighborhood Video"
         },
         "architecture": {
             "stripe-content-body": "EchelonSeaport 已经成为海港区甚至是波士顿整个城市街区的代表性建筑，是由国际顶级建筑师事务所Kohn Pedersen Fox（KPF）定义的当代地标。三座住宅楼环绕着中央庭院，美轮美奂的廊桥、多条人行道及郁郁葱葱的树冠纵横交织，坐落其中。",
@@ -589,6 +594,7 @@ const translations = {
             "grandly-scaled": "这里不仅是美食的天堂，还是波士顿最时尚的圣殿。商业中心范围广，品牌多样化，不仅仅有Filson，Lululemon，L.L. Bean此类经典品牌，也不乏Warby Parker这类创新品牌，只要您需要，总能在这里找到自己喜爱的商品。而这，仅仅是一个开始……",
             "seaport-sweat": "喜欢户外跑步、骑车、散步？那还有什么地方比Seaport风景如画的海滨区更合适！您可以在Lululemon或L.L Bean置办一身崭新的运动装备，然后到全美知名的Everbody Fights、Soulcycle和Equinox健身会所挥洒汗水，再前往Juice Press、byChloe享用健康的一餐。健康变得轻松而简单……",
             "gallery": "充满生机与活力的海港区正在缓缓向我们走来，它时刻行走在波士顿美食艺术、购物及文化领域的最前沿，毫无疑问地成为了这座城市备受期待的“新”街区。",
+            "gallery-video": "Seaport is a vibrant 21st Century neighborhood where innovation, architecture, and modern amenities converge to create Boston's most sought-after destination.",
             "get-centered": "汇聚一堂",
             "get-connected": "",
             "seaport-neighborhood": "SEAPORT社区",
@@ -597,6 +603,8 @@ const translations = {
             "new-center":  "波士顿新中心",
             "gallery-subtitle": "街区",
             "gallery-title": "集景",
+            "gallery-video-subtitle": "Neighborhood",
+            "gallery-video-title": "Video",
             "seaport-dining-1": "海港区的餐饮文化",
             "seaport-dining-2": ""
         },

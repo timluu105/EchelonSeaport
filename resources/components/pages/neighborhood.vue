@@ -47,6 +47,12 @@
 
         <stripe :c-content="neighborhoodGalleryContent" />
         <modal-gallery :c-images="neighborhoodSliderImages" />
+        <stripe :c-content="{width: 1060}">
+            <div id="neighborhood-video" class='embed-container'>
+                <iframe src="https://www.youtube.com/embed/fsafWusvKig" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </stripe>
+        <stripe :c-content="neighborhoodVideoDescriptionContent" />
     </div>
 </template>
 
@@ -146,6 +152,12 @@
                     subtitle: window.trans["neighborhood"]["gallery-subtitle"],
                     title: window.trans["neighborhood"]["gallery-title"],
                     body: window.trans["neighborhood"]["gallery"]
+                },
+
+                neighborhoodVideoDescriptionContent: {
+                    subtitle: window.trans["neighborhood"]["gallery-video-subtitle"],
+                    title: window.trans["neighborhood"]["gallery-video-title"],
+                    body: window.trans["neighborhood"]["gallery-video"]
                 }
             };
         },
@@ -167,3 +179,7 @@
         }
     };
 </script>
+<style scoped>
+    .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
+    .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+</style>
