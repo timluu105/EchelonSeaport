@@ -266,6 +266,10 @@
                         {
                             "id": "terraces",
                             "title": window.trans['subnav-residences']['terraces']
+                        },
+                        {
+                            "id": "penthouse",
+                            "title": window.trans['subnav-residences']['penthouse']
                         }
                     ],
                     "architecture": [

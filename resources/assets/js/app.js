@@ -252,7 +252,8 @@ const translations = {
             "living-room": "Living Room",
             "views": "Views",
             "kitchen": "Kitchen",
-            "terraces": "Terraces"
+            "penthouse": "Penthouse",
+            "terraces": "Terraces",
         },
         "subnav-architecture-and-design": {
             "kpf-architecture": "KPF Architecture",
@@ -542,8 +543,9 @@ const translations = {
             "lobby": "大堂",
             "living-room": "客厅",
             "views": "景观",
-            "kitchen": "厨房",
-            "terraces": "露台"
+            "kitchen": "Kitchen",
+            "penthouse": "Penthouse",
+            "terraces": "Terraces",
         },
         "subnav-architecture-and-design": {
             "kpf-architecture": "KPF建筑设计事务所",
