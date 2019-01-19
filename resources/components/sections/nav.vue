@@ -264,12 +264,12 @@
                             "title": window.trans['subnav-residences']['kitchen']
                         },
                         {
-                            "id": "terraces",
-                            "title": window.trans['subnav-residences']['terraces']
-                        },
-                        {
                             "id": "penthouse",
                             "title": window.trans['subnav-residences']['penthouse']
+                        },
+                        {
+                            "id": "terraces",
+                            "title": window.trans['subnav-residences']['terraces']
                         }
                     ],
                     "architecture": [
