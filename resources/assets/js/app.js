@@ -254,7 +254,8 @@ const translations = {
             "kitchen": "Kitchen",
             "penthouse": "Penthouse",
             "terraces": "Terraces",
-        },
+            "135-seaport": "135 Seaport"
+            },
         "subnav-architecture-and-design": {
             "kpf-architecture": "KPF Architecture",
             "jeffrey-beers-interiors": "Jeffrey Beers Interiors"
@@ -371,7 +372,7 @@ const translations = {
             "own-sky": "Own the Sky",
             "top-chef": "Top Chef",
             "signature-terraces": "Signature City Terraces",
-            "preview-of": "For a Preview of EchelonSeaport",
+            "preview-of": "For a Preview of 135 Seaport",
             "contact-info": "Please Provide Your Contact Information Below"
         },
         "lifestyle": {
@@ -546,6 +547,7 @@ const translations = {
             "kitchen": "Kitchen",
             "penthouse": "Penthouse",
             "terraces": "Terraces",
+            "135-seaport": "135 Seaport"
         },
         "subnav-architecture-and-design": {
             "kpf-architecture": "KPF建筑设计事务所",

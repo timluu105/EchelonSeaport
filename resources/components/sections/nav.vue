@@ -270,6 +270,14 @@
                         {
                             "id": "terraces",
                             "title": window.trans['subnav-residences']['terraces']
+                        },
+                        {
+                            "id": "135-seaport",
+                            "title": window.trans['subnav-residences']['135-seaport']
+                        },
+                        {
+                            "id": "135-seaport-lobby",
+                            "title": window.trans['subnav-residences']['lobby']
                         }
                     ],
                     "architecture": [
