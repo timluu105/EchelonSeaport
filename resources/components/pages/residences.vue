@@ -129,10 +129,10 @@
         </div>
 
         <div class="captioned-image-component margin-full-bleed" id="penthouse-3">
-            <div class="captioned-image-component-image large-image" style">{{ "Lorem ipsum" ="background-image: url(&quot;/img/CTW1125_Echelon_S040_INT_KitchenDining_Final2000.jpg&quot;); background-position: center bottom;"></div>
+            <div class="captioned-image-component-image large-image" style="background-image: url(&quot;/img/CTW1125_Echelon_S040_INT_KitchenDining_Final2000.jpg&quot;); background-position: center bottom;"></div>
 
             <div class="captioned-image-component-caption">
-                <h1 class="captioned-image-component-caption-title}}</h1>
+                <h1 class="captioned-image-component-caption-title">{{ "Lorem ipsum" }}</h1>
 
                 <div class="captioned-image-component-caption-body">
                     <p>{{ "Lorem ipsum" }}</p>
