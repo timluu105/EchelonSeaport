@@ -130,6 +130,12 @@
 			}
 		}
 
+		@keyframes showit {
+			100% {
+				opacity: 1;
+			}
+		}
+
 		@keyframes hideit {
 			0% {
 			  opacity: 1;
@@ -181,7 +187,7 @@
 			top: 0;
 			left: 0;
 
-			opacity: .2;
+			opacity: 0;
 		}
 
 		#imageContainer: {
@@ -208,6 +214,10 @@
 			color: #faf9f4;
 		}
 
+		#main-banner-after-video, #main-banner-after-video-img, #main-banner-after-video-text {
+			display: none;
+		}
+
 	</style>
 
 	<link href="//vjs.zencdn.net/7.3.0/video-js.min.css" rel="stylesheet">
@@ -231,7 +241,13 @@
 	<div class="feature-video">
 		<div style="overflow:hidden; position:relative;">
 			<div class="main-banner-cta">
-				<div class="main-banner-text">EchelonSeaport rises</div>
+				<div id="main-banner-before-video" class="main-banner-text">
+					EchelonSeaport rises
+				</div>
+				<div id="main-banner-after-video" class="main-banner-text">
+					<img id="main-banner-after-video-img" style="display: block; margin: 0 auto; width: 50%; height: auto; margin-botton: 25px important" src="Echelon-Seaport-Logo.png"/>
+					<div id="main-banner-after-video-text">Opening 2019</div>
+				</div>
 				<a id="watch-video" class="button" href="#">Watch the video</a>
 			</div>
 			<div style="height: 650px;">
@@ -243,7 +259,7 @@
 				    preload="auto"
 				    bxm-poster="//vjs.zencdn.net/v/oceans.png"
 				    data-setup='{}'>
-				  <source src="BostonSeaport.mp4" type="video/mp4"></source>
+				  <source src="BostonSeaport2.mp4" type="video/mp4"></source>
 				  <p class="vjs-no-js">
 				    To view this video please enable JavaScript, and consider upgrading to a
 				    web browser that
@@ -253,14 +269,14 @@
 				  </p>
 				  </video>
 				  <div id="imageContainer">
-					<img id="video-screenshot" src="video-screenshot-3.png">
+					<img id="video-screenshot" src="video-still-1.jpeg">
 				</div>
 			</div>
 			<script src="//www.kirupa.com/prefixfree.min.js"></script>
 		</div>
 	</div>
 	<div align="center" style="padding:6em 0 2em;"><img src="https://echelonseaport.com/uploads/img/18-image.jpg?version=1530029526" style="max-height:548px; max-width:1350px; width:100%;" /></div>
-	<div align="center" style="margin:0 auto; max-width:578px; padding-bottom:4em;">
+	<div id="section-1" align="center" style="margin:0 auto; max-width:578px; padding-bottom:4em;">
 		<h2>Elevate</h2>
 		<h1>Your Expectations</h1>
 		<p>An address unlike anywhere else. Indoors and out, EchelonSeaport offers a captivating lifestyle experience, with over 50,000 square feet of amenities designed by Jeffrey Beers International, the leading tastemaker in hospitality interiors.</p>
@@ -268,11 +284,32 @@
 
 	<script>
 		$(function() {
+			$(".feature-video").css({"background-color": "black"});
+
 			videojs("#my-player").ready(function(){
 			  var myPlayer = this;
 
-			  myPlayer.currentTime(4);
+			  myPlayer.currentTime(33);
+				myPlayer.on('ended', function() {
+					//$(".feature-video").css({animation: "showit 4s"});
 
+				    $("#my-player").animate({"opacity": 0}, 2000, function() {
+						$(".main-banner-cta").fadeIn(4000);
+    					$("#main-banner-after-video").fadeIn(4000);
+    					$("#main-banner-after-video-img").fadeIn(4000);
+						$("#main-banner-after-video-text").fadeIn(4000, function() {
+						    var id = "#section-1";
+						    const $element = $(id);
+
+							if($element.length) {
+								$("html, body").animate({
+									scrollTop: $element.offset().top - $(".navbar-component-nav").height()
+								}, 2000);
+							}
+						});
+					})
+
+  				});
 			});
 			//var video = videojs('#my-player', {});
 			//$("#my-player").hide();
@@ -282,7 +319,7 @@
 			//$("#imageContainer").hide();
 			$("#imageContainer").css({animation: "panzoom 12s infinite"});
 
-			$(".main-banner-text").fadeIn(4000);
+			$("#main-banner-before-video").fadeIn(4000);
 
 			$("#watch-video").click(function() {
 				videojs.players["my-player"].show();
@@ -321,13 +358,15 @@
 */
 
 				$("#watch-video").fadeOut(1000);
-				$(".main-banner-cta").fadeOut(2000);
+				$(".main-banner-cta").fadeOut(2000, function() {
+					$("#main-banner-before-video").css({"display": "none"});
+				});
 
 				$("video").css({"display": "block"});
 				$("#video-screenshot").fadeOut(3000, function() {
 					$("#my-player").animate({"opacity": 1}, function() {
 						videojs.players["my-player"].play();	
-					})
+					});
 				});
 				
 			});
