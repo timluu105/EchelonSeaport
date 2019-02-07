@@ -1,5 +1,7 @@
 <template>
     <div class="residences-component">
+        <residences-video></residences-video>
+
         <div class="singular-destination-component" id="overview">
             <div class="singular-destination-component-title-row">
                 <h1 class="singular-destination-component-title-row-title">
@@ -164,6 +166,51 @@
             </div>
         </div>
 
+        <div class="inset-image-component" id="135-seaport">
+            <div class="inset-image-component-inner" style="background-image: url(&quot;/img/Neoscape_Cottonwood-EchelonSeaport_Hero_V3_FINAL.jpg&quot;); background-position: center center;"></div>
+        </div>
+
+        <div class="stripe-component" id="section-12">
+            <div class="stripe-component-content">
+                <h2 class="stripe-component-content-subtitle">Echelon</h2>
+
+                <h1 class="stripe-component-content-title">135 Seaport</h1>
+
+                <div class="stripe-component-content-body">
+                    <p>{{ "Lorem ipsum" }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="captioned-image-component margin-full-bleed" id="135-seaport-lobby">
+            <div class="captioned-image-component-image" style="background-image: url(&quot;/img/T2 Lobby Final Rendering.jpg&quot;); background-position: center center;"></div>
+
+            <div class="captioned-image-component-caption">
+                <h1 class="captioned-image-component-caption-title">{{ $t("Lorem ipsum") }}</h1>
+
+                <div class="captioned-image-component-caption-body">
+                    <p>{{ $t("Lorem ipsum") }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="inset-image-component" id="135-seaport-lounge">
+            <div class="inset-image-component-inner" style="background-image: url(&quot;/img/T2 Lounge Final Rendering.jpg&quot;); background-position: center bottom;"></div>
+        </div>
+
+        <div class="stripe-component" id="section-6">
+            <div class="stripe-component-content">
+                <h2 class="stripe-component-content-subtitle">{{ $t("Lorem ipsum") }}</h2>
+
+                <h1 class="stripe-component-content-title">{{ $t("Lorem ipsum") }}</h1>
+
+                <div class="stripe-component-content-body">
+                    <p>{{ $t("Lorem ipsum") }}</p>
+                </div>
+            </div>
+        </div>
+
+
         <div class="one-thirty-five-seaport-component" id="section-11">
             <div class="one-thirty-five-seaport-component-column hero"></div>
 
@@ -183,12 +230,14 @@
 <script>
     import BasePage from "mixins/base-page.js";
     import ContactRegistration from "sections/contact-registration.vue";
+    import ResidencesVideo from "sections/residences-video.vue";
 
     export default {
         mixins: [ BasePage ],
 
         components: {
-            "contact-registration": ContactRegistration
+            "contact-registration": ContactRegistration,
+            "residences-video": ResidencesVideo
         }
     };
 </script>

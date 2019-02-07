@@ -61,6 +61,11 @@
         <script>
             window.lang
         </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+        <script src="//www.kirupa.com/prefixfree.min.js"></script>
+        <link href="//vjs.zencdn.net/7.3.0/video-js.min.css" rel="stylesheet">
+	    <script src="//vjs.zencdn.net/7.3.0/video.min.js"></script>
     </head>
 
     <body class="{{ $device_mobile ? 'device-mobile' : 'device-desktop' }}">
