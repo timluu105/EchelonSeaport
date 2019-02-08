@@ -241,3 +241,9 @@
         }
     };
 </script>
+
+<style>
+    #135-seaport .inset-aspect:before, .captioned-image-component.margin-inset .captioned-image-component-image:before, .inset-image-component-inner:before {
+	    padding-top: 60% !important;
+    }
+</style>

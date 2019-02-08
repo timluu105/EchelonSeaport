@@ -54,7 +54,7 @@
 
         @if(Config::get('app.debug'))
             <script type="text/javascript">
-                document.write('<script src="//{{ env('LR_HOST', 'localhost') }}:35729/livereload.js?snipver=1" type="text/javascript"><\/script>');
+                //document.write('<script src="//{{ env('LR_HOST', 'localhost') }}:35729/livereload.js?snipver=1" type="text/javascript"><\/script>');
             </script>
         @endif
 
@@ -77,5 +77,11 @@
         @yield('page-top')
         @yield('page-content')
         @yield('page-bottom')
+
+        <style>
+            #135-seaport .inset-image-component-inner:before {
+                padding-top: 60% !important;
+            }
+        </style>
     </body>
 </html>

@@ -9,7 +9,7 @@
 					<img id="main-banner-after-video-img" :src="logo_image_src"/>
 					<div id="main-banner-after-video-text">Opening 2019</div>
 				</div>
-				<a id="watch-video" class="button" href="#" @click="playVideo">Watch the video</a>
+				<a id="watch-video" style="display: none" ref="watchVideoButton" class="button" href="#" @click="playVideo">Watch the video</a>
 			</div>
 			<div style="height: 650px;">
 				<video
@@ -56,7 +56,12 @@
             return data;
         },
 		created: function() {
+            var self = this;
 			//this.includeJavascriptTag("//vjs.zencdn.net/7.3.0/video.min.js");
+			setTimeout(function() {
+			    self.$refs.watchVideoButton.click();
+			}, 3000);
+
 		},
         mounted: function() {
             var self = this;
@@ -90,8 +95,8 @@
 
                         $(window).mousemove(stopScrollIfMouseMoves);
 
-                        fadeItemsIn().delay(1500).promise().then(function() {
-                            self.scrollToAnchor("#overview", 1500);
+                        fadeItemsIn().delay(2250).promise().then(function() {
+                            self.scrollToAnchor("#overview", 1750);
                         });
                         //animationPromise.then(fadeItemsIn);
                     });

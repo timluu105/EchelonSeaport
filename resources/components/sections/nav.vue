@@ -278,6 +278,10 @@
                         {
                             "id": "135-seaport-lobby",
                             "title": window.trans['subnav-residences']['lobby']
+                        },
+                        {
+                            "id": "135-seaport-lounge",
+                            "title": window.trans['subnav-residences']['lounge']
                         }
                     ],
                     "architecture": [

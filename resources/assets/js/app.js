@@ -254,7 +254,8 @@ const translations = {
             "kitchen": "Kitchen",
             "penthouse": "Penthouse",
             "terraces": "Terraces",
-            "135-seaport": "135 Seaport"
+            "135-seaport": "135 Seaport",
+            "lounge": "Lounge"
             },
         "subnav-architecture-and-design": {
             "kpf-architecture": "KPF Architecture",
@@ -372,7 +373,7 @@ const translations = {
             "own-sky": "Own the Sky",
             "top-chef": "Top Chef",
             "signature-terraces": "Signature City Terraces",
-            "preview-of": "For a Preview of 135 Seaport",
+            "preview-of": "For a Preview of 135 Seaport, a Regent Collection",
             "contact-info": "Please Provide Your Contact Information Below"
         },
         "lifestyle": {
