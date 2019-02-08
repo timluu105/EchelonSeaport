@@ -61,10 +61,11 @@
 			setTimeout(function() {
 			    self.$refs.watchVideoButton.click();
 			}, 3000);
-
 		},
         mounted: function() {
             var self = this;
+
+            $("#135-seaport div.inset-image-component-inner").css({"padding-top": "60%"});
 
             $(function() {
                 $(".feature-video").css({"background-color": "black"});
