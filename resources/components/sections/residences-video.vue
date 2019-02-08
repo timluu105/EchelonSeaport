@@ -75,16 +75,18 @@
                   //myPlayer.currentTime(0);
                     myPlayer.on('ended', function() {
                         //$(".feature-video").css({animation: "showit 4s"});
+						var fadeTime = 2500;
 
-                        var animationPromise = $("#my-player").animate({"opacity": 0}, 1000).promise();
+                        var animationPromise = $("#my-player").animate({"opacity": 0}, fadeTime).promise();
 
                         var fadeItemsIn = function() {
-                            var fadeTime = 500;
                             $(".main-banner-cta").fadeIn(fadeTime);
                             $("#main-banner-after-video").fadeIn(fadeTime);
                             $("#main-banner-after-video-img").fadeIn(fadeTime);
-                            var handle = $("#main-banner-after-video-text").fadeIn(fadeTime);
-
+                            var handle = $("#main-banner-after-video-text").fadeIn(fadeTime, function() {
+                                console.log("Done fading");
+							});
+							console.log("Start fading");
                             return handle;
                         };
 
@@ -95,8 +97,8 @@
 
                         $(window).mousemove(stopScrollIfMouseMoves);
 
-                        fadeItemsIn().delay(2250).promise().then(function() {
-                            self.scrollToAnchor("#overview", 1750);
+                        fadeItemsIn().delay(1500).promise().then(function() {
+                            self.scrollToAnchor("#overview", 2000);
                         });
                         //animationPromise.then(fadeItemsIn);
                     });
