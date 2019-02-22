@@ -59,7 +59,7 @@
             var self = this;
 			//this.includeJavascriptTag("//vjs.zencdn.net/7.3.0/video.min.js");
 			setTimeout(function() {
-			    self.$refs.watchVideoButton.click();
+			    self.playVideo();
 			}, 3000);
 		},
         mounted: function() {

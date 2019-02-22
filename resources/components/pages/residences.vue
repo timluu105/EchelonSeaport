@@ -105,55 +105,6 @@
             </div>
         </div>
 
-        <div class="captioned-image-component margin-full-bleed" id="penthouse">
-            <div class="captioned-image-component-image large-image" style="background-image: url(&quot;/img/CTW1125_Echelon_S020_INT_LivingDining_Final2000.jpg&quot;); background-position: center bottom;"></div>
-
-            <div class="captioned-image-component-caption">
-                <h1 class="captioned-image-component-caption-title">{{ "Lorem ipsum" }}</h1>
-
-                <div class="captioned-image-component-caption-body">
-                    <p>{{ "Lorem ipsum" }}</p>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="captioned-image-component margin-full-bleed" id="penthouse-2">
-            <div class="captioned-image-component-image large-image" style="background-image: url(&quot;/img/CTW1125_Echelon_S030_INT_Living_Final2000.jpg&quot;); background-position: center bottom;"></div>
-
-            <div class="captioned-image-component-caption">
-                <h1 class="captioned-image-component-caption-title">{{ "Lorem ipsum" }}</h1>
-
-                <div class="captioned-image-component-caption-body">
-                    <p>{{"Lorem ipsum" }}</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="captioned-image-component margin-full-bleed" id="penthouse-3">
-            <div class="captioned-image-component-image large-image" style="background-image: url(&quot;/img/CTW1125_Echelon_S040_INT_KitchenDining_Final2000.jpg&quot;); background-position: center bottom;"></div>
-
-            <div class="captioned-image-component-caption">
-                <h1 class="captioned-image-component-caption-title">{{ "Lorem ipsum" }}</h1>
-
-                <div class="captioned-image-component-caption-body">
-                    <p>{{ "Lorem ipsum" }}</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="captioned-image-component margin-full-bleed" id="penthouse-4">
-            <div class="captioned-image-component-image large-image" style="background-image: url(&quot;/img/CTW1125_Echelon_S050_INT_Bath_Final2000.jpg&quot;); background-position: center bottom;"></div>
-
-            <div class="captioned-image-component-caption">
-                <h1 class="captioned-image-component-caption-title">{{ "Lorem ipsum" }}</h1>
-
-                <div class="captioned-image-component-caption-body">
-                    <p>{{ "Lorem ipsum" }}</p>
-                </div>
-            </div>
-        </div>
-
         <div class="captioned-image-component margin-full-bleed" id="terraces">
             <div class="captioned-image-component-image" style="background-image: url(&quot;/uploads/img/10-image.jpg?version=1530029526&quot;); background-position: center bottom;"></div>
 
@@ -162,6 +113,57 @@
 
                 <div class="captioned-image-component-caption-body">
                     <p>{{ $t("residences.text-9") }}</p>
+                </div>
+            </div>
+        </div>
+
+         <div class="inset-image-component" id="living-room-2">
+            <div class="inset-image-component-inner" style="background-image: url(&quot;/img/CTW1125_Echelon_S020_INT_LivingDining_Final2000.jpg&quot;); background-position: center bottom;"></div>
+        </div>
+
+        <div class="stripe-component" id="living-dining">
+            <div class="stripe-component-content">
+
+                <h2 class="stripe-component-content-subtitle">{{ $t("residences.title-elevate-perspective") }}</h2>
+
+                <div class="stripe-component-content-body">
+                    <p>{{ $t("residences.corner-glass-living-room") }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="captioned-image-component margin-full-bleed" id="penthouse-2">
+            <div class="captioned-image-component-image large-image" style="background-image: url(&quot;/img/CTW1125_Echelon_S030_INT_Living_Final2000.jpg&quot;); background-position: center bottom;"></div>
+
+            <div class="captioned-image-component-caption">
+                <h1 class="captioned-image-component-caption-title">{{ $t("residences.title-welcome-home") }}</h1>
+
+                <div class="captioned-image-component-caption-body">
+                    <p>{{ $t("residences.living-room-2") }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="captioned-image-component margin-full-bleed" id="penthouse-3">
+            <div class="captioned-image-component-image large-image" style="background-image: url(&quot;/img/CTW1125_Echelon_S040_INT_KitchenDining_Final2000.jpg&quot;); background-position: center bottom;"></div>
+
+            <div class="captioned-image-component-caption">
+                <h1 class="captioned-image-component-caption-title">{{ $t("residences.title-kitchens-inspire") }}</h1>
+
+                <div class="captioned-image-component-caption-body">
+                    <p>{{ $t("residences.penthouse-kitchen") }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="captioned-image-component margin-full-bleed" id="penthouse-4">
+            <div class="captioned-image-component-image large-image" style="background-image: url(&quot;/img/CTW1125_Echelon_S050_INT_Bath_Final2000.jpg&quot;); background-position: center bottom;"></div>
+
+            <div class="captioned-image-component-caption">
+                <h1 class="captioned-image-component-caption-title">{{ $t("residences.title-penthouse-bath") }}</h1>
+
+                <div class="captioned-image-component-caption-body">
+                    <p>{{ $t("residences.penthouse-bath") }}</p>
                 </div>
             </div>
         </div>
@@ -177,7 +179,7 @@
                 <h1 class="stripe-component-content-title">135 Seaport</h1>
 
                 <div class="stripe-component-content-body">
-                    <p>{{ "Lorem ipsum" }}</p>
+                    <p>{{ $t("residences.135-hero") }}</p>
                 </div>
             </div>
         </div>
@@ -186,10 +188,10 @@
             <div class="captioned-image-component-image" style="background-image: url(&quot;/img/T2 Lobby Final Rendering.jpg&quot;); background-position: center center;"></div>
 
             <div class="captioned-image-component-caption">
-                <h1 class="captioned-image-component-caption-title">{{ $t("Lorem ipsum") }}</h1>
+                <h1 class="captioned-image-component-caption-title">{{ $t("residences.lobby") }}</h1>
 
                 <div class="captioned-image-component-caption-body">
-                    <p>{{ $t("Lorem ipsum") }}</p>
+                    <p>{{ $t("residences.135-lobby") }}</p>
                 </div>
             </div>
         </div>
@@ -200,12 +202,11 @@
 
         <div class="stripe-component" id="section-6">
             <div class="stripe-component-content">
-                <h2 class="stripe-component-content-subtitle">{{ $t("Lorem ipsum") }}</h2>
 
-                <h1 class="stripe-component-content-title">{{ $t("Lorem ipsum") }}</h1>
+                <h2 class="stripe-component-content-subtitle">{{ $t("residences.lounge") }}</h2>
 
                 <div class="stripe-component-content-body">
-                    <p>{{ $t("Lorem ipsum") }}</p>
+                    <p>{{ $t("residences.135-lounge") }}</p>
                 </div>
             </div>
         </div>
