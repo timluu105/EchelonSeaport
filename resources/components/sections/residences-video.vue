@@ -9,7 +9,7 @@
 					<img id="main-banner-after-video-img" :src="logo_image_src"/>
 					<div id="main-banner-after-video-text">Opening 2019</div>
 				</div>
-				<a id="watch-video" style="display: none" ref="watchVideoButton" class="button" href="#" @click="playVideo">Watch the video</a>
+				<a id="watch-video" ref="watchVideoButton" class="button" href="#" @click="playVideo">Watch the video</a>
 			</div>
 			<div style="height: 650px;">
 				<video
@@ -39,8 +39,6 @@
 	import ScrollToAnchor from "mixins/scroll-to-anchor.js";
 	import IncludeScript from "mixins/include-script.js";
 
-    import ContactRegistration from "sections/contact-registration.vue";
-
     export default {
         components: {
         },
@@ -58,9 +56,9 @@
 		created: function() {
             var self = this;
 			//this.includeJavascriptTag("//vjs.zencdn.net/7.3.0/video.min.js");
-			setTimeout(function() {
-			    self.playVideo();
-			}, 3000);
+			//setTimeout(function() {
+			    //self.playVideo();
+			//}, 3000);
 		},
         mounted: function() {
             var self = this;
