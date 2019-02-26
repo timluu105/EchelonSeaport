@@ -391,10 +391,10 @@ const translations = {
 
             "135-hero": "Contemporary and Cool. 135 Seaport offers residents amazing views of the Boston Harbor, Seaport and wrap-around city and sunset views. Homes include balconies or oversized private terraces for residents. Active indoor fitness amenities include an indoor pool, basketball court, yoga room, and a massive fifth-floor terrace with a grand outdoor pool, sun cabanas, outdoor dining and lounge areas for all residents to enjoy.",
 
-            "lobby": "Lobby",
+            "lobby": "Exquisite First Impression",
             "135-lobby": "The beautiful Jeffrey Beers designed, double-height, 24-hour attended lobby ushers in an elevated experience. Modern contemporary marbles, warm woods, and intriguing metals create a richly-textured lobby experience with multiple conversation areas. Embracing the art of hospitality, the lobby welcomes you to an inviting urban resort that creates a sense of community by encouraging residents to gather and socialize.",
 
-            "lounge": "Lounge",
+            "lounge": "Designed for Entertaining",
             "135-lounge": "The Seaport Lounge, with its state of the art demonstration kitchen and wet bar, is the perfect spot to unwind at the end of the day. Integrating comfortable seating for any event with access to an outdoor lounge area on the Grand Pool deck, it's tailor-made for entertaining.",
         },
         "lifestyle": {

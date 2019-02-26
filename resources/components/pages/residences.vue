@@ -124,7 +124,7 @@
         <div class="stripe-component" id="living-dining">
             <div class="stripe-component-content">
 
-                <h2 class="stripe-component-content-subtitle">{{ $t("residences.title-elevate-perspective") }}</h2>
+                <h2 class="captioned-image-component-caption-title">{{ $t("residences.title-elevate-perspective") }}</h2>
 
                 <div class="stripe-component-content-body">
                     <p>{{ $t("residences.corner-glass-living-room") }}</p>
@@ -172,7 +172,7 @@
             <div class="inset-image-component-inner" style="background-image: url(&quot;/img/Neoscape_Cottonwood-EchelonSeaport_Hero_V3_FINAL.jpg&quot;); background-position: center center;"></div>
         </div>
 
-        <div class="stripe-component" id="section-12">
+        <div class="stripe-component" id="135-seaport-stripe">
             <div class="stripe-component-content">
                 <h2 class="stripe-component-content-subtitle">Echelon</h2>
 
@@ -200,10 +200,10 @@
             <div class="inset-image-component-inner" style="background-image: url(&quot;/img/T2 Lounge Final Rendering.jpg&quot;); background-position: center bottom;"></div>
         </div>
 
-        <div class="stripe-component" id="section-6">
+        <div class="stripe-component" id="135-seaport-lounge-stripe">
             <div class="stripe-component-content">
 
-                <h2 class="stripe-component-content-subtitle">{{ $t("residences.lounge") }}</h2>
+                <h2 class="captioned-image-component-caption-body">{{ $t("residences.lounge") }}</h2>
 
                 <div class="stripe-component-content-body">
                     <p>{{ $t("residences.135-lounge") }}</p>
