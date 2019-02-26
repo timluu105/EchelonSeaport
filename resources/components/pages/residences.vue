@@ -203,7 +203,7 @@
         <div class="stripe-component" id="135-seaport-lounge-stripe">
             <div class="stripe-component-content">
 
-                <h2 class="captioned-image-component-caption-body">{{ $t("residences.lounge") }}</h2>
+                <h1 class="captioned-image-component-caption-title">{{ $t("residences.lounge") }}</h1>
 
                 <div class="stripe-component-content-body">
                     <p>{{ $t("residences.135-lounge") }}</p>
