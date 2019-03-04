@@ -117,7 +117,7 @@
             </div>
         </div>
 
-         <div class="inset-image-component" id="living-room-2">
+         <div class="inset-image-component" id="penthouse">
             <div class="inset-image-component-inner" style="background-image: url(&quot;/img/CTW1125_Echelon_S020_INT_LivingDining_Final2000.jpg&quot;); background-position: center bottom;"></div>
         </div>
 
