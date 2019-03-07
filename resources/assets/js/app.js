@@ -252,8 +252,11 @@ const translations = {
             "living-room": "Living Room",
             "views": "Views",
             "kitchen": "Kitchen",
-            "terraces": "Terraces"
-        },
+            "penthouse": "Penthouse",
+            "terraces": "Terraces",
+            "135-seaport": "135 Seaport",
+            "lounge": "Lounge"
+            },
         "subnav-architecture-and-design": {
             "kpf-architecture": "KPF Architecture",
             "jeffrey-beers-interiors": "Jeffrey Beers Interiors"
@@ -353,15 +356,16 @@ const translations = {
             "interested": "I’m Interested"
         },
         "residences": {
-            "text-1": "The two contextual towers are a refined addition to the Seaport skyline. Timelessly crafted in stone and glass, Kohn Pedersen Fox created a silhouette with setbacks enhancing select residences with oversized private terraces.",
-            "text-2": "Live large. A flagship address offering 255 condominium residences with Boston Harbor and Seaport park views, generous private stepped terraces, grand and elegant interiors, and extensive outdoor amenities including a spa pool, lounge and dining areas.",
+            "text-1": "The two contextual EchelonSeaport towers are a refined addition to the Seaport skyline. Timelessly crafted in stone and glass, KPF/Kohn Pedersen Fox’s stepped silhouettes enhance select residences with oversized extraordinary private terraces.",
+            "text-2": "Live large. A flagship address offering 255 condominium residences with Boston Harbor and Seaport park views, generous private stepped terraces, grand and elegant interiors, and extensive outdoor amenities including a waterfall pool, lounge and dining areas.",
             "text-3": "Live modern. Contemporary and cool, 135 Seaport offers 192 condominium residences with Harbor and wrap-around city and sunset views to the west. The expansive fifth-floor terrace offers a grand outdoor pool, sun cabanas, outdoor dining and lounge areas.",
-            "text-4": "Addressed to impress, the flagship residence at EchelonSeaport offers a hospitality-driven lifestyle experience. From the singular arrival and amenity experiences to the smartly crafted condominiums, every touchpoint emanates the extraordinariness of this residence.",
-            "text-5": "The Jeffrey Beers designed, double-height, 24-hour attended lobby ushers in the elevated design experience. Exotic marbles, warm woods, and intriguing metals create a richly-textured lobby experience with multiple conversation areas. Embracing the art of hospitality, this is an urban resort warm, inviting, comfortable and stimulating. By creating a sense of community, the lobby experiences encourage residents to gather and socialize.",
-            "text-6": "Each residence is a canvas for personal style with oversized window walls capturing city, sky and harbor views. Homes are bathed in natural light with engineered white oak wood plank flooring throughout.",
+            "text-4": "Addressed to impress, 133 Seaport, a Regent Collection offers a hospitality-driven lifestyle experience. From the singular arrival and amenity experiences to the smartly crafted condominiums, every touchpoint emanates the extraordinariness of this residence.",
+            "text-5": "The Jeffrey Beers-designed, dramatic double-height lobby ushers in an elevated design experience from the moment you step in from Seaport Boulevard. Exotic marbles, warm woods, and intriguing metals create a richly-textured lobby experience with multiple conversation areas. Embracing the art of hospitality, this is an urban resort, warm, inviting and comfortable, encouraging residents to gather and socialize.",
+            "text-6": "Each residence is a canvas for personal style with oversized window walls capturing city, sky and harbor views. Homes are bathed in natural light with engineered wide white oak wood plank flooring throughout.",
             "text-7": "Dynamic vistas are offered at all levels, intimate views of the landscaped courtyard, glittering panoramas of the ever-changing skyline, and a captivating new perspective of the Boston Harbor.",
-            "text-8": "Both foodies and take-out aficionados will appreciate the clean lines of the open kitchens outfitted with custom cabinetry imported from Italy, and a state-of-the-art suite of top-of-the-line integrated appliances.",
-            "text-9": "The tiered silhouette of EchelonSeaport creates an array of oversized private outdoor terraces rarely seen in Boston. Designed to be an extension of your living and dining rooms, best enjoyed on beautiful spring, summer and fall days.",
+            "text-8": "Both foodies and take-out aficionados will appreciate the clean lines of the open kitchens outfitted with custom cabinetry imported from Italy, and a state-of-the-art suite of Thermador integrated appliances.",
+            "text-9": "The tiered silhouette of EchelonSeaport creates an array of oversized private outdoor terraces rarely seen in Boston. Designed to be an extension of your living and dining rooms, these signature terraces maximize your enjoyment of beautiful spring, summer and fall days.",
+
             "two-addresses": "Two addresses.",
             "singular-destination": "A Singular Destination.",
             "different-by-design": "Different by Design",
@@ -370,8 +374,28 @@ const translations = {
             "own-sky": "Own the Sky",
             "top-chef": "Top Chef",
             "signature-terraces": "Signature City Terraces",
-            "preview-of": "For a Preview of EchelonSeaport",
-            "contact-info": "Please Provide Your Contact Information Below"
+            "preview-of": "For a Preview of 135 Seaport, a Regent Collection",
+            "contact-info": "Please Provide Your Contact Information Below",
+
+            "title-elevate-perspective": "Elevate Your Perspective",
+            "corner-glass-living-room": "Located above the signature terrace homes, 133 Seaport penthouses raise the bar on luxury living to a new summit.  Own a corner of the building, or two, and live at the apex of KPF’s architectural form with stunning glass views, elevated ceilings and gas fireplaces.",
+
+            "title-kitchens-inspire": "Kitchens that Inspire",
+            "penthouse-kitchen": "133 Seaport penthouses offer kitchens with extraordinary views, stunning counter stones and a premier suite of chef-inspired Gaggenau appliances.  Cook, invent, entertain, relax in kitchens destined to become your favorite room in your home.",
+
+            "title-penthouse-bath": "Penthouse Bath Serenity",
+            "penthouse-bath": "Begin your day with a fresh view of the world with luxurious marbles, a graceful soaking tub and an oversized spa shower in EchelonSeaport’s penthouse residences.",
+
+            "title-welcome-home": "Welcome Home",
+            "living-room-2": "133 Seaport’s penthouses are your oasis from the world, with breathtaking terraces and soothing finishes to complement and inspire your own personal design. Grand, floor-to-ceiling glass spaces are optimal for entertaining with guests, or simply embracing and welcoming you home at the end of each day.",
+
+            "135-hero": "Contemporary and Cool. 135 Seaport offers residents amazing views of the Boston Harbor, Seaport and wrap-around city and sunset views. Homes include balconies or oversized private terraces for residents. Active indoor fitness amenities include an indoor pool, basketball court, yoga room, and a massive fifth-floor terrace with a grand outdoor pool, sun cabanas, outdoor dining and lounge areas for all residents to enjoy.",
+
+            "lobby": "Exquisite First Impression",
+            "135-lobby": "The beautiful Jeffrey Beers designed, double-height, 24-hour attended lobby ushers in an elevated experience. Modern contemporary marbles, warm woods, and intriguing metals create a richly-textured lobby experience with multiple conversation areas. Embracing the art of hospitality, the lobby welcomes you to an inviting urban resort that creates a sense of community by encouraging residents to gather and socialize.",
+
+            "lounge": "Designed for Entertaining",
+            "135-lounge": "The Seaport Lounge, with its state of the art demonstration kitchen and wet bar, is the perfect spot to unwind at the end of the day. Integrating comfortable seating for any event with access to an outdoor lounge area on the Grand Pool deck, it's tailor-made for entertaining.",
         },
         "lifestyle": {
             "text-1": "An address unlike anywhere else. Indoors and out, EchelonSeaport offers a captivating lifestyle experience, with over 50,000 square feet of amenities designed by Jeffrey Beers International, the leading tastemaker in hospitality interiors.",
@@ -542,8 +566,10 @@ const translations = {
             "lobby": "大堂",
             "living-room": "客厅",
             "views": "景观",
-            "kitchen": "厨房",
-            "terraces": "露台"
+            "kitchen": "Kitchen",
+            "penthouse": "Penthouse",
+            "terraces": "Terraces",
+            "135-seaport": "135 Seaport"
         },
         "subnav-architecture-and-design": {
             "kpf-architecture": "KPF建筑设计事务所",
@@ -798,21 +824,39 @@ const translations = {
     }
 };
 
-var flattenedTranslations = {};
-for(var language in translations) {
-    var languageTranslations = translations[language];
+let flattenedTranslations = {};
+var mainLanguage = ["en"];
+var translationLanguages = ["cn"];
 
-    flattenedTranslations[language] = {};
+let flattenTranslationsMap = function(languageTranslations, fallbackTranslations = null) {
+    let flattenedTranslations = {};
 
-    for(var page in languageTranslations) {
-        var pageTranslations = languageTranslations[page];
-        for(var transkey in pageTranslations) {
-            var val = pageTranslations[transkey];
-            flattenedTranslations[language][page + "." + transkey] = val;
+    for (let page in languageTranslations) {
+        let pageTranslations = languageTranslations[page];
+        for (let transkey in pageTranslations) {
+            flattenedTranslations[page + "." + transkey] = pageTranslations[transkey];
         }
     }
-}
 
+    if(fallbackTranslations !== null) {
+        for(let key in fallbackTranslations) {
+            if(!(key in flattenedTranslations)) {
+                console.log("Fallback", key);
+                flattenedTranslations[key] = fallbackTranslations[key];
+            }
+        }
+    }
+
+    return flattenedTranslations;
+};
+
+var mainTranslations = flattenTranslationsMap(translations[mainLanguage]);
+flattenedTranslations[mainLanguage] = mainTranslations;
+for(let i in translationLanguages) {
+    let iLanguage = translationLanguages[i];
+    flattenedTranslations[iLanguage] = flattenTranslationsMap(translations[iLanguage], mainTranslations);
+}
+console.log(flattenedTranslations);
 Vue.i18n.add('en', flattenedTranslations["en"]);
 Vue.i18n.add('cn', flattenedTranslations["cn"]);
 

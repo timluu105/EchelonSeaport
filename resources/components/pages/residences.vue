@@ -1,5 +1,7 @@
 <template>
     <div class="residences-component">
+        <residences-video></residences-video>
+
         <div class="singular-destination-component" id="overview">
             <div class="singular-destination-component-title-row">
                 <h1 class="singular-destination-component-title-row-title">
@@ -115,6 +117,101 @@
             </div>
         </div>
 
+         <div class="inset-image-component" id="penthouse">
+            <div class="inset-image-component-inner" style="background-image: url(&quot;/img/CTW1125_Echelon_S020_INT_LivingDining_Final2000.jpg&quot;); background-position: center bottom;"></div>
+        </div>
+
+        <div class="stripe-component" id="living-dining">
+            <div class="stripe-component-content">
+
+                <h2 class="captioned-image-component-caption-title">{{ $t("residences.title-elevate-perspective") }}</h2>
+
+                <div class="stripe-component-content-body">
+                    <p>{{ $t("residences.corner-glass-living-room") }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="captioned-image-component margin-full-bleed" id="penthouse-2">
+            <div class="captioned-image-component-image large-image" style="background-image: url(&quot;/img/CTW1125_Echelon_S030_INT_Living_Final2000.jpg&quot;); background-position: center bottom;"></div>
+
+            <div class="captioned-image-component-caption">
+                <h1 class="captioned-image-component-caption-title">{{ $t("residences.title-welcome-home") }}</h1>
+
+                <div class="captioned-image-component-caption-body">
+                    <p>{{ $t("residences.living-room-2") }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="captioned-image-component margin-full-bleed" id="penthouse-3">
+            <div class="captioned-image-component-image large-image" style="background-image: url(&quot;/img/CTW1125_Echelon_S040_INT_KitchenDining_Final2000.jpg&quot;); background-position: center bottom;"></div>
+
+            <div class="captioned-image-component-caption">
+                <h1 class="captioned-image-component-caption-title">{{ $t("residences.title-kitchens-inspire") }}</h1>
+
+                <div class="captioned-image-component-caption-body">
+                    <p>{{ $t("residences.penthouse-kitchen") }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="captioned-image-component margin-full-bleed" id="penthouse-4">
+            <div class="captioned-image-component-image large-image" style="background-image: url(&quot;/img/CTW1125_Echelon_S050_INT_Bath_Final2000.jpg&quot;); background-position: center bottom;"></div>
+
+            <div class="captioned-image-component-caption">
+                <h1 class="captioned-image-component-caption-title">{{ $t("residences.title-penthouse-bath") }}</h1>
+
+                <div class="captioned-image-component-caption-body">
+                    <p>{{ $t("residences.penthouse-bath") }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="inset-image-component" id="135-seaport">
+            <div class="inset-image-component-inner" style="background-image: url(&quot;/img/Neoscape_Cottonwood-EchelonSeaport_Hero_V3_FINAL.jpg&quot;); background-position: center center;"></div>
+        </div>
+
+        <div class="stripe-component" id="135-seaport-stripe">
+            <div class="stripe-component-content">
+                <h2 class="stripe-component-content-subtitle">Echelon</h2>
+
+                <h1 class="stripe-component-content-title">135 Seaport</h1>
+
+                <div class="stripe-component-content-body">
+                    <p>{{ $t("residences.135-hero") }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="captioned-image-component margin-full-bleed" id="135-seaport-lobby">
+            <div class="captioned-image-component-image" style="background-image: url(&quot;/img/T2 Lobby Final Rendering.jpg&quot;); background-position: center center;"></div>
+
+            <div class="captioned-image-component-caption">
+                <h1 class="captioned-image-component-caption-title">{{ $t("residences.lobby") }}</h1>
+
+                <div class="captioned-image-component-caption-body">
+                    <p>{{ $t("residences.135-lobby") }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="inset-image-component" id="135-seaport-lounge">
+            <div class="inset-image-component-inner" style="background-image: url(&quot;/img/T2 Lounge Final Rendering.jpg&quot;); background-position: center bottom;"></div>
+        </div>
+
+        <div class="stripe-component" id="135-seaport-lounge-stripe">
+            <div class="stripe-component-content">
+
+                <h1 class="captioned-image-component-caption-title">{{ $t("residences.lounge") }}</h1>
+
+                <div class="stripe-component-content-body">
+                    <p>{{ $t("residences.135-lounge") }}</p>
+                </div>
+            </div>
+        </div>
+
+
         <div class="one-thirty-five-seaport-component" id="section-11">
             <div class="one-thirty-five-seaport-component-column hero"></div>
 
@@ -134,12 +231,20 @@
 <script>
     import BasePage from "mixins/base-page.js";
     import ContactRegistration from "sections/contact-registration.vue";
+    import ResidencesVideo from "sections/residences-video.vue";
 
     export default {
         mixins: [ BasePage ],
 
         components: {
-            "contact-registration": ContactRegistration
+            "contact-registration": ContactRegistration,
+            "residences-video": ResidencesVideo
         }
     };
 </script>
+
+<style>
+    #135-seaport .inset-aspect:before, .captioned-image-component.margin-inset .captioned-image-component-image:before, .inset-image-component-inner:before {
+	    padding-top: 60% !important;
+    }
+</style>

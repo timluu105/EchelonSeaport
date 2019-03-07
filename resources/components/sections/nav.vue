@@ -266,6 +266,22 @@
                         {
                             "id": "terraces",
                             "title": window.trans['subnav-residences']['terraces']
+                        },
+                        {
+                            "id": "penthouse",
+                            "title": window.trans['subnav-residences']['penthouse']
+                        },
+                        {
+                            "id": "135-seaport",
+                            "title": window.trans['subnav-residences']['135-seaport']
+                        },
+                        {
+                            "id": "135-seaport-lobby",
+                            "title": window.trans['subnav-residences']['lobby']
+                        },
+                        {
+                            "id": "135-seaport-lounge",
+                            "title": window.trans['subnav-residences']['lounge']
                         }
                     ],
                     "architecture": [

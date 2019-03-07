@@ -54,13 +54,18 @@
 
         @if(Config::get('app.debug'))
             <script type="text/javascript">
-                document.write('<script src="//{{ env('LR_HOST', 'localhost') }}:35729/livereload.js?snipver=1" type="text/javascript"><\/script>');
+                //document.write('<script src="//{{ env('LR_HOST', 'localhost') }}:35729/livereload.js?snipver=1" type="text/javascript"><\/script>');
             </script>
         @endif
 
         <script>
             window.lang
         </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+        <script src="//www.kirupa.com/prefixfree.min.js"></script>
+        <link href="//vjs.zencdn.net/7.3.0/video-js.min.css" rel="stylesheet">
+	    <script src="//vjs.zencdn.net/7.3.0/video.min.js"></script>
     </head>
 
     <body class="{{ $device_mobile ? 'device-mobile' : 'device-desktop' }}">
@@ -72,5 +77,11 @@
         @yield('page-top')
         @yield('page-content')
         @yield('page-bottom')
+
+        <style>
+            #135-seaport .inset-image-component-inner:before {
+                padding-top: 60% !important;
+            }
+        </style>
     </body>
 </html>
