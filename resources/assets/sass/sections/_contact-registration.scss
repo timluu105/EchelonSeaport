@@ -50,6 +50,12 @@
                     left: -3px;
                     margin-top: 5px;
                 }
+
+                .inputs-list {
+                    list-style: none;
+                    padding-inline-start: 0px;
+                    margin-inline-start: 5px;
+                }
             }
 
             label .hs-form-required {
@@ -94,7 +100,7 @@
                 }
 
                 span {
-                    transform: translateY(-3px);
+                    margin-left: 25px;
                 }
             }
 
@@ -115,7 +121,7 @@
             }
 
             label {
-                text-align: center;
+                text-align: left;
                 text-transform: uppercase;
             }
         }
@@ -126,8 +132,6 @@
             input {
                 margin: auto;
                 display: block;
-                width: 160px;
-                height: 25px;
                 padding: 7px 28px;
                 border: 2px solid $c-text;
                 border-radius: 0px;
