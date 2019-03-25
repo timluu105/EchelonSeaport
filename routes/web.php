@@ -116,6 +116,27 @@ Route::get('/lang/{language}', function($language) {
     return redirect()->back();
 });
 
+Route::get("language-api/data/{language}", function($language) {
+	session()->put("locale", $language);
+
+	$path = base_path() . '/resources/assets/js/translations/translations.json';
+	$arr = JsonWithComments::decode(file_get_contents($path));
+
+	if(!array_key_exists($language, $arr)) {
+		return response()->json([
+			"success" => false,
+			"message" => "Could not retrieve language"
+		]);
+	}
+
+	$response = [
+		"success" => true,
+		"data" => $arr[$language]
+	];
+
+	return json_encode($response, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+});
+
 Route::get('/download/uploads/{dir}/{file}', function($dir, $file) {
     $file_dl = base_path() . '/public/uploads/' . $dir . '/' . $file;
 

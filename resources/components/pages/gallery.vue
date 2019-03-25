@@ -63,93 +63,93 @@
                 galleryImages: [
                     {
                         "image": "/img/gallery/architecture-city-aerial.jpg",
-                        "title": window.trans['images']['image-1']
+                        "title": this.$t("images.image-1")
                     },
                     {
                         "image": "/img/gallery/residences-hero.jpg",
-                        "title": window.trans['images']['image-2']
+                        "title": this.$t("images.image-2")
                     },
                     {
                         "image": "/img/gallery/residences-street-view.jpg",
-                        "title": window.trans['images']['image-3'],
+                        "title": this.$t("images.image-3"),
                         "align": "vbottom"
                     },
                     {
                         "image": "/img/gallery/architecture-central-courtyard.jpg",
-                        "title": window.trans['images']['image-4']
+                        "title": this.$t("images.image-4")
                     },
                     {
                         "image": "/img/gallery/architecture-courtyard-view.jpg",
-                        "title": window.trans['images']['image-5']
+                        "title": this.$t("images.image-5")
                     },
                     {
                         "image": "/img/gallery/architecture-courtyard-detail.jpg",
-                        "title": window.trans['images']['image-6']
+                        "title": this.$t("images.image-6")
                     },
                     {
                         "image": "/img/gallery/residences-seaport-lobby.jpg",
-                        "title": window.trans['images']['image-7']
+                        "title": this.$t("images.image-7")
                     },
                     {
                         "image": "/img/gallery/residences-sky-lounge.jpg",
-                        "title": window.trans['images']['image-8']
+                        "title": this.$t("images.image-8")
                     },
                     {
                         "image": "/img/gallery/lifestyle-entrance.jpg",
-                        "title": window.trans['images']['image-9']
+                        "title": this.$t("images.image-9")
                     },
                     {
                         "image": "/img/gallery/lifestyle-library-lounge.jpg",
-                        "title": window.trans['images']['image-10']
+                        "title": this.$t("images.image-10")
                     },
                     {
                         "image": "/img/gallery/lifestyle-wine-room.jpg",
-                        "title": window.trans['images']['image-11']
+                        "title": this.$t("images.image-11")
                     },
                     {
                         "image": "/img/gallery/lifestyle-designphilosophy-livingroom.jpg",
-                        "title": window.trans['images']['image-12']
+                        "title": this.$t("images.image-12")
                     },
                     {
                         "image": "/img/gallery/lifestyle-innovation-center.jpg",
-                        "title": window.trans['images']['image-13']
+                        "title": this.$t("images.image-13")
                     },
                     {
                         "image": "/img/gallery/lifestyle-wellness-pool.jpg",
-                        "title": window.trans['images']['image-14']
+                        "title": this.$t("images.image-14")
                     },
                     {
                         "image": "/img/gallery/lifestyle-basketball-court.jpg",
-                        "title": window.trans['images']['image-15']
+                        "title": this.$t("images.image-15")
                     },
                     {
                         "image": "/img/gallery/lifestyle-spa-room.jpg",
-                        "title": window.trans['images']['image-16'],
+                        "title": this.$t("images.image-16"),
                         "align": "vbottom"
                     },
                     {
                         "image": "/img/gallery/lifestyle-outdoor-pool-day.jpg",
-                        "title": window.trans['images']['image-17']
+                        "title": this.$t("images.image-17")
                     },
                     {
                         "image": "/img/gallery/lifestyle-outdoor-pool-dusk.jpg",
-                        "title": window.trans['images']['image-18']
+                        "title": this.$t("images.image-18")
                     },
                     {
                         "image": "/img/gallery/lifestyle-pool-lounge.jpg",
-                        "title": window.trans['images']['image-19']
+                        "title": this.$t("images.image-19")
                     },
                     {
                         "image": "/img/gallery/residences-living-dining.jpg",
-                        "title": window.trans['images']['image-20']
+                        "title": this.$t("images.image-20")
                     },
                     {
                         "image": "/img/gallery/residences-kitchen.jpg",
-                        "title": window.trans['images']['image-21']
+                        "title": this.$t("images.image-21")
                     },
                     {
                         "image": "/img/gallery/residences-private-terrace.jpg",
-                        "title": window.trans['images']['image-22']
+                        "title": this.$t("images.image-22")
                     }
                 ]
             };

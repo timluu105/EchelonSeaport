@@ -6,6 +6,7 @@
     "type": "project",
     "require": {
         "php": ">=7.0.0",
+        "bluenest/blue-nest-json-helpers": "dev-master",
         "doctrine/dbal": "^2.5",
         "erusev/parsedown": "^1.6",
         "fideloper/proxy": "~3.3",
@@ -63,5 +64,15 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "optimize-autoloader": true
+    },
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/digitalowlnyc/bluenest-github-dependencies-readme"
+    },
+    {
+        "type": "composer",
+        "url": "https://composer.bnest.co/repositories.json"
     }
+  ]
 }
