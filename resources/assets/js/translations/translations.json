@@ -594,7 +594,7 @@
         },
         "hubspot": {
             "form-id": "3baecad0-a9ff-43e3-8455-8ae1b4f359f9",
-            "thank-you": "感谢您的注册",
+            "thank-you": "感谢您的注册"
         },
         "register-thank-you": {
             "thank-you": "感谢您的注册",
@@ -605,6 +605,313 @@
         },
         "errors": {
             "not-found": "页面无法显示"
+        }
+    },
+    "zh-CN": {
+        "pages": {
+            "lifestyle": null,
+            "neighborhood": "社區",
+            "residences": "住宅",
+            "architecture": "建築與設計",
+            "floor-plans": null,
+            "news": "新聞報導",
+            "gallery": "照片",
+            "team": "團隊",
+            "contact": "連絡方式"
+        },
+        "subnav-lifestyle": {
+            "the-waterfall-terrace-pool": "瀑布游泳池",
+            "alfresco-dining": null,
+            "the-grand-pool": "室外大游泳池",
+            "133-seaport-lounge": null,
+            "library-lounge": "圖書館及商務中心",
+            "tasting-room": "品酒室",
+            "135-seaport-lounge": null,
+            "regent-service": null,
+            "indoor-pool": null,
+            "fitness": null,
+            "basketball-court": null,
+            "spa-suite": null,
+            "innovation-center": null,
+            "echelon-life": "ECHELON生活",
+            "sky-lounge": null,
+            "echelon-pets": "寵物社區",
+            "playroom": null
+        },
+        "subnav-residences": {
+            "overview": null,
+            "133-seaport": "133 SEAPORT",
+            "lobby": null,
+            "living-room": null,
+            "views": null,
+            "kitchen": null,
+            "penthouse": null,
+            "terraces": null,
+            "135-seaport": "135 SEAPORT",
+            "lounge": null
+        },
+        "subnav-architecture-and-design": {
+            "kpf-architecture": "KPF 建築事務所",
+            "jeffrey-beers-interiors": null
+        },
+        "subnav-neighborhood": {
+            "the-seaport": "海港區",
+            "map": null,
+            "neighborhood-gallery": null,
+            "neighborhood-video": null
+        },
+        "architecture": {
+            "stripe-content-body": "EchelonSeaport 已經成為海港區甚至是波士頓整個城市街區的代表性建築，是由國際頂級建築師事務所 Kohn Pedersen Fox （ KPF ）定義的當代地標。 三座住宅樓環繞著中央庭院，美輪美奐的廊橋、多條人行道及鬱鬱蔥蔥的樹冠縱橫交織，坐落其中。 ",
+            "caption-body": "藝術契合商業。 中央庭院四周圍繞著眾多引人注目的建築，共同營造出波士頓地區最受期待的公共空間。 高端零售及難以忘懷的美食體驗，成就了這個集生活、購物及娛樂於一體的社區。",
+            "jeff-beers-international": "JEFFREY BEERS INTERNATIONAL 的室內設計",
+            "globally-recognized": "廣受全球讚譽的室內設計師 Jeffrey Beers 曾為 四季酒店、朗廷酒店和麗思卡爾頓酒店設計出一系列令人讚不絕口的作品。 在他的實力操刀下，EchelonSeaport盡顯優雅，奢華中不乏細節。 精心打造的接待區及注重細膩與意義的舒適空間，無一不體現出EchelonSeaport的獨具匠心。 ",
+            "design-sensibility": null,
+            "boston-is-heading": "前行 —— 心之所向",
+            "shaping-the-future": "塑造未來",
+            "architecture-by": "建築師 KOHN PEDERSEN FOX ",
+            "different-by-design": "因設計而不同",
+            "a-cultivated-designed": "來自 JEFFREY BEERS 的精心設計"
+        },
+        "intro": {
+            "header-1": "在波士頓活力十足的社區定居，擁有度假般的體驗。",
+            "header-2": null
+        },
+        "home": {
+            "anchoring": "海港區作為波士頓的最具創新與活力的區域，早已成為當地最令人神往的居住寶地。 坐落於此的EchelonSeaport定會為您帶來最值得期待的生活方式。 ",
+            "contemporary-landmark": "由國際頂尖建築設計事務所 KPF實力操刀，另搭配由國際著名室內設計所Jefferey Beers 精品打造共用空間設施，EchelonSeaport將註定成為波士頓當地的經典地標。 ",
+            "extraordinary": "集萃風華，高檔生活配套設施一應俱全，悅享城市高尚生活。 ",
+            "canvas": "綺麗的陽光悄悄透過落地窗，溫柔地灑落在屋中的每個角落。 眺望窗外，在慵懶中靜觀曼妙的波士頓海天一線。",
+            "the-seaport": "海港區",
+            "kpf-architecture": null,
+            "urban-living": "城市度假生活",
+            "modern-living": "摩登生活"
+        },
+        "contact": {
+            "interested": null,
+            "receive-updates": "欲收到獨家資訊更新，請於下方留下您的聯繫方式"
+        },
+        "neighborhood": {
+            "dining-text-copy": "屢獲殊榮的餐飲品牌早已令波士頓海港區成為最受歡迎的餐飲聚集地。 在這裡，您能享受到美食屆的奧斯卡獎­——James Beard獎項獲得者Barbara Lynch、 Ming Tsai 和 Joanne Chang 等人製作出來的美食佳餚，多滋多樣，應有盡有。 ",
+            "dining-text-title": null,
+            "dining-text-title-2": "餐飲",
+            "location-seaport": "EchelonSeaport 坐落在波士頓最受期待的創新區，這不僅僅是一處居所，更是一種嶄新的生活方式。 無論是活力十足的中庭氛圍，還是品牌化管理的商業中心，亦或是多樣的室內外生活設施，都可以為您帶來全新的體驗。 不但傳承了波士頓豐富的文化格調，更在城市持續發展的過程中留下了自己的獨特印記。 ",
+            "soaring-heights": "迷人的波士頓一直是歷史文化底蘊和國際時尚潮流的融合體，如今它再次以一副嶄新的面貌面向全世界，海港區飛速發展，已經成為波士頓首屈一指的新中心。",
+            "grandly-scaled": "這裡不僅是美食的天堂，還是波士頓最時尚的聖殿。 商業中心範圍廣，品牌多樣化，不僅僅有Filson，Lululemon，L.L. Bean 此類經典品牌，也不乏Warby Parker這類創新品牌，只要您需要，總能在這裡找到自己喜愛的商品。 而這，僅僅是一個開始......",
+            "seaport-sweat": "喜歡戶外跑步、騎車、散步？ 那還有什麼地方比Seaport風景如畫的海濱區更合適！ 您可以在Lululemon或L.L Bean置辦一身嶄新的運動裝備，然後到全美知名的 Everbody Fights、Soulcycle和Equinox健身會所 揮灑汗水，再前往 Juice Press 、 byChloe 享用健康的一餐。 健康變得輕鬆而簡單......",
+            "gallery": "充滿生機與活力的海港區正在緩緩向我們走來，它時刻行走在波士頓美食藝術、購物及文化領域的最前沿，毫無疑問地成為了這座城市備受期待的「新」街區。",
+            "gallery-video": null,
+            "get-centered": null,
+            "get-connected": null,
+            "seaport-neighborhood": "SEAPORT 社區",
+            "wellness": "陽光戶外",
+            "seaport-styled": "海港城的格調",
+            "new-center": "波士頓新中心",
+            "gallery-subtitle": "社區",
+            "gallery-title": "照片",
+            "gallery-video-subtitle": "社區",
+            "gallery-video-title": null,
+            "seaport-dining-1": null,
+            "seaport-dining-2": "餐飲"
+        },
+        "team": {
+            "team-1": "Echelon 的生活代表著一種全新的發展理念的演變，就是將非凡的設計藝術同無可比擬的生活設施相結合起來。 Cottonwood Management總部設在美國洛杉磯，管理著超過20億美元的資產。 公司選擇了波士頓作為其東海岸總部和首座發佈Echelon Life品牌的城市，將活力、學術精神和創新動力更加完美地滲透到這座城市中，令其更具吸引力，更加彰顯魅力風采。 ",
+            "team-2": "全球頂級建築師事務所 Kohn Pedersen Fox （ KPF ）為海港區帶來了無與倫比的建築美學。 這家國際頂尖的建築師事務所在美國紐約、英國倫敦、中國香港及上海都設有工作室，在世界各地留下眾多具有影響力的作品，以其優雅的設計理念和獨具匠心的建築風格而聞名全球。 KPF設計建造的標誌性綜合體專案是通往商業中心和創新中心的門戶，包括倫敦的Covent Garden、紐約的 Hudson Yards、東京的Rappongi Hills、上海的環球金融中心、香港的環球貿易廣場，以及波士頓的 EchelonSeaport等等。 ",
+            "team-3": null,
+            "team-4": "以多次榮獲獎項和高水準的五星級服務而聞名於世的麗晶攜手 Cottonwood ，共同為波士頓 EchelonSeaport 帶來了專業的酒店知識和豐富的行業經驗。 而作為其重返美國市場的第一步，麗晶無所保留地將其特有的經營風格和對服務細節的考量融入進來。 ",
+            "team-5": "總部位於波士頓的美國著名建築公司 CBT 與國際知名建築師事務所 KPF 傾力合作，將 EchelonSeaport 賦予生命。 榮獲眾多殊榮的CBT在波士頓設計了一系列卓越的住宅作品，包括Mandarin Oriental、麗思卡爾頓酒店、 Twenty-Two Liberty 等。 ",
+            "team-6": "作為波士頓海港區的領先建築商， John Moriarty & Associates （ JMA ） 全權掌舵 EchelonSeaport 專案。 JMA以其交付產品的精品質量而聞名，在美國東海岸建造了超過兩萬套豪華產權公寓。 公司總部位於美國波士頓，JMA的蓬勃發展，不斷為賦予其信任的新老客戶和合作夥伴打造精品城市專案。 ",
+            "team-7": "總部設在 美國 波士頓的 TCC 一直是波士頓地區市場領先的公寓專案銷售公司，在過去的三十年中 ， TCC完美達成了超過60億美元的城市和郊區房地產銷售業績。 TCC在EchelonSeaport的知名銷售團隊塑造了一個前所未有的銷售體驗中心，以説明客戶探索 Echelon Life的方方面面。 ",
+            "team-1-role": "開發商",
+            "team-2-role": "建築事務所",
+            "team-3-role": null,
+            "team-4-role": "服務標準",
+            "team-4-name": "麗晶服務品質",
+            "team-5-role": "住宅設計",
+            "team-6-role": "建築商",
+            "team-7-role": null
+        },
+        "contact-form": {
+            "broker": "您現在是由經紀人作為代表嗎？",
+            "first-name": "您的名字",
+            "last-name": "您的姓氏",
+            "email": "您的電子郵件",
+            "phone": "您的電話",
+            "street": "您的街道地址",
+            "city": "城市",
+            "state": "州",
+            "zip": "邮编",
+            "type": "住宅類型",
+            "studio": "開間戶型",
+            "1-bedroom-a": "1 居室戶型",
+            "1-bedroom-b": "1 居室 +1 浴室戶型",
+            "2-bedroom": "2 居室 +2.5 浴室戶型",
+            "3-bedroom": "3 居室 +3/3.5 浴室戶型",
+            "interested": "我很感興趣"
+        },
+        "residences": {
+            "text-1": null,
+            "text-2": "133 Seaport 共含產權公寓 255套，主打寬闊奢華生活空間。 不僅令住戶盡享波士頓海灣和海港公園景致，還配有豪華高貴的社區配套設施，例如SPA、酒廊和餐飲等等。 ",
+            "text-3": "135 Seaport 共含產權公寓 192套，主打時尚精緻生活空間。 城市風光，海灣勝景，日升日落，海天一線，極致美景盡入眼簾。 位於3層的社區花園更設有高標準的室外泳池，水邊涼亭，以及戶外休閒空間。 ",
+            "text-4": "EchelonSeaport 旨在令住戶享受到五星級酒店般的生活體驗。 從您踏入EchelonSeaport的那一刻起，每一項貼心服務，每一套生活設施的使用，每一處感官，都會散發出它的獨特魅力。 ",
+            "text-5": null,
+            "text-6": "品上一杯香濃的咖啡，坐在落地窗邊遠望城市和海灣勝景，逃離了喧囂與繁雜，靜享暖陽。 溫柔的陽光灑落在白色的橡木地板上，如同一幅鐫刻永恆的畫卷，墨染流年，歲月靜好。",
+            "text-7": "獨一無二的中庭花園，如同海市蜃樓般的城市天際全景，美輪美奐的波士頓海灣新視角，您坐在家中就能觀賞到這些極致美景， EchelonSeaport 似乎將美學賦予了最大內涵。 ",
+            "text-8": "義大利進口定制櫥櫃，頂級集成電器，一流的選材，時尚的藝術理念，真正締造了 EchelonSeaport 開放式廚房的藝術價值。 品味生活，盡享美食。 ",
+            "text-9": "EchelonSeaport 的階梯式建築輪廓構建出波士頓高端住宅中罕見的超大私家露臺 ，即便在家中也能同時坐擁戶外休閒與盡享美食的空間，感知四季變遷，笑看雲卷雲舒。 ",
+            "two-addresses": "不同的建築",
+            "singular-destination": "相同的體驗",
+            "different-by-design": "因設計而不同",
+            "133-seaport-residences": "133 SEAPORT 尊貴生活",
+            "living-work": "生活的藝術",
+            "own-sky": "坐擁城市天際",
+            "top-chef": "藝術廚房",
+            "signature-terraces": "獨特的空中私家露臺",
+            "preview-of": null,
+            "contact-info": "請留下您的聯繫方式",
+            "title-elevate-perspective": null,
+            "corner-glass-living-room": null,
+            "title-kitchens-inspire": null,
+            "penthouse-kitchen": null,
+            "title-penthouse-bath": null,
+            "penthouse-bath": null,
+            "title-welcome-home": null,
+            "living-room-2": null,
+            "135-hero": null,
+            "lobby": null,
+            "135-lobby": null,
+            "lounge": null,
+            "135-lounge": null
+        },
+        "lifestyle": {
+            "text-1": "EchelonSeaport擁有超過50,000平方英尺的生活配套設施，由世界知名的室內設計公司Jeffrey Beers International全新打造。 室內外盡顯與眾不同，著眼於高端居住品質，優越生活不言自明。 ",
+            "text-2": "戶外花園鮮花滿簇，露天餐區陽光滿懷，池畔陽光露臺為夏季帶來絲絲清涼，最受期待的共用戶外休閒區帶來無限的歡樂和幸福。",
+            "text-3": null,
+            "text-4": "無可挑剔的豪華風格，充滿時尚的設計理念，搭配挑高的天花板和豐富的建築細節。 客戶將私享一系列可俯瞰戶外美景的社交及休閒空間。",
+            "text-5": "圖書館休息區內陳列著眾多精美的藝術品和攝影作品，完美傳承了來自波士頓自身散發的文化藝術氣息。一杯雞尾酒，一本好書，在靜謐中享受智慧的洗禮。",
+            "text-6": "尊享美酒品鑒室，品味杯中風情，崇尚時尚魅力。 矗立的溫控葡萄酒儲藏室，融合精美定制的酒櫃，共同營造出無法抵擋的品酒獨立空間。",
+            "text-7": "EchelonSeaport主廚餐廳最具獨特潮流之感，彰顯時尚風範。 藝術的傳承離不開卓越的設計師，國際著名室內設計大師Jeffrey Beers曾經為業界知名廚師Jean Georges Vongerichten和Todd English 設計私人餐廳，得到高度評價。 更在此次設計中將藝術與美食相互交融，為您尊貴生活的每一刻留下眷戀。",
+            "text-8": "麗晶國際以其無與倫比的服務標準獲得全球認可，因而被選中負責整個物業的服務品質。 從經過專業培訓的禮賓服務到精心挑選的水療技師，每位EchelonSeaport的服務助理都將傳承麗晶格調。 ",
+            "text-9": "除了三個室內外泳池， EchelonSeaport特為客戶提供了一個8,500平方英尺的健身中心，專屬配備了SPA及室內外理療區，享受生活，從健康開始。 ",
+            "text-10": "動與靜的結合，陰與陽的平衡。無論是在健身中心重新燃燒自我激情，亦或是在附近的私人瑜伽館盡享根源之美，EchelonSeaport都會滿足您的需求。",
+            "text-11": "追逐，是一種執著；跳躍，是一種激情。 在兩層高的室內籃球場中肆意奔跑，獨有的科技牆盡顯場上青春魅力的別樣風采。 更可享有頂級PGA職業選手專用的尖端高爾夫模擬器，一球，盡在我手。 遊戲，開始了......",
+            "text-12": "EchelonSeaport 專享溫泉與獨一無二的空中花園相互連接，更添帶有柚木香、天然石料的私人理療室，盡情汲取「天然氧吧」之精華。 您可以選擇在室內進行理療，也可享受鬱鬱蔥蔥的私人戶外殿堂，在青蔥的原生態環境中感受和諧美妙的氛圍。 ",
+            "text-13": "獨一無二的居住配套。 Echelon創新中心以由波士頓 頂尖學府和孵化機構開發的專案為特色。 居住在這裡，您既可以和周邊的業主一起，與高端商業、技術、和文化領袖精英們分享卓越的思維，也可以在一天的任何時候進行富有創意的工作。 ",
+            "text-14": "EchelonSeaport的核心就是在省時便捷中盡享奢華。 因此，您可以通過一系列Echelon Life APP，即時享有國際一流的管理和禮賓服務。 您可隨時為愛車呼叫禮賓泊車、預定餐廳酒店，甚至是預定飛往楠塔基特（或巴黎）的私人飛機服務等等。 一切，盡在您的掌握之中。 ",
+            "text-15": "在空中酒廊休息室眺望波士頓海灣勝景，於靜謐空間感知四季變遷。 這是為住戶專屬預留的獨家生活俱樂部，經過麗晶專業培訓的工作人員服務貼心到位，將為您妥善安排每次的會面與聚餐。",
+            "text-16": "EchelonSeaport為您提供全新的寵物歡樂時光。 在戶外寵物活動區及遊樂園同其他愛寵們玩耍，在寵物美容中心做「SPA」，您還能夠通過Echelon Life APP與您的訓寵師隨時進行溝通交流。 定令您的愛寵賓至如歸，盡享生活的輕鬆舒適。 ",
+            "text-17": "EchelonSeaport的親子樂園會令您好似重返童年時光，我們相信不僅僅是您自己，您的子女也會無法抵擋這裡探索和歡愉的魅力，定會樂不思蜀。",
+            "elevate": null,
+            "expectations": null,
+            "captivating": "陽光與自然",
+            "grandpool": "室外大游泳池",
+            "echelonentertaining": "設計風格",
+            "impressive": "每個角度都令人印象深刻",
+            "chapter": "文化與藝術的傳承",
+            "toast": "良辰與美酒",
+            "epicurean": "藝術與美食",
+            "regentcollection": "麗晶服務品質",
+            "fivestarservice": "五星級居住體驗",
+            "echelonwellness": null,
+            "reinvigorate": "為生活注入新活力",
+            "fitness": "運動的昇華",
+            "gaming": "球場上的激情 ",
+            "zen": "私人禪式空間",
+            "culture": "ECHELON 文化",
+            "innovation": "核心打造 創新無限",
+            "echelonlife": "ECHELON生活",
+            "aboveitall": "高空俯瞰",
+            "pets": "寵物社區",
+            "dogrun": "戶外寵物活動區 &寵物美容",
+            "playtime": "親子樂園"
+        },
+        "legal": {
+            "equal-opportunity": "ECHELONSEAPORT是一個擁有平等機會的住房專案。 我們遵守1​​968年民權法案第八條。 我們絕不會因為您的種族、膚色、宗教信仰、性別或國際問題而產生歧視。 ",
+            "this-material": "在需要事先註冊的任何州或國家，本材料不構成有效法律效力。 本網站描述的材料、特徵和設施均基於當前的開發計畫，如有更改，恕不另行通知。 實際開發結果可能不符合當前的方案。 不能保證設計師效果圖描繪的或本網站他處描述的特徵、設施和設備將會被建造，或者如果被建造，不保證將一定能與所描繪或描述的類型、尺寸或性質保持一致。",
+            "units-described": "本網站描述的並在「麗晶」和/或「麗晶系列」商標許可下銷售的住宅單位未由麗晶亞太地區管理有限公司（「麗晶」）或其任何附屬公司所擁有、開發或銷售， 且麗晶及其任何附屬公司對此類住宅單位將不作出任何陳述、保證或擔保。 "
+        },
+        "images": {
+            "gallery": "照片",
+            "image-1": "波士頓海港區 EchelonSeaport",
+            "image-2": "133 SEAPORT",
+            "image-3": "135 SEAPORT",
+            "image-4": "中央庭院",
+            "image-5": "標誌性廊橋",
+            "image-6": "中央庭院商業",
+            "image-7": null,
+            "image-8": null,
+            "image-9": "壁爐休息室",
+            "image-10": "圖書館及商務中心",
+            "image-11": "品酒室",
+            "image-12": null,
+            "image-13": "創新中心",
+            "image-14": "室內游泳池",
+            "image-15": "室內籃球館",
+            "image-16": "SPA 室",
+            "image-17": "室外大游泳池",
+            "image-18": "瀑布游泳池",
+            "image-19": "室外壁爐休息空間",
+            "image-20": "客廳",
+            "image-21": "廚房",
+            "image-22": "陽臺"
+        },
+        "image-slider": {
+            "previous": null,
+            "next": null
+        },
+        "floorplans": {
+            "for-availability": null,
+            "contact-us-at": null
+        },
+        "singular-destination": {
+            "133-Seaport": "133 SEAPORT",
+            "135-Seaport": "135 SEAPORT",
+            "text-1": "兩幢住宅樓的外牆被恒久耐看的石頭及玻璃材質所包圍，海港區的天際線將在不久後被重新定義。 KPF將樓梯輪廓設計為節節高升的雲梯狀，為住戶打造出私家超大空中露臺。 ",
+            "text-2": "133 Seaport 共含產權公寓 255套，主打寬闊奢華生活空間。 不僅令住戶盡享波士頓海灣和海港公園景致，還配有豪華高貴的社區配套設施，例如SPA、酒廊和餐飲等等。 ",
+            "text-3": "135 Seaport 共含產權公寓 192套，主打時尚精緻生活空間。 城市風光，海灣勝景，日升日落，海天一線，極致美景盡入眼簾。 位於3層的社區花園更設有高標準的室外泳池，水邊涼亭，以及戶外休閒空間。 ",
+            "two-addresses": "不同的建築",
+            "singular-destination": "相同的體驗"
+        },
+        "call-to-action": {
+            "first-name": "您的名字",
+            "last-name": "您的姓氏",
+            "email": "您的電子郵件",
+            "phone": "您的 電話",
+            "more-information": "更多關於 EchelonSeaport的資訊",
+            "on-echelon": null,
+            "tell-me-more": "與我聯繫",
+            "thank-you": "感謝您的註冊",
+            "broker-will": "銷售人員將與您聯繫並告知更多資訊"
+        },
+        "neighborhood-map": {
+            "all": "全部",
+            "dining": "餐飲",
+            "shopping": "購物",
+            "culture": "文化",
+            "hotels": "酒店"
+        },
+        "footer": {
+            "sales-gallery": "銷售展示中心位址",
+            "legal": "法務聲明"
+        },
+        "shared": {
+            "lang-en": null,
+            "lang-cn": null,
+            "lang-english": null,
+            "lang-chinese": null
+        },
+        "hubspot": {
+            "form-id": null,
+            "thank-you": "感謝您的註冊"
+        },
+        "register-thank-you": {
+            "thank-you": "感謝您的註冊",
+            "echelon-insiders": null
+        },
+        "news": {
+            "download-pdf": null
+        },
+        "errors": {
+            "not-found": null
         }
     }
 }
