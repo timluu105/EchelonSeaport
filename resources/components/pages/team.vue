@@ -17,45 +17,45 @@
             return {
                 team: [
                     {
-                        role: window.trans["team"]["team-1-role"],
+                        role: this.$t("team.team-1-role"),
                         name: "Cottonwood Management",
-                        body: window.trans["team"]["team-1"]
+                        body: this.$t("team.team-1")
                     },
 
                     {
-                        role: window.trans["team"]["team-2-role"],
+                        role: this.$t("team.team-2-role"),
                         name: "Kohn Pedersen Fox",
-                        body: window.trans["team"]["team-2"]
+                        body: this.$t("team.team-2")
                     },
 
                     {
-                        role: window.trans["team"]["team-3-role"],
+                        role: this.$t("team.team-3-role"),
                         name: "Jeffrey Beers International",
-                        body: window.trans["team"]["team-3"]
+                        body: this.$t("team.team-3")
                     },
 
                     {
-                        role: window.trans["team"]["team-4-role"],
-                        name: window.trans["team"]["team-4-name"],
-                        body: window.trans["team"]["team-4"]
+                        role: this.$t("team.team-4-role"),
+                        name: this.$t("team.team-4-name"),
+                        body: this.$t("team.team-4")
                     },
 
                     {
-                        role: window.trans["team"]["team-5-role"],
+                        role: this.$t("team.team-5-role"),
                         name: "CBT Architects",
-                        body: window.trans["team"]["team-5"]
+                        body: this.$t("team.team-5")
                     },
 
                     {
-                        role: window.trans["team"]["team-6-role"],
+                        role: this.$t("team.team-6-role"),
                         name: "John Moriarty &amp; Associates",
-                        body: window.trans["team"]["team-6"]
+                        body: this.$t("team.team-6")
                     },
 
                     {
-                        role: window.trans["team"]["team-7-role"],
+                        role: this.$t("team.team-7-role"),
                         name: "TCC - The Collaborative Companies",
-                        body: window.trans["team"]["team-7"]
+                        body: this.$t("team.team-7")
                     }
                 ]
             };

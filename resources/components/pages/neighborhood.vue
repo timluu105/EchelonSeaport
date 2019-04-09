@@ -92,9 +92,9 @@
                 },
 
                 locationSeaportContent: {
-                    subtitle: window.trans["neighborhood"]["seaport-neighborhood"],
-                    title: window.trans["neighborhood"]["get-centered"] + " <br />" + window.trans["neighborhood"]["get-connected"],
-                    body: window.trans["neighborhood"]["location-seaport"]
+                    subtitle: this.$t("neighborhood.seaport-neighborhood"),
+                    title: this.$t("neighborhood.get-centered") + " <br />" + this.$t("neighborhood.get-connected"),
+                    body: this.$t("neighborhood.location-seaport")
                 },
 
                 neighborhoodSliderImages: [
@@ -120,8 +120,8 @@
                 ],
 
                 soaringHeightsContent: {
-                    title: window.trans["neighborhood"]["new-center"],
-                    body: window.trans["neighborhood"]["soaring-heights"],
+                    title: this.$t("neighborhood.new-center"),
+                    body: this.$t("neighborhood.soaring-heights"),
                     image: "/img/neighborhood/soaring-heights.jpg",
                     halign: "center",
                     valign: "center",
@@ -129,8 +129,8 @@
                 },
 
                 grandlyScaledContent: {
-                    title: window.trans["neighborhood"]["seaport-styled"],
-                    body: window.trans["neighborhood"]["grandly-scaled"],
+                    title: this.$t("neighborhood.seaport-styled"),
+                    body: this.$t("neighborhood.grandly-scaled"),
                     titleimage: "/img/neighborhood/seaport-styled-detail.jpg",
                     image: "/img/neighborhood/seaport-styled.jpg",
                     halign: "center",
@@ -140,8 +140,8 @@
                 },
 
                 seaportSweatContent: {
-                    title: window.trans["neighborhood"]["wellness"],
-                    body: window.trans["neighborhood"]["seaport-sweat"],
+                    title: this.$t("neighborhood.wellness"),
+                    body: this.$t("neighborhood.seaport-sweat"),
                     image: "/img/neighborhood/seaport-sweat.jpg",
                     halign: "center",
                     valign: "center",
@@ -149,15 +149,15 @@
                 },
 
                 neighborhoodGalleryContent: {
-                    subtitle: window.trans["neighborhood"]["gallery-subtitle"],
-                    title: window.trans["neighborhood"]["gallery-title"],
-                    body: window.trans["neighborhood"]["gallery"]
+                    subtitle: this.$t("neighborhood.gallery-subtitle"),
+                    title: this.$t("neighborhood.gallery-title"),
+                    body: this.$t("neighborhood.gallery")
                 },
 
                 neighborhoodVideoDescriptionContent: {
-                    subtitle: window.trans["neighborhood"]["gallery-video-subtitle"],
-                    title: window.trans["neighborhood"]["gallery-video-title"],
-                    body: window.trans["neighborhood"]["gallery-video"]
+                    subtitle: this.$t("neighborhood.gallery-video-subtitle"),
+                    title: this.$t("neighborhood.gallery-video-title"),
+                    body: this.$t("neighborhood.gallery-video")
                 }
             };
         },

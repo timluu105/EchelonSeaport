@@ -116,6 +116,8 @@ Route::get('/lang/{language}', function($language) {
     return redirect()->back();
 });
 
+Route::get("language-api/data/{language}", "TranslationsController@getTranslations");
+
 Route::get('/download/uploads/{dir}/{file}', function($dir, $file) {
     $file_dl = base_path() . '/public/uploads/' . $dir . '/' . $file;
 

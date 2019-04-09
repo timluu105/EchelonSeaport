@@ -396,6 +396,10 @@
                                         text-decoration: none;
                                     }
                                 }
+
+                                &-horizontal {
+                                    display: inline-block;
+                                }
                             }
                         }
                     }
@@ -454,4 +458,16 @@
             }
         }
     }
+}
+
+.menu-slide-out-hidden {
+    display: none !important;
+}
+
+.subnav-link {
+    overflow: visible !important; /** !important necessary because jQuery.animate applies overflow: hidden **/
+}
+
+.subnav-link-horizontal {
+    width: 100%;
 }

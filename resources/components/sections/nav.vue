@@ -72,7 +72,7 @@
                             {{$t("shared.lang-en")}}
                         </div>
                     </a>
-                    <a class="navlink" href="/lang/cn">
+                    <a class="navlink" v-on:click="languageSwitch('cn')">
                         <div class="spacer">{{$t("shared.lang-cn")}}</div>
 
                         <div class="link">
@@ -101,10 +101,10 @@
                             {{ link.title }}
 
                             <div
-                                v-if="link.hasOwnProperty('page') && subnavLinks.hasOwnProperty(link.page)"
+                                v-if="link.hasOwnProperty('page') && subnavLinksAll.hasOwnProperty(link.page)"
                                 class="subnav">
 
-                                <template v-for="subnavLink in subnavLinks[link.page]">
+                                <template v-for="subnavLink in subnavLinksAll[link.page]">
                                     <a
                                         v-if="link.path === $route.path"
                                         class="subnav-link"
@@ -131,8 +131,15 @@
                         <div class="link">
                             <i class="fa fa-globe"></i>
                             <div class="subnav">
-                                <a href="/lang/en" class="subnav-link">{{$t("shared.lang-en")}} | {{$t("shared.lang-english")}}</a>
-                                <a href="/lang/cn" class="subnav-link">{{$t("shared.lang-cn")}} | {{$t("shared.lang-chinese")}}</a>
+                                <a v-on:click="languageSwitch('en')" class="subnav-link">{{$t("shared.lang-en")}} | {{$t("shared.lang-english")}}</a>
+                                <span @mouseover="expandLanguageMenu" @mouseleave="hideLanguageMenu">
+                                    <div class="subnav-link subnav-horizontal">
+                                        <a v-on:click="languageSwitch('cn')">{{$t("shared.lang-cn")}} | {{$t("shared.lang-chinese")}}</a>
+                                    </div>
+                                    <div class="subnav-link subnav-horizontal menu-slide-out menu-slide-out-hidden">
+                                        <a v-on:click="languageSwitch('zh-CN')">{{$t("shared.lang-zh-CN") }}</a>
+                                    </div>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -149,10 +156,12 @@
 
 <script>
     import ScrollToAnchor from "mixins/scroll-to-anchor.js";
+    import TranslationsMixin from "mixins/translations-mixin.js";
 
     export default {
         mixins: [
-            ScrollToAnchor
+            ScrollToAnchor,
+            TranslationsMixin
         ],
 
         data() {
@@ -160,165 +169,14 @@
                 openNav: false,
                 openLanguageNav: false,
                 subnavLinks: {},
-
-                localSubnavLinks: {
-                    neighborhood: [
-                        { id: "the-seaport", title: window.trans['subnav-neighborhood']['the-seaport'] },
-                        { id: "map", title: window.trans['subnav-neighborhood']['map'] },
-                        { id: "neighborhood-gallery", title: window.trans['subnav-neighborhood']['neighborhood-gallery'] },
-                        { id: "neighborhood-video", title: window.trans['subnav-neighborhood']['neighborhood-video'] }
-                    ],
-                    lifestyle: [
-                        {
-                            "id": "the-waterfall-terrace-pool",
-                            "title": window.trans['subnav-lifestyle']['the-waterfall-terrace-pool']
-                        },
-                        {
-                            "id": "alfresco-dining",
-                            "title": window.trans['subnav-lifestyle']['alfresco-dining']
-                        },
-                        {
-                            "id": "the-grand-pool",
-                            "title": window.trans['subnav-lifestyle']['the-grand-pool']
-                        },
-                        {
-                            "id": "133-seaport-lounge",
-                            "title": window.trans['subnav-lifestyle']['133-seaport-lounge']
-                        },
-                        {
-                            "id": "library-lounge",
-                            "title": window.trans['subnav-lifestyle']['library-lounge']
-                        },
-                        {
-                            "id": "tasting-room",
-                            "title": window.trans['subnav-lifestyle']['tasting-room']
-                        },
-                        {
-                            "id": "135-seaport-lounge",
-                            "title": window.trans['subnav-lifestyle']['135-seaport-lounge']
-                        },
-                        {
-                            "id": "regent-service",
-                            "title": window.trans['subnav-lifestyle']['regent-service']
-                        },
-                        {
-                            "id": "indoor-pool",
-                            "title": window.trans['subnav-lifestyle']['indoor-pool']
-                        },
-                        {
-                            "id": "fitness",
-                            "title": window.trans['subnav-lifestyle']['fitness']
-                        },
-                        {
-                            "id": "basketball-court",
-                            "title": window.trans['subnav-lifestyle']['basketball-court']
-                        },
-                        {
-                            "id": "spa-suite",
-                            "title": window.trans['subnav-lifestyle']['spa-suite']
-                        },
-                        {
-                            "id": "innovation-center",
-                            "title": window.trans['subnav-lifestyle']['innovation-center']
-                        },
-                        {
-                            "id": "echelon-life",
-                            "title": window.trans['subnav-lifestyle']['echelon-life']
-                        },
-                        {
-                            "id": "sky-lounge",
-                            "title": window.trans['subnav-lifestyle']['sky-lounge']
-                        },
-                        {
-                            "id": "echelon-pets",
-                            "title": window.trans['subnav-lifestyle']['echelon-pets']
-                        },
-                        {
-                            "id": "playroom",
-                            "title": window.trans['subnav-lifestyle']['playroom']
-                        }
-                    ],
-                    "residences": [
-                        {
-                            "id": "overview",
-                            "title": window.trans['subnav-residences']['overview']
-                        },
-                        {
-                            "id": "133-seaport",
-                            "title": window.trans['subnav-residences']['133-seaport']
-                        },
-                        {
-                            "id": "lobby",
-                            "title": window.trans['subnav-residences']['lobby']
-                        },
-                        {
-                            "id": "living-room",
-                            "title": window.trans['subnav-residences']['living-room']
-                        },
-                        {
-                            "id": "views",
-                            "title": window.trans['subnav-residences']['views']
-                        },
-                        {
-                            "id": "kitchen",
-                            "title": window.trans['subnav-residences']['kitchen']
-                        },
-                        {
-                            "id": "terraces",
-                            "title": window.trans['subnav-residences']['terraces']
-                        },
-                        {
-                            "id": "penthouse",
-                            "title": window.trans['subnav-residences']['penthouse']
-                        },
-                        {
-                            "id": "135-seaport",
-                            "title": window.trans['subnav-residences']['135-seaport']
-                        },
-                        {
-                            "id": "135-seaport-lobby",
-                            "title": window.trans['subnav-residences']['lobby']
-                        },
-                        {
-                            "id": "135-seaport-lounge",
-                            "title": window.trans['subnav-residences']['lounge']
-                        }
-                    ],
-                    "architecture": [
-                        {
-                            "id": "kpf-architecture",
-                            "title": window.trans['subnav-architecture-and-design']['kpf-architecture']
-                        },
-                        {
-                            "id": "jeffrey-beers-interiors",
-                            "title": window.trans['subnav-architecture-and-design']['jeffrey-beers-interiors']
-                        }
-                    ]
-                },
-
-                navLinks: [
-                    { path: "/lifestyle", title: window.trans["pages"]["lifestyle"], page: "lifestyle" },
-                    { path: "/residences", title: window.trans["pages"]["residences"], page: "residences" },
-                    { path: "/neighborhood", title: window.trans["pages"]["neighborhood"], page: "neighborhood" },
-                    { path: "/architecture-and-design", title: window.trans["pages"]["architecture"], page: "architecture" },
-                    { path: "/floorplan-and-availability", title: window.trans["pages"]["floor-plans"] },
-                    { path: "/news", title: window.trans["pages"]["news"] },
-                    { path: "/gallery", title: window.trans["pages"]["gallery"] },
-                    { path: "/team", title: window.trans["pages"]["team"] },
-                    { path: "/contact", title: window.trans["pages"]["contact"] }
-                ]
+                subnavLinksServerSide: {}
             };
         },
 
         methods: {
             fetchSubnavLinks() {
                 this.$http.get("/api/subnav-links" + env.apiToken).then((response) => {
-                    // successful response
-                    this.subnavLinks = response.body;
-
-                    Object.keys(this.localSubnavLinks).forEach((page) => {
-                        this.subnavLinks[page] = this.localSubnavLinks[page];
-                    });
+                    this.subnavLinksServerSide = response;
                 }, (response) => {
                     // unsuccessful response
                     console.log("error fetching subnav links");
@@ -327,11 +185,198 @@
 
             toggleCTA() {
                 this.$store.commit("setCtaOpen", !this.$store.getters.getCtaOpen);
+            },
+            expandLanguageMenu() {
+                $(".subnav").each(function() {
+                    $(this).css( {
+                        width: $(this).css("width")
+                    })
+                });
+
+                $(".menu-slide-out").each(function() {
+                    var naturalWidth = $(this).get(0).scrollWidth;
+                    $(this).animate({
+                        display: '',
+                    });
+                    $(this).removeClass("menu-slide-out-hidden");
+                });
+            },
+            hideLanguageMenu() {
+                $(".menu-slide-out").each(function() {
+                    $(this).css({
+                        display: "none !important",
+                    });
+                });
             }
         },
 
         created() {
             this.fetchSubnavLinks();
+        },
+
+        computed: {
+            subnavLinksAll() {
+                let subnavLinksComputed = this.subnavLinks;
+
+                if(this.subnavLinksServerSide.length !== 0) {
+                    subnavLinksComputed = this.subnavLinksServerSide;
+
+                    Object.keys(this.localSubnavLinks).forEach((page) => {
+                        subnavLinksComputed[page] = this.localSubnavLinks[page];
+                    });
+                }
+
+                return subnavLinksComputed;
+            },
+            localSubnavLinks() {
+                return {
+                    neighborhood: [
+                        { id: "the-seaport", title: this.$t("subnav-neighborhood.the-seaport") },
+                        { id: "map", title: this.$t("subnav-neighborhood.map") },
+                        { id: "neighborhood-gallery", title: this.$t("subnav-neighborhood.neighborhood-gallery") },
+                        { id: "neighborhood-video", title: this.$t("subnav-neighborhood.neighborhood-video") }
+                    ],
+                    lifestyle: [
+                        {
+                            "id": "the-waterfall-terrace-pool",
+                            "title": this.$t("subnav-lifestyle.the-waterfall-terrace-pool")
+                        },
+                        {
+                            "id": "alfresco-dining",
+                            "title": this.$t("subnav-lifestyle.alfresco-dining")
+                        },
+                        {
+                            "id": "the-grand-pool",
+                            "title": this.$t("subnav-lifestyle.the-grand-pool")
+                        },
+                        {
+                            "id": "133-seaport-lounge",
+                            "title": this.$t("subnav-lifestyle.133-seaport-lounge")
+                        },
+                        {
+                            "id": "library-lounge",
+                            "title": this.$t("subnav-lifestyle.library-lounge")
+                        },
+                        {
+                            "id": "tasting-room",
+                            "title": this.$t("subnav-lifestyle.tasting-room")
+                        },
+                        {
+                            "id": "135-seaport-lounge",
+                            "title": this.$t("subnav-lifestyle.135-seaport-lounge")
+                        },
+                        {
+                            "id": "regent-service",
+                            "title": this.$t("subnav-lifestyle.regent-service")
+                        },
+                        {
+                            "id": "indoor-pool",
+                            "title": this.$t("subnav-lifestyle.indoor-pool")
+                        },
+                        {
+                            "id": "fitness",
+                            "title": this.$t("subnav-lifestyle.fitness")
+                        },
+                        {
+                            "id": "basketball-court",
+                            "title": this.$t("subnav-lifestyle.basketball-court")
+                        },
+                        {
+                            "id": "spa-suite",
+                            "title": this.$t("subnav-lifestyle.spa-suite")
+                        },
+                        {
+                            "id": "innovation-center",
+                            "title": this.$t("subnav-lifestyle.innovation-center")
+                        },
+                        {
+                            "id": "echelon-life",
+                            "title": this.$t("subnav-lifestyle.echelon-life")
+                        },
+                        {
+                            "id": "sky-lounge",
+                            "title": this.$t("subnav-lifestyle.sky-lounge")
+                        },
+                        {
+                            "id": "echelon-pets",
+                            "title": this.$t("subnav-lifestyle.echelon-pets")
+                        },
+                        {
+                            "id": "playroom",
+                            "title": this.$t("subnav-lifestyle.playroom")
+                        }
+                    ],
+                    "residences": [
+                        {
+                            "id": "overview",
+                            "title": this.$t("subnav-residences.overview")
+                        },
+                        {
+                            "id": "133-seaport",
+                            "title": this.$t("subnav-residences.133-seaport")
+                        },
+                        {
+                            "id": "lobby",
+                            "title": this.$t("subnav-residences.lobby")
+                        },
+                        {
+                            "id": "living-room",
+                            "title": this.$t("subnav-residences.living-room")
+                        },
+                        {
+                            "id": "views",
+                            "title": this.$t("subnav-residences.views")
+                        },
+                        {
+                            "id": "kitchen",
+                            "title": this.$t("subnav-residences.kitchen")
+                        },
+                        {
+                            "id": "terraces",
+                            "title": this.$t("subnav-residences.terraces")
+                        },
+                        {
+                            "id": "penthouse",
+                            "title": this.$t("subnav-residences.penthouse")
+                        },
+                        {
+                            "id": "135-seaport",
+                            "title": this.$t("subnav-residences.135-seaport")
+                        },
+                        {
+                            "id": "135-seaport-lobby",
+                            "title": this.$t("subnav-residences.lobby")
+                        },
+                        {
+                            "id": "135-seaport-lounge",
+                            "title": this.$t("subnav-residences.lounge")
+                        }
+                    ],
+                    "architecture": [
+                        {
+                            "id": "kpf-architecture",
+                            "title": this.$t("subnav-architecture-and-design.kpf-architecture")
+                        },
+                        {
+                            "id": "jeffrey-beers-interiors",
+                            "title": this.$t("subnav-architecture-and-design.jeffrey-beers-interiors")
+                        }
+                    ]
+                }
+            },
+            navLinks: function() {
+                return [
+                    { path: "/lifestyle", title: this.$t("pages.lifestyle"), page: "lifestyle" },
+                    { path: "/residences", title: this.$t("pages.residences"), page: "residences" },
+                    { path: "/neighborhood", title: this.$t("pages.neighborhood"), page: "neighborhood" },
+                    { path: "/architecture-and-design", title: this.$t("pages.architecture"), page: "architecture" },
+                    { path: "/floorplan-and-availability", title: this.$t("pages.floor-plans") },
+                    { path: "/news", title: this.$t("pages.news") },
+                    { path: "/gallery", title: this.$t("pages.gallery") },
+                    { path: "/team", title: this.$t("pages.team") },
+                    { path: "/contact", title: this.$t("pages.contact") }
+                ]
+            }
         },
 
         watch: {
