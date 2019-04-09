@@ -41,7 +41,7 @@
             "terraces": "Terraces",
             "135-seaport": "135 Seaport",
             "lounge": "Lounge"
-            },
+        },
         "subnav-architecture-and-design": {
             "kpf-architecture": "KPF Architecture",
             "jeffrey-beers-interiors": "Jeffrey Beers Interiors"
@@ -96,8 +96,8 @@
             "get-connected": "Get Connected.",
             "seaport-neighborhood": "Seaport Neighborhood",
             "wellness": "Destination Wellness",
-            "seaport-styled":  "Seaport Styled",
-            "new-center":  "The New Center of Boston",
+            "seaport-styled": "Seaport Styled",
+            "new-center": "The New Center of Boston",
             "gallery-subtitle": "Neighborhood",
             "gallery-title": "Gallery",
             "gallery-video-subtitle": "Neighborhood",
@@ -150,7 +150,6 @@
             "text-7": "Dynamic vistas are offered at all levels, intimate views of the landscaped courtyard, glittering panoramas of the ever-changing skyline, and a captivating new perspective of the Boston Harbor.",
             "text-8": "Both foodies and take-out aficionados will appreciate the clean lines of the open kitchens outfitted with custom cabinetry imported from Italy, and a state-of-the-art suite of Thermador integrated appliances.",
             "text-9": "The tiered silhouette of EchelonSeaport creates an array of oversized private outdoor terraces rarely seen in Boston. Designed to be an extension of your living and dining rooms, these signature terraces maximize your enjoyment of beautiful spring, summer and fall days.",
-
             "two-addresses": "Two addresses.",
             "singular-destination": "A Singular Destination.",
             "different-by-design": "Different by Design",
@@ -161,24 +160,17 @@
             "signature-terraces": "Signature City Terraces",
             "preview-of": "For a Preview of 135 Seaport, a Regent Collection",
             "contact-info": "Please Provide Your Contact Information Below",
-
             "title-elevate-perspective": "Elevate Your Perspective",
             "corner-glass-living-room": "Located above the signature terrace homes, 133 Seaport penthouses raise the bar on luxury living to a new summit.  Own a corner of the building, or two, and live at the apex of KPF’s architectural form with stunning glass views, elevated ceilings and gas fireplaces.",
-
             "title-kitchens-inspire": "Kitchens that Inspire",
             "penthouse-kitchen": "133 Seaport penthouses offer kitchens with extraordinary views, stunning counter stones and a premier suite of chef-inspired Gaggenau appliances.  Cook, invent, entertain, relax in kitchens destined to become your favorite room in your home.",
-
             "title-penthouse-bath": "Penthouse Bath Serenity",
             "penthouse-bath": "Begin your day with a fresh view of the world with luxurious marbles, a graceful soaking tub and an oversized spa shower in EchelonSeaport’s penthouse residences.",
-
             "title-welcome-home": "Welcome Home",
             "living-room-2": "133 Seaport’s penthouses are your oasis from the world, with breathtaking terraces and soothing finishes to complement and inspire your own personal design. Grand, floor-to-ceiling glass spaces are optimal for entertaining with guests, or simply embracing and welcoming you home at the end of each day.",
-
             "135-hero": "Contemporary and Cool. 135 Seaport offers residents amazing views of the Boston Harbor, Seaport and wrap-around city and sunset views. Homes include balconies or oversized private terraces for residents. Active indoor fitness amenities include an indoor pool, basketball court, yoga room, and a massive fifth-floor terrace with a grand outdoor pool, sun cabanas, outdoor dining and lounge areas for all residents to enjoy.",
-
             "lobby": "Exquisite First Impression",
             "135-lobby": "The beautiful Jeffrey Beers designed, double-height, 24-hour attended lobby ushers in an elevated experience. Modern contemporary marbles, warm woods, and intriguing metals create a richly-textured lobby experience with multiple conversation areas. Embracing the art of hospitality, the lobby welcomes you to an inviting urban resort that creates a sense of community by encouraging residents to gather and socialize.",
-
             "lounge": "Designed for Entertaining",
             "135-lounge": "The Seaport Lounge, with its state of the art demonstration kitchen and wet bar, is the perfect spot to unwind at the end of the day. Integrating comfortable seating for any event with access to an outdoor lounge area on the Grand Pool deck, it's tailor-made for entertaining."
         },
@@ -411,8 +403,8 @@
             "get-connected": "",
             "seaport-neighborhood": "SEAPORT社区",
             "wellness": "阳光户外",
-            "seaport-styled":  "海港城的格调",
-            "new-center":  "波士顿新中心",
+            "seaport-styled": "海港城的格调",
+            "new-center": "波士顿新中心",
             "gallery-subtitle": "街区",
             "gallery-title": "集景",
             "gallery-video-subtitle": "Neighborhood",
@@ -431,7 +423,8 @@
             "team-1-role": "开发商",
             "team-2-role": "建筑事务所",
             "team-3-role": "公共设施/室内设计",
-            "team-4-role": "服务标准", // service standards
+            "team-4-role": "服务标准",
+            // service standards
             "team-4-name": "丽晶服务品质",
             "team-5-role": "住宅设计",
             "team-6-role": "建筑商",
@@ -495,7 +488,8 @@
             "text-16": "EchelonSeaport为您提供全新的宠物欢乐时光。在户外宠物活动区及游乐园同其他爱宠们玩耍，在宠物美容中心做“SPA”，您还能够通过Echelon Life APP与您的训宠师随时进行沟通交流。定令您的爱宠宾至如归，尽享生活的轻松舒适。",
             "text-17": "EchelonSeaport的亲子乐园会令您好似重返童年时光，我们相信不仅仅是您自己，您的子女也会无法抵挡这里探索和欢愉的魅力，定会乐不思蜀。",
             "elevate": "超乎您的想象",
-            "expectations": "", // empty second half of elevate
+            "expectations": "",
+            // empty second half of elevate
             "captivating": "阳光与自然",
             "grandpool": "室外大游泳池",
             "echelonentertaining": "设计风格",
@@ -556,14 +550,14 @@
             "for-availability": "对于楼层计划与可出售情况",
             "contact-us-at": "请拨打电话%phone_link%与我们取得联系"
         },
-         "singular-destination": {
-             "133-Seaport": "133 Seaport",
-             "135-Seaport": "135 Seaport",
-             "text-1": "两幢住宅楼的外墙被恒久耐看的石头及玻璃材质所包围，海港区的天际线将在不久后被重新定义。KPF将楼梯轮廓设计为节节高升的云梯状，为住户打造出私家超大空中露台。",
-             "text-2": "133 Seaport共含产权公寓255套，主打宽阔奢华生活空间。不仅令住户尽享波士顿海湾和海港公园景致，还配有豪华高贵的小区配套设施，例如SPA、酒廊和餐饮等等。",
-             "text-3": "135 Seaport共含产权公寓180套，主打时尚精致生活空间。城市风光，海湾胜景，日升日落，海天一线，极致美景尽入眼帘。位于3层的小区花园更设有高标准的室外泳池，水边凉亭，以及户外休闲空间。",
-             "two-addresses": "不同的建筑",
-             "singular-destination": "相同的体验"
+        "singular-destination": {
+            "133-Seaport": "133 Seaport",
+            "135-Seaport": "135 Seaport",
+            "text-1": "两幢住宅楼的外墙被恒久耐看的石头及玻璃材质所包围，海港区的天际线将在不久后被重新定义。KPF将楼梯轮廓设计为节节高升的云梯状，为住户打造出私家超大空中露台。",
+            "text-2": "133 Seaport共含产权公寓255套，主打宽阔奢华生活空间。不仅令住户尽享波士顿海湾和海港公园景致，还配有豪华高贵的小区配套设施，例如SPA、酒廊和餐饮等等。",
+            "text-3": "135 Seaport共含产权公寓180套，主打时尚精致生活空间。城市风光，海湾胜景，日升日落，海天一线，极致美景尽入眼帘。位于3层的小区花园更设有高标准的室外泳池，水边凉亭，以及户外休闲空间。",
+            "two-addresses": "不同的建筑",
+            "singular-destination": "相同的体验"
         },
         "call-to-action": {
             "first-name": "您的名字",
@@ -577,11 +571,11 @@
             "broker-will": "销售人员将与您联系并告知更多资讯"
         },
         "neighborhood-map": {
-                "all": "全部",
-                "dining": "餐饮",
-                "shopping": "购物",
-                "culture": "文化",
-                "hotels": "酒店"
+            "all": "全部",
+            "dining": "餐饮",
+            "shopping": "购物",
+            "culture": "文化",
+            "hotels": "酒店"
         },
         "footer": {
             "sales-gallery": "销售展示中心地址",
@@ -604,7 +598,7 @@
     },
     "zh-CN": {
         "pages": {
-            "lifestyle": null,
+            "lifestyle": "生活方式",
             "neighborhood": "社區",
             "residences": "住宅",
             "architecture": "建築與設計",
@@ -624,26 +618,26 @@
             "135-seaport-lounge": "135 Seaport 休息室",
             "regent-service": "麗晶服務",
             "indoor-pool": "室內游泳池",
-            "fitness": "健身",
+            "fitness": "健身房",
             "basketball-court": "籃球場",
             "spa-suite": "水療套房",
             "innovation-center": "創新中心",
             "echelon-life": "ECHELON生活",
-            "sky-lounge": "天空休息室",
+            "sky-lounge": "空中酒廊休息室",
             "echelon-pets": "寵物社區",
             "playroom": "遊樂室"
         },
         "subnav-residences": {
-            "overview": null,
+            "overview": "概述",
             "133-seaport": "133 SEAPORT",
             "lobby": "大堂",
             "living-room": "客廳",
-            "views": "視野",
+            "views": "景觀",
             "kitchen": "廚房",
-            "penthouse": "耳房",
-            "terraces": "梯田",
+            "penthouse": "頂層豪宅",
+            "terraces": "陽台",
             "135-seaport": "135 SEAPORT",
-            "lounge": null
+            "lounge": "休息室"
         },
         "subnav-architecture-and-design": {
             "kpf-architecture": "KPF 建築事務所",
@@ -651,9 +645,9 @@
         },
         "subnav-neighborhood": {
             "the-seaport": "海港區",
-            "map": null,
-            "neighborhood-gallery": null,
-            "neighborhood-video": null
+            "map": "地圖",
+            "neighborhood-gallery": "街區集景",
+            "neighborhood-video": "街區視頻"
         },
         "architecture": {
             "stripe-content-body": "EchelonSeaport 已經成為海港區甚至是波士頓整個城市街區的代表性建築，是由國際頂級建築師事務所 Kohn Pedersen Fox （ KPF ）定義的當代地標。 三座住宅樓環繞著中央庭院，美輪美奐的廊橋、多條人行道及鬱鬱蔥蔥的樹冠縱橫交織，坐落其中。 ",
@@ -669,7 +663,7 @@
         },
         "intro": {
             "header-1": "在波士頓活力十足的社區定居，擁有度假般的體驗。",
-            "header-2": null
+            "header-2": "波士頓最有活力的社區"
         },
         "home": {
             "anchoring": "海港區作為波士頓的最具創新與活力的區域，早已成為當地最令人神往的居住寶地。 坐落於此的EchelonSeaport定會為您帶來最值得期待的生活方式。 ",
@@ -695,7 +689,7 @@
             "seaport-sweat": "喜歡戶外跑步、騎車、散步？ 那還有什麼地方比Seaport風景如畫的海濱區更合適！ 您可以在Lululemon或L.L Bean置辦一身嶄新的運動裝備，然後到全美知名的 Everbody Fights、Soulcycle和Equinox健身會所 揮灑汗水，再前往 Juice Press 、 byChloe 享用健康的一餐。 健康變得輕鬆而簡單......",
             "gallery": "充滿生機與活力的海港區正在緩緩向我們走來，它時刻行走在波士頓美食藝術、購物及文化領域的最前沿，毫無疑問地成為了這座城市備受期待的「新」街區。",
             "gallery-video": "海港是一個創新，建築和現代化的設施融合在一起, 充滿活力的21世紀社區, 創造了波士頓最受歡迎的目的地。",
-            "get-centered": null,
+            "get-centered": "彙聚一堂",
             "get-connected": null,
             "seaport-neighborhood": "SEAPORT 社區",
             "wellness": "陽光戶外",
@@ -761,13 +755,13 @@
             "own-sky": "坐擁城市天際",
             "top-chef": "藝術廚房",
             "signature-terraces": "獨特的空中私家露臺",
-            "preview-of": null,
+            "preview-of": "預覽135海港城，麗晶系列",
             "contact-info": "請留下您的聯繫方式",
-            "title-elevate-perspective": "提升你的觀點",
+            "title-elevate-perspective": "超乎您的想像",
             "corner-glass-living-room": "133間海港頂層公寓位於標誌性的露台住宅上方，將奢華生活的酒吧提升至新的頂峰。擁有建築物的一角或兩個角落，住在KPF建築形式的頂點，擁有迷人的玻璃景觀，高架天花板和燃氣壁爐。",
             "title-kitchens-inspire": "激發靈感的廚房",
             "penthouse-kitchen": "133個海港頂層公寓提供享有非凡景緻的廚房，令人驚嘆的櫃檯石頭以及一流的廚師風格的Gaggenau家電。在廚房烹飪，娛樂，放鬆，注定成為您家中最喜歡的房間。",
-            "title-penthouse-bath": null,
+            "title-penthouse-bath": "頂層豪宅寧靜的浴室",
             "penthouse-bath": "您可以在EchelonSeaport酒店的頂層公寓內享受全新的世界美景，包括豪華大理石，優雅的浴缸和超大的spa淋浴。",
             "title-welcome-home": "主頁",
             "living-room-2": "133海港的頂層公寓是您的綠洲，擁有令人驚嘆的露台和舒緩的裝飾，以補充和激發您自己的個人設計。寬敞的落地玻璃空間非常適合與客人一起娛樂，或者在每天結束時簡單地擁抱和歡迎您回家。",
@@ -780,7 +774,7 @@
         "lifestyle": {
             "text-1": "EchelonSeaport擁有超過50,000平方英尺的生活配套設施，由世界知名的室內設計公司Jeffrey Beers International全新打造。 室內外盡顯與眾不同，著眼於高端居住品質，優越生活不言自明。 ",
             "text-2": "戶外花園鮮花滿簇，露天餐區陽光滿懷，池畔陽光露臺為夏季帶來絲絲清涼，最受期待的共用戶外休閒區帶來無限的歡樂和幸福。",
-            "text-3": "大膽邀請。 EchelonSeaport提供三種獨特的泳池體驗，旨在在海港建立以設計為中心的避難所。這不僅僅是另一個住宅地址。這是一個城市度假勝地。",
+            "text-3": "豪華泳池  EchelonSeaport提供三種獨特的泳池體驗，旨在在海港建立以設計為中心的避難所。這不僅僅是另一個住宅地址。這是一個城市度假勝地。",
             "text-4": "無可挑剔的豪華風格，充滿時尚的設計理念，搭配挑高的天花板和豐富的建築細節。 客戶將私享一系列可俯瞰戶外美景的社交及休閒空間。",
             "text-5": "圖書館休息區內陳列著眾多精美的藝術品和攝影作品，完美傳承了來自波士頓自身散發的文化藝術氣息。一杯雞尾酒，一本好書，在靜謐中享受智慧的洗禮。",
             "text-6": "尊享美酒品鑒室，品味杯中風情，崇尚時尚魅力。 矗立的溫控葡萄酒儲藏室，融合精美定制的酒櫃，共同營造出無法抵擋的品酒獨立空間。",
@@ -832,12 +826,12 @@
             "image-4": "中央庭院",
             "image-5": "標誌性廊橋",
             "image-6": "中央庭院商業",
-            "image-7": null,
-            "image-8": null,
+            "image-7": "133 大廳",
+            "image-8": "133 空中酒廊休息室",
             "image-9": "壁爐休息室",
             "image-10": "圖書館及商務中心",
             "image-11": "品酒室",
-            "image-12": null,
+            "image-12": "135 海港城 休息室",
             "image-13": "創新中心",
             "image-14": "室內游泳池",
             "image-15": "室內籃球館",
@@ -850,12 +844,12 @@
             "image-22": "陽臺"
         },
         "image-slider": {
-            "previous": null,
-            "next": null
+            "previous": "上頁",
+            "next": "下頁"
         },
         "floorplans": {
-            "for-availability": null,
-            "contact-us-at": null
+            "for-availability": "平面圖和實用性",
+            "contact-us-at": "聯繫我們 電話信息"
         },
         "singular-destination": {
             "133-Seaport": "133 SEAPORT",
