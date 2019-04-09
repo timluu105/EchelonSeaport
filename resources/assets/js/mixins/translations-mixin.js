@@ -9,7 +9,6 @@ export default {
     ,
     methods: {
         languageSwitch(language) {
-            console.log("Switching language", language);
             var self = this;
             this.translationsResource.retrieve(language).then(function(data) {
                 self.$i18n.add(language, data);

@@ -17,7 +17,6 @@ export default class {
             method: "GET",
             url: this.resourceUrl.replace("{key}", key),
             success: function(response) {
-                console.log("Downloaded data", response);
                 self.map.set(key, response);
             }
         });
