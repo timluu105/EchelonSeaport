@@ -101,10 +101,10 @@
                             {{ link.title }}
 
                             <div
-                                v-if="link.hasOwnProperty('page') && subnavLinks.hasOwnProperty(link.page)"
+                                v-if="link.hasOwnProperty('page') && subnavLinksAll.hasOwnProperty(link.page)"
                                 class="subnav">
 
-                                <template v-for="subnavLink in subnavLinks[link.page]">
+                                <template v-for="subnavLink in subnavLinksAll[link.page]">
                                     <a
                                         v-if="link.path === $route.path"
                                         class="subnav-link"
@@ -137,7 +137,7 @@
                                         <a v-on:click="languageSwitch('cn')">{{$t("shared.lang-cn")}} | {{$t("shared.lang-chinese")}}</a>
                                     </div>
                                     <div class="subnav-link subnav-horizontal menu-slide-out menu-slide-out-hidden">
-                                        <a v-on:click="languageSwitch('zh-CN')">繁</a>
+                                        <a v-on:click="languageSwitch('zh-CN')">{{$t("shared.lang-zh-CN") }}</a>
                                     </div>
                                 </span>
                             </div>
@@ -169,18 +169,14 @@
                 openNav: false,
                 openLanguageNav: false,
                 subnavLinks: {},
+                subnavLinksServerSide: {}
             };
         },
 
         methods: {
             fetchSubnavLinks() {
                 this.$http.get("/api/subnav-links" + env.apiToken).then((response) => {
-                    // successful response
-                    this.subnavLinks = response.body;
-
-                    Object.keys(this.localSubnavLinks).forEach((page) => {
-                        this.subnavLinks[page] = this.localSubnavLinks[page];
-                    });
+                    this.subnavLinksServerSide = response;
                 }, (response) => {
                     // unsuccessful response
                     console.log("error fetching subnav links");
@@ -203,7 +199,6 @@
                         display: '',
                     });
                     $(this).removeClass("menu-slide-out-hidden");
-                    console.log("Set width: ", )
                 });
             },
             hideLanguageMenu() {
@@ -220,6 +215,19 @@
         },
 
         computed: {
+            subnavLinksAll() {
+                let subnavLinksComputed = this.subnavLinks;
+
+                if(this.subnavLinksServerSide.length !== 0) {
+                    subnavLinksComputed = this.subnavLinksServerSide;
+
+                    Object.keys(this.localSubnavLinks).forEach((page) => {
+                        subnavLinksComputed[page] = this.localSubnavLinks[page];
+                    });
+                }
+
+                return subnavLinksComputed;
+            },
             localSubnavLinks() {
                 return {
                     neighborhood: [
