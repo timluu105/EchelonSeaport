@@ -131,7 +131,7 @@
         <div class="dual-image-column-component order-image-title bgcolor-transparent" id="fitness">
             <div class="dual-image-column-component-inner">
                 <div class="dual-image-column-component-title-column">
-                    <div class="dual-image-column-component-title-column-image" style="background-image: url(&quot;/uploads/img/31-titleimage.jpg?version=1530029528&quot;);"></div>
+                    <div class="dual-image-column-component-title-column-image" style="background-image: url(&quot;/img/lifestyle/stretch-1.jpg?version=1530029528&quot;);"></div>
 
                     <div class="dual-image-column-component-title-column-wrapper">
                         <div class="dual-image-column-component-title-column-title">{{ $t("lifestyle.fitness") }}</div>
@@ -142,7 +142,7 @@
                     </div>
                 </div>
 
-                <div class="dual-image-column-component-image-column" style="background-image: url(&quot;/uploads/img/31-image.jpg?version=1530029528&quot;); background-position: center bottom;"></div>
+                <div class="dual-image-column-component-image-column" style="background-image: url(&quot;/img/lifestyle/golf-1.jpg?version=1530029528&quot;); background-position: center bottom;"></div>
             </div>
         </div>
 
