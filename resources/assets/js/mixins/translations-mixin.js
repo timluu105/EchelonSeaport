@@ -13,6 +13,7 @@ export default {
             this.translationsResource.retrieve(language).then(function(data) {
                 self.$i18n.add(language, data);
                 self.$i18n.set(language);
+                window.location.reload(true);
             });
         }
     }
