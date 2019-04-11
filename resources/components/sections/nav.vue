@@ -79,6 +79,13 @@
                             {{$t("shared.lang-cn")}}
                         </div>
                     </a>
+                    <a class="navlink" v-on:click="languageSwitch('shared.lang-zh-CN')">
+                        <div class="spacer">{{$t("shared.shared.lang-zh-CN")}}</div>
+
+                        <div class="link">
+                            {{$t("shared.shared.lang-zh-CN")}}
+                        </div>
+                    </a>
                 </div>
             </div>
 
