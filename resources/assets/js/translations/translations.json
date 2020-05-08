@@ -9,7 +9,8 @@
             "news": "News",
             "gallery": "Gallery",
             "team": "Team",
-            "contact": "Contact"
+            "contact": "Contact",
+            "virtual-tours": "Virtual Tours"
         },
         "subnav-lifestyle": {
             "the-waterfall-terrace-pool": "The Waterfall Terrace Pool",
@@ -295,6 +296,12 @@
             "lang-english": "English",
             "lang-chinese": "Chinese"
         },
+        "virtual-tours": {
+            "hubspot": {
+                "form-id": "e00a6d39-0f5f-40d7-b608-a14f4210cbc6",
+                "form-id-prod": "743d4631-ed16-4660-8a6b-949dd9e77f28"
+            }
+        },
         "hubspot": {
             "form-id": "e585428e-7606-4ab7-8e10-bfbdd5992a00",
             "thank-you": "Thank you for registering"
@@ -427,7 +434,6 @@
             "team-2-role": "建筑事务所",
             "team-3-role": "公共设施/室内设计",
             "team-4-role": "服务标准",
-            // service standards
             "team-4-name": "丽晶服务品质",
             "team-5-role": "住宅设计",
             "team-6-role": "建筑商",
@@ -492,7 +498,6 @@
             "text-17": "EchelonSeaport的亲子乐园会令您好似重返童年时光，我们相信不仅仅是您自己，您的子女也会无法抵挡这里探索和欢愉的魅力，定会乐不思蜀。",
             "elevate": "超乎您的想象",
             "expectations": "",
-            // empty second half of elevate
             "captivating": "阳光与自然",
             "grandpool": "室外大游泳池",
             "echelonentertaining": "设计风格",
