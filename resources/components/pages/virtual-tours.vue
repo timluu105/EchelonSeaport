@@ -1,8 +1,8 @@
 <template>
     <div class="contact-component">
         <div class="contact-component-wrapper">
-            <h2>{{ $t("contact.interested") }}</h2>
-            <h5>{{ $t("contact.receive-updates") }}</h5>
+            <h2>{{ $t("virtual-tours.interested") }}</h2>
+            <h5>{{ $t("virtual-tours.receive-updates") }}</h5>
             <virtual-tours />
         </div>
     </div>

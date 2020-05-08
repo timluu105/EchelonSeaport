@@ -297,6 +297,8 @@
             "lang-chinese": "Chinese"
         },
         "virtual-tours": {
+            "interested": "Interested in a virtual tour?",
+            "receive-updates": "Please provide your contact information below to schedule your virtual tour.",
             "hubspot": {
                 "form-id": "e00a6d39-0f5f-40d7-b608-a14f4210cbc6",
                 "form-id-prod": "743d4631-ed16-4660-8a6b-949dd9e77f28"
