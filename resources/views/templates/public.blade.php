@@ -14,6 +14,16 @@
     <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
     <![endif]-->
     <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+
+    <script>
+            if("HubSpotConversations" in window) {
+                window.HubSpotConversations.on('conversationStarted', payload => {
+                    dataLayer.push({'event': 'chat_Started'});
+                });
+            } else {
+                console.log("Not loading HubSpotConversations tracking");
+            }
+    </script>
 @endsection
 
 @section('page-content')
