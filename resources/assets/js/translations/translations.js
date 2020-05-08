@@ -2,12 +2,13 @@ import ObjectIterable from "../ObjectIterable.js";
 
 export default class {
 
-    constructor(defaultLanguage, translationLanguages) {
+    constructor(defaultLanguage, translationLanguages, verbose = false) {
         this.defaultLanguage = defaultLanguage;
         this.translationLanguages = translationLanguages;
+        this.verbose = verbose;
     }
 
-    _flattenTranslationsMap(languageTranslations, fallbackTranslations = null) {
+    _flattenTranslationsMap(language, languageTranslations, fallbackTranslations = null) {
         let flattenedTranslations = {};
 
         for (let page of new ObjectIterable(languageTranslations)) {
@@ -20,6 +21,9 @@ export default class {
         if (fallbackTranslations !== null) {
             for (let key of new ObjectIterable(fallbackTranslations)) {
                 if (!(key in flattenedTranslations) || flattenedTranslations[key] === null) {
+                    if(this.verbose) {
+                        console.warn("Missing translation for language: " + language + "," + key + "," + "\"" + fallbackTranslations[key] + "\"");
+                    }
                     flattenedTranslations[key] = fallbackTranslations[key];
                 }
             }
@@ -33,10 +37,10 @@ export default class {
         let mainLanguage = [this.defaultLanguage];
         let translationLanguages = this.translationLanguages;
 
-        let mainTranslations = this._flattenTranslationsMap(translationsMap[mainLanguage]);
+        let mainTranslations = this._flattenTranslationsMap(mainLanguage, translationsMap[mainLanguage]);
         flattenedTranslations[mainLanguage] = mainTranslations;
         for (let iLanguage of translationLanguages) {
-            flattenedTranslations[iLanguage] = this._flattenTranslationsMap(translationsMap[iLanguage], mainTranslations);
+            flattenedTranslations[iLanguage] = this._flattenTranslationsMap(iLanguage, translationsMap[iLanguage], mainTranslations);
         }
 
         return flattenedTranslations;
