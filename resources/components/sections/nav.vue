@@ -381,7 +381,8 @@
                     { path: "/news", title: this.$t("pages.news") },
                     { path: "/gallery", title: this.$t("pages.gallery") },
                     { path: "/team", title: this.$t("pages.team") },
-                    { path: "/contact", title: this.$t("pages.contact") }
+                    { path: "/contact", title: this.$t("pages.contact") },
+                    { path: "/virtual-tours", title: this.$t("pages.virtual-tours") }
                 ]
             }
         },

@@ -40,6 +40,7 @@ import Contact from "pages/contact.vue";
 import Thanks from "pages/thanks.vue";
 import Newspaper from "pages/newspaper.vue";
 import Error404 from "pages/error404.vue";
+import VirtualTours from "pages/virtual-tours.vue";
 
 // Import section components
 import Nav from "sections/nav.vue";
@@ -71,6 +72,7 @@ const router = new VueRouter({
         { path: "/team", component: Team },
         { path: "/contact", component: Contact },
         { path: "/thanks", component: Thanks },
+        { path: "/virtual-tours", component: VirtualTours },
         { path: "/newspaper", component: Newspaper },
         { path: "/*", component: Error404 }
     ],

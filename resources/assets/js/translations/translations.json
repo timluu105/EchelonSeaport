@@ -9,7 +9,8 @@
             "news": "News",
             "gallery": "Gallery",
             "team": "Team",
-            "contact": "Contact"
+            "contact": "Contact",
+            "virtual-tours": "Virtual Tours"
         },
         "subnav-lifestyle": {
             "the-waterfall-terrace-pool": "The Waterfall Terrace Pool",
@@ -172,7 +173,10 @@
             "lobby": "Exquisite First Impression",
             "135-lobby": "The beautiful Jeffrey Beers designed, double-height, 24-hour attended lobby ushers in an elevated experience. Modern contemporary marbles, warm woods, and intriguing metals create a richly-textured lobby experience with multiple conversation areas. Embracing the art of hospitality, the lobby welcomes you to an inviting urban resort that creates a sense of community by encouraging residents to gather and socialize.",
             "lounge": "Designed for Entertaining",
-            "135-lounge": "The Seaport Lounge, with its state of the art demonstration kitchen and wet bar, is the perfect spot to unwind at the end of the day. Integrating comfortable seating for any event with access to an outdoor lounge area on the Grand Pool deck, it's tailor-made for entertaining."
+            "135-lounge": "The Seaport Lounge, with its state of the art demonstration kitchen and wet bar, is the perfect spot to unwind at the end of the day. Integrating comfortable seating for any event with access to an outdoor lounge area on the Grand Pool deck, it's tailor-made for entertaining.",
+            "watch-the-video": "Watch the video",
+            "seaport-rises": "EchelonSeaport rises",
+            "opening-2019": "Opening 2019"
         },
         "lifestyle": {
             "text-1": "An address unlike anywhere else. Indoors and out, EchelonSeaport offers a captivating lifestyle experience, with over 50,000 square feet of amenities designed by Jeffrey Beers International, the leading tastemaker in hospitality interiors.",
@@ -291,6 +295,14 @@
             "lang-zh-CN": "繁",
             "lang-english": "English",
             "lang-chinese": "Chinese"
+        },
+        "virtual-tours": {
+            "interested": "Interested in a virtual tour?",
+            "receive-updates": "Please provide your contact information below to schedule your virtual tour.",
+            "hubspot": {
+                "form-id": "e00a6d39-0f5f-40d7-b608-a14f4210cbc6",
+                "form-id-prod": "743d4631-ed16-4660-8a6b-949dd9e77f28"
+            }
         },
         "hubspot": {
             "form-id": "e585428e-7606-4ab7-8e10-bfbdd5992a00",
@@ -424,7 +436,6 @@
             "team-2-role": "建筑事务所",
             "team-3-role": "公共设施/室内设计",
             "team-4-role": "服务标准",
-            // service standards
             "team-4-name": "丽晶服务品质",
             "team-5-role": "住宅设计",
             "team-6-role": "建筑商",
@@ -489,7 +500,6 @@
             "text-17": "EchelonSeaport的亲子乐园会令您好似重返童年时光，我们相信不仅仅是您自己，您的子女也会无法抵挡这里探索和欢愉的魅力，定会乐不思蜀。",
             "elevate": "超乎您的想象",
             "expectations": "",
-            // empty second half of elevate
             "captivating": "阳光与自然",
             "grandpool": "室外大游泳池",
             "echelonentertaining": "设计风格",
